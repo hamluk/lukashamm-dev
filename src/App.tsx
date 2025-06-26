@@ -3,6 +3,7 @@ import Header from "./components/ui/Header";
 import Hero from "./components/ui/Hero";
 import ProfilImage from "./assets/LukasHammProfil.jpeg";
 import homepageTexts from "./data/homepage-texts.json";
+import Footer from "./components/ui/Footer";
 
 function App() {
   return (
@@ -22,9 +23,7 @@ function App() {
         />
       </main>
 
-      <footer className="bg-gray-800 text-white p-4 text-center">
-        <p>&copy; 2025 Lukas Hamm. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

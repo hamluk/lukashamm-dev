@@ -1,0 +1,44 @@
+import React from "react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
+type HeaderProps = {
+  title: string;
+  subtitle?: string;
+};
+
+const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
+  return (
+    <header className="flex justify-between items-center text-olive-green px-7 sm:px-9 h-25 sm:h-45 shadow-md">
+      <div className="flex flex-col h-auto sm:gap-1">
+        <div className="flex items-center gap-4 sm:gap-10">
+          <h1 className="text-2xl sm:text-6xl font-serif ">LH</h1>
+          <h1 className="text-2xl sm:text-4xl font-bold text-dark-text">
+            {title}
+          </h1>
+        </div>
+        <div>
+          <h2 className="text-sm sm:text-lg text-wrap text-dark-text">
+            {subtitle}
+          </h2>
+        </div>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <div className="bg-gray-400 w-0.5 h-13 sm:h-21"></div>
+        <div className="flex flex-col sm:flex-row gap-1 sm:gap-3">
+          <a>
+            <FaGithub className="sm:size-6" />
+          </a>
+          <a>
+            <FaLinkedin className="sm:size-6" />
+          </a>
+          <a>
+            <FaEnvelope className="sm:size-6" />
+          </a>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

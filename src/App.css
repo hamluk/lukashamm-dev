@@ -1,0 +1,10 @@
+/* Customize general styles for the application */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Customize 3rd-party libraries styles */

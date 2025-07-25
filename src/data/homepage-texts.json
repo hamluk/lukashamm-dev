@@ -7,7 +7,18 @@
   "Hero": {
     "greeting": "Hi, ich bin Lukas! 👋🏻",
     "head": " Hauptberuflich Softwareentwickler 👨‍💻 Nebenbei Vielreisender 🗺️",
-    "body": "Ich entwickle KI-basierte Softwarelösungen als Full-Stack Softwareentwickler – remote von überall auf der Welt. Genauso wie im echten Leben vereine ich auf dieser Webseite meine Leideschaft für das Entwickeln neuer Technologien und das Entdecken der Welt. Begleite mich also auf meiner Reise, indem wir zusammenarbeiten, du mehr über mein Leben unterwegs erfährst oder informiere dich einfach über die neusten KI Themen über meine Webseite.",
+    "body": "Ich entwickle KI-basierte Softwarelösungen als Full-Stack Softwareentwickler – remote von überall auf der Welt. Genauso wie im echten Leben vereine ich auf dieser Webseite meine Leideschaft für das Entwickeln neuer Technologien und das Entdecken der Welt. Begleite mich auf meiner Reise, indem wir zusammenarbeiten oder du einen Blick in meinen Alltag unterwegs wirfst.",
     "footer": "~ stay adventurous!"
+  },
+  "Travels": {
+    "SEA-Travel": {
+      "head": "Mein Aufbruch in die digitale Nomadenwelt",
+      "body": "Aktuell führt mich meine Reise quer durch Südostasien – von geschäftigen Streetfood-Märkten in Bangkok über traumhafte Tauchspots in Malaysia bis hin zu den tropischen Inseln Indonesiens. Jeder Ort überrascht mit neuen Eindrücken, herzlichen Begegnungen und einer unglaublichen Vielfalt an Essen, Kulturen und Lebensstilen.",
+      "subbody": "Was mir diese Reise zeigt? Wie viel man lernen kann, wenn man offen für neue Perspektiven, fremde Gewohnheiten und spontane Abenteuer ist. "
+    },
+    "Vietnam": {
+      "head": "Vietnam - Wo alles begann",
+      "body": "Meine erste Fernreise ging nach Vietnam. Innerhalb eines Monats habe ich das Land von Süd nach Nord bereist und dabei Einblick in eine atemberaubende Kultur umgeben von freundlichen Menschen und bilderischen Landschaften erhalten. Meine Reise durch Vietnam hat dazu geführt, dass ich heute als digitaler Nomade arbeite und die Welt bereise."
+    }
   }
 }

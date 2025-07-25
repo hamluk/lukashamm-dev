@@ -12,9 +12,11 @@ class PrimaryButton extends Component<Props, State> {
 
   render() {
     return (
-      <button className="bg-olive-green font-semibold text-white hover:bg-(image:--gradient-primary-button) hover:cursor-pointer px-3 py-1.5 rounded-lg hover:">
-        {this.props.title}
-      </button>
+      <a href="mailto:lukas@lukashamm.dev">
+        <button className="bg-olive-green font-semibold text-white hover:bg-(image:--gradient-primary-button) hover:cursor-pointer px-3 py-1.5 rounded-lg hover:">
+          {this.props.title}
+        </button>
+      </a>
     );
   }
 }

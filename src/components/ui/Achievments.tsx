@@ -11,15 +11,10 @@ function Achievments({}: Props) {
   return (
     <section className="flex flex-col w-full">
       <SegmentedControl activeView={activeView} onUpdate={setActiveView} />
-      <div className="bg-amber-200">
-        {activeView === "projects" && (
-          <div>
-            <h2>Meine Projekte</h2>
-          </div>
-        )}
+      <div>
+        {activeView === "projects" && <div></div>}
         {activeView === "travels" && (
           <div>
-            <h2>Meine Reisen</h2>
             <Travels />
           </div>
         )}

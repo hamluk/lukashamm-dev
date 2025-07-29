@@ -1,9 +1,10 @@
-export interface TravelEntryInterface {
+export type TravelEntryType = {
+  id: number;
   head: string;
+  dates: string;
   body: string;
   subbody?: string;
-}
+  img?: string;
+};
 
-export interface TravelsInterface {
-  [key: string]: TravelEntryInterface;
-}
+export type TravelEntriesType = TravelEntryType[];

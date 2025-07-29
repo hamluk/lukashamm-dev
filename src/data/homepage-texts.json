@@ -10,15 +10,28 @@
     "body": "Ich entwickle KI-basierte Softwarelösungen als Full-Stack Softwareentwickler – remote von überall auf der Welt. Genauso wie im echten Leben vereine ich auf dieser Webseite meine Leideschaft für das Entwickeln neuer Technologien und das Entdecken der Welt. Begleite mich auf meiner Reise, indem wir zusammenarbeiten oder du einen Blick in meinen Alltag unterwegs wirfst.",
     "footer": "~ stay adventurous!"
   },
-  "Travels": {
-    "SEA-Travel": {
+  "Travels": [
+    {
+      "id": 1,
       "head": "Mein Aufbruch in die digitale Nomadenwelt",
+      "dates": "seit Ende Februar 2025",
       "body": "Aktuell führt mich meine Reise quer durch Südostasien – von geschäftigen Streetfood-Märkten in Bangkok über traumhafte Tauchspots in Malaysia bis hin zu den tropischen Inseln Indonesiens. Jeder Ort überrascht mit neuen Eindrücken, herzlichen Begegnungen und einer unglaublichen Vielfalt an Essen, Kulturen und Lebensstilen.",
-      "subbody": "Was mir diese Reise zeigt? Wie viel man lernen kann, wenn man offen für neue Perspektiven, fremde Gewohnheiten und spontane Abenteuer ist. "
+      "subbody": "Was mir diese Reise zeigt? Wie viel man lernen kann, wenn man offen für neue Perspektiven, fremde Gewohnheiten und spontane Abenteuer ist. ",
+      "img": "/assets/SEA.jpeg"
     },
-    "Vietnam": {
+    {
+      "id": 2,
+      "head": "Auszeit in Portugal",
+      "dates": "2 Wochen im September 2024",
+      "body": "Nach meinem Entschluss als digitaler Nomade zu arbeiten und die Welt zu bereisen, habe ich alle Schritte zuhause eingeleitet diesen Weg zu beschreiten. Doch bevor es so weit sein sollte, wollte ich noch einmal ohne die jegliche Arbeitsverpflichtung unterwegs sein. Dafür habe ich Protugal gewählt und das Land mit einem kleinen Rucksack für 14 Tage von Norden nach Süden bereist.",
+      "img": "/assets/Portugal.jpeg"
+    },
+    {
+      "id": 3,
       "head": "Vietnam - Wo alles begann",
-      "body": "Meine erste Fernreise ging nach Vietnam. Innerhalb eines Monats habe ich das Land von Süd nach Nord bereist und dabei Einblick in eine atemberaubende Kultur umgeben von freundlichen Menschen und bilderischen Landschaften erhalten. Meine Reise durch Vietnam hat dazu geführt, dass ich heute als digitaler Nomade arbeite und die Welt bereise."
+      "dates": "30 Tage lang im Februar 2024",
+      "body": "Meine erste Fernreise ging nach Vietnam. Innerhalb eines Monats habe ich das Land von Süd nach Nord bereist und dabei Einblick in eine atemberaubende Kultur umgeben von freundlichen Menschen und bilderischen Landschaften erhalten. Meine Reise durch Vietnam hat dazu geführt, dass ich heute als digitaler Nomade arbeite und die Welt bereise.",
+      "img": "/assets/Vietnam.jpeg"
     }
-  }
+  ]
 }

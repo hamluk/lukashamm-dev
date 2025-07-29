@@ -1,26 +1,24 @@
 import hompageText from "../../data/homepage-texts.json";
-import type { TravelsInterface } from "../../types/TravelInterface";
+import type { TravelEntriesType } from "../../types/TravelInterface";
 import TravelEntry from "./TravelEntry";
-import VietnamImage from "../../assets/Vietnam.jpeg";
-import SEAImage from "../../assets/SEA.jpeg";
 
-const travels: TravelsInterface = hompageText.Travels;
+const travels: TravelEntriesType = hompageText.Travels;
 
 type Props = {};
 
 function Travels({}: Props) {
   return (
-    <section className="flex flex-col justify-center items-center py-10 px-5 sm:px-10 lg:px-30 xl:px-60 2xl:px-80">
-      <TravelEntry
-        header={travels["SEA-Travel"].head}
-        body={travels["SEA-Travel"].body}
-        image={SEAImage}
-      />
-      <TravelEntry
-        header={travels["Vietnam"].head}
-        body={travels["Vietnam"].body}
-        image={VietnamImage}
-      />
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-5 py-10 px-5 sm:px-10 lg:px-15 xl:px-20 2xl:px-25">
+      {travels &&
+        travels.map((entry) => (
+          <TravelEntry
+            header={entry.head}
+            body={entry.body}
+            dates={entry.dates}
+            subbody={entry.subbody}
+            image={entry.img}
+          />
+        ))}
     </section>
   );
 }

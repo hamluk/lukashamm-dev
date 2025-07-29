@@ -4,7 +4,7 @@ import Hero from "./components/ui/Hero";
 import ProfilImage from "./assets/LukasHammProfil.jpeg";
 import homepageTexts from "./data/homepage-texts.json";
 import Footer from "./components/ui/Footer";
-import Travels from "./components/ui/Travels";
+import Achievments from "./components/ui/Achievments";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           footerText={homepageTexts.Hero.footer}
           image={ProfilImage}
         />
-        <Travels />
+        <Achievments />
       </main>
 
       <Footer />

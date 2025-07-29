@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 type HeaderProps = {
@@ -6,7 +5,7 @@ type HeaderProps = {
   subtitle?: string;
 };
 
-const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
+function Header({ title, subtitle }: HeaderProps) {
   return (
     <header className="flex justify-between items-center text-olive-green px-7 sm:px-9 h-25 sm:h-45 shadow-md">
       <div className="flex flex-col h-auto sm:gap-1">
@@ -47,6 +46,6 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
       </div>
     </header>
   );
-};
+}
 
 export default Header;

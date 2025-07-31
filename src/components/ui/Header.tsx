@@ -7,16 +7,16 @@ type HeaderProps = {
 
 function Header({ title, subtitle }: HeaderProps) {
   return (
-    <header className="flex justify-between items-center text-olive-green px-7 sm:px-9 h-25 sm:h-45 shadow-md">
-      <div className="flex flex-col h-auto sm:gap-1">
-        <div className="flex items-center gap-4 sm:gap-10">
-          <h1 className="text-2xl sm:text-6xl font-serif ">LH</h1>
-          <h1 className="text-2xl sm:text-4xl font-bold text-dark-text">
+    <header className="flex justify-between items-center text-olive-green px-7 lg:px-9 h-25 lg:h-45 shadow-md">
+      <div className="flex flex-col h-auto lg:gap-1">
+        <div className="flex items-center gap-4 lg:gap-10">
+          <h1 className="text-2xl lg:text-6xl font-serif ">LH</h1>
+          <h1 className="text-2xl lg:text-4xl font-bold text-dark-text">
             {title}
           </h1>
         </div>
         <div>
-          <h2 className="text-sm sm:text-lg text-wrap text-dark-text">
+          <h2 className="text-sm md:text-lg text-wrap text-dark-text">
             {subtitle}
           </h2>
         </div>

@@ -27,7 +27,7 @@ function Hero({
   sec_button,
 }: Props) {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text py-10 px-7 xl:px-20 2xl:px-35">
+    <section className="flex flex-col lg:flex-row items-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35">
       <div className="flex flex-col gap-6 lg:gap-8 items-center">
         <div className="flex flex-col items-baseline gap-3 max-w-2xl">
           <div className="max-w-md sm:min-w-sm sm:max-w-lg">
@@ -38,7 +38,7 @@ function Hero({
               {headerText}
             </h2>
           </div>
-          <h4 className="sm:max-w-2xl text-lg sm:text-xl">{text}</h4>
+          <h4 className="sm:max-w-2xl text-base sm:text-xl">{text}</h4>
           <h3 className="text-l italic">{footerText}</h3>
         </div>
 

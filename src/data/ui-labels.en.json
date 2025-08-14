@@ -2,7 +2,8 @@
   "buttons": {
     "contact": "Let's work together",
     "projects_link": "My projects",
-    "change_language": "DE"
+    "change_language": "DE",
+    "discover": "Discover more"
   },
   "segmented_control": {
     "projects": "Work 👨‍💻",

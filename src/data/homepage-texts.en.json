@@ -11,6 +11,7 @@
     "body": "I develop and deploy AI-powered software solutions as a full-stack software developer – working remotely from anywhere in the world. Just like in real life, this website combines my passion for building new technologies with my love for discovering the world. Join me on my journey, whether by working together or by taking a glimpse into my life on the road.",
     "footer": "~ stay adventurous!"
   },
+
   "Travels": [
     {
       "id": 1,
@@ -18,21 +19,47 @@
       "dates": "since late February 2025",
       "body": "Right now, my travels are taking me across Southeast Asia – from bustling street food markets in Bangkok to stunning dive spots in Malaysia and the tropical islands of Indonesia. Every place surprises me with new impressions, warm encounters, and an incredible diversity of food, cultures, and lifestyles.",
       "subbody": "What this journey has shown me? How much you can learn when you’re open to new perspectives, unfamiliar habits, and spontaneous adventures.",
-      "img": "/assets/SEA.jpeg"
+      "img": "/assets/SEA.jpeg",
+      "link": ""
     },
     {
       "id": 2,
       "head": "Time Off in Portugal",
       "dates": "2 weeks in September 2024",
       "body": "After deciding to work as a digital nomad and travel the world, I prepared everything at home to embark on this path. But before it all began, I wanted to travel once more without any work obligations. For that, I chose Portugal and explored the country with a small backpack for 14 days, traveling from north to south.",
-      "img": "/assets/Portugal.jpeg"
+      "subbody": "",
+      "img": "/assets/Portugal.jpeg",
+      "link": ""
     },
     {
       "id": 3,
       "head": "Vietnam – Where It All Began",
       "dates": "30 days in February 2024",
       "body": "My first long-distance trip took me to Vietnam. Over the course of a month, I traveled the country from south to north, experiencing a breathtaking culture surrounded by friendly people and picturesque landscapes. My journey through Vietnam ultimately set me on the path to becoming a digital nomad and traveling the world.",
-      "img": "/assets/Vietnam.jpeg"
+      "subbody": "",
+      "img": "/assets/Vietnam.jpeg",
+      "link": ""
+    }
+  ],
+
+  "Work": [
+    {
+      "id": 1,
+      "head": "Acinon.ai",
+      "dates": "since February 2025",
+      "body": "Acinon.ai is an AI startup specializing in the development of AI-powered software solutions. As a full-stack software developer, I work on creating innovative applications that help companies increase their efficiency and optimize business processes. My role covers both frontend and backend development, using modern technologies and frameworks to build scalable and user-friendly solutions.",
+      "subbody": "",
+      "img": "/assets/acinon_ai.png",
+      "link": "https://acinon.ai/"
+    },
+    {
+      "id": 2,
+      "head": "GitHub",
+      "dates": "ongoing",
+      "body": "On my GitHub page, you’ll find a collection of my open-source projects and contributions to various software development initiatives, with a focus on AI and AI agents. Here, I share my code, ideas, and experiences with the developer community. Feel free to drop by to explore my work and maybe even find some inspiration for your own projects.",
+      "subbody": "",
+      "img": "/assets/ai_assistent.png",
+      "link": "https://github.com/hamluk"
     }
   ]
 }

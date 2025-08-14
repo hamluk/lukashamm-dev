@@ -59,7 +59,6 @@ export default function Header({}: {}) {
         },
         transition: { duration: 0.3, ease: "easeInOut" },
       }}
-      // px-7 lg:px-9 h-25 lg:h-45
       className="flex justify-between items-center sticky top-0 z-50 text-olive-green bg-white shadow-md "
     >
       <motion.div
@@ -73,7 +72,7 @@ export default function Header({}: {}) {
       >
         <div className="flex items-center gap-4 lg:gap-10">
           <h1 className="text-2xl lg:text-6xl font-serif ">LH</h1>
-          <h1 className="text-2xl lg:text-4xl font-serif font-semibold">
+          <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-dark-text">
             {texts.homepageTexts.Header.head}
           </h1>
         </div>

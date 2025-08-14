@@ -8,9 +8,9 @@ type TravelEntryType = TravelsType[number];
 function Travels({}: {}) {
   const { language, setLanguage, texts } = useLanguage();
 
-  const travels: TravelsType = texts.homepageTexts.Travels;
-
   if (!texts) return <p>Loading Travels....</p>;
+
+  const travels: TravelsType = texts.homepageTexts.Travels;
 
   return (
     <section className="grid grid-cols-1 xl:grid-cols-2 gap-5 py-10 px-5 sm:px-10 lg:px-15 xl:px-20 2xl:px-25">

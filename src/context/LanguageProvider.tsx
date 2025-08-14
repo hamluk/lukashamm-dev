@@ -8,8 +8,8 @@ import {
 import homepageEn from "../data/homepage-texts.en.json";
 import uiLabelsEn from "../data/ui-labels.en.json";
 
-type HomepageTexts = typeof homepageEn;
-type UILabelsTexts = typeof uiLabelsEn;
+export type HomepageTexts = typeof homepageEn;
+export type UILabelsTexts = typeof uiLabelsEn;
 
 export interface TextNamespaces {
   homepageTexts: HomepageTexts;

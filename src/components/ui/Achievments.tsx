@@ -2,6 +2,7 @@ import { useState } from "react";
 import Travels from "./Travels";
 import classNames from "classnames";
 import SegmentedControl from "../form/SegmentedControl";
+import Work from "./Work";
 
 type Props = {};
 
@@ -12,12 +13,8 @@ function Achievments({}: Props) {
     <section className="flex flex-col w-full">
       <SegmentedControl activeView={activeView} onUpdate={setActiveView} />
       <div>
-        {activeView === "projects" && <div></div>}
-        {activeView === "travels" && (
-          <div>
-            <Travels />
-          </div>
-        )}
+        {activeView === "projects" && <Work />}
+        {activeView === "travels" && <Travels />}
       </div>
     </section>
   );

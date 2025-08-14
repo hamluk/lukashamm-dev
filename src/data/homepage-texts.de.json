@@ -11,6 +11,7 @@
     "body": "Ich entwickle KI-basierte Softwarelösungen als Full-Stack Softwareentwickler – remote von überall auf der Welt. Genauso wie im echten Leben vereine ich auf dieser Webseite meine Leideschaft für das Entwickeln neuer Technologien und das Entdecken der Welt. Begleite mich auf meiner Reise, indem wir zusammenarbeiten oder du einen Blick in meinen Alltag unterwegs wirfst.",
     "footer": "~ stay adventurous!"
   },
+
   "Travels": [
     {
       "id": 1,
@@ -18,21 +19,43 @@
       "dates": "seit Ende Februar 2025",
       "body": "Aktuell führt mich meine Reise quer durch Südostasien – von geschäftigen Streetfood-Märkten in Bangkok über traumhafte Tauchspots in Malaysia bis hin zu den tropischen Inseln Indonesiens. Jeder Ort überrascht mit neuen Eindrücken, herzlichen Begegnungen und einer unglaublichen Vielfalt an Essen, Kulturen und Lebensstilen.",
       "subbody": "Was mir diese Reise zeigt? Wie viel man lernen kann, wenn man offen für neue Perspektiven, fremde Gewohnheiten und spontane Abenteuer ist. ",
-      "img": "/assets/SEA.jpeg"
+      "img": "/assets/SEA.jpeg",
+      "link": ""
     },
     {
       "id": 2,
       "head": "Auszeit in Portugal",
       "dates": "2 Wochen im September 2024",
       "body": "Nach meinem Entschluss als digitaler Nomade zu arbeiten und die Welt zu bereisen, habe ich alle Schritte zuhause eingeleitet diesen Weg zu beschreiten. Doch bevor es so weit sein sollte, wollte ich noch einmal ohne die jegliche Arbeitsverpflichtung unterwegs sein. Dafür habe ich Protugal gewählt und das Land mit einem kleinen Rucksack für 14 Tage von Norden nach Süden bereist.",
-      "img": "/assets/Portugal.jpeg"
+      "img": "/assets/Portugal.jpeg",
+      "link": ""
     },
     {
       "id": 3,
       "head": "Vietnam - Wo alles begann",
       "dates": "30 Tage lang im Februar 2024",
       "body": "Meine erste Fernreise ging nach Vietnam. Innerhalb eines Monats habe ich das Land von Süd nach Nord bereist und dabei Einblick in eine atemberaubende Kultur umgeben von freundlichen Menschen und bilderischen Landschaften erhalten. Meine Reise durch Vietnam hat dazu geführt, dass ich heute als digitaler Nomade arbeite und die Welt bereise.",
-      "img": "/assets/Vietnam.jpeg"
+      "img": "/assets/Vietnam.jpeg",
+      "link": ""
+    }
+  ],
+
+  "Work": [
+    {
+      "id": 1,
+      "head": "Acinon.ai",
+      "date": "seit Februar 2025",
+      "body": "Acinon.ai ist ein KI-Startup, das sich auf die Entwicklung von KI-gestützten Softwarelösungen spezialisiert hat. Als Full-Stack Softwareentwickler arbeite ich an der Entwicklung von innovativen Anwendungen, die Unternehmen helfen, ihre Effizienz zu steigern und ihre Geschäftsprozesse zu optimieren. Meine Rolle umfasst sowohl die Frontend- als auch die Backend-Entwicklung, wobei ich moderne Technologien und Frameworks einsetze, um skalierbare und benutzerfreundliche Lösungen zu schaffen.",
+      "img": "/assets/acinon_ai.png",
+      "link": "https://acinon.ai/"
+    },
+    {
+      "id": 2,
+      "head": "GitHub",
+      "date": "laufend",
+      "body": "Auf meiner GitHub-Seite findest du eine Sammlung meiner Open-Source-Projekte und Beiträge zu verschiedenen Softwareentwicklungsprojekten mit den Schwerpunkten auf KI und KI-Agenten. Hier teile ich meinen Code, meine Ideen und meine Erfahrungen mit der Entwickler-Community. Schau vorbei, um mehr über meine Arbeit zu erfahren und vielleicht sogar etwas Inspiration für deine eigenen Projekte zu finden.",
+      "img": "/assets/ai_assistent.png",
+      "link": "https://github.com/hamluk"
     }
   ]
 }

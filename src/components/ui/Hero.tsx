@@ -23,10 +23,12 @@ function Hero({}: {}) {
               {texts.homepageTexts.Hero.greeting_footer}
             </h2>
           </div>
-          <h4 className="sm:max-w-2xl text-base sm:text-xl">
-            {texts.homepageTexts.Hero.body}
-          </h4>
-          <h3 className="text-l italic">{texts.homepageTexts.Hero.footer}</h3>
+          <div>
+            <h4 className="sm:max-w-2xl text-base sm:text-xl">
+              {texts.homepageTexts.Hero.body}
+            </h4>
+            <h3 className="text-l italic">{texts.homepageTexts.Hero.footer}</h3>
+          </div>
         </div>
 
         <div className="flex gap-6">

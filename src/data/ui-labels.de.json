@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "contact": "Lass uns zusammenarbeiten",
+    "projects_link": "Meine Projekte",
+    "change_language": "EN"
+  },
+  "segmented_control": {
+    "projects": "Arbeit 👨‍💻",
+    "travels": "Reisen 🗺️"
+  }
+}

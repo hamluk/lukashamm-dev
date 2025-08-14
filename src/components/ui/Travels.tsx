@@ -1,16 +1,21 @@
-import hompageText from "../../data/homepage-texts.json";
-import type { TravelEntriesType } from "../../types/TravelInterface";
+import { useLanguage } from "../../context/LanguageContext";
+import homepageEN from "../../data/homepage-texts.en.json";
 import TravelEntry from "./TravelEntry";
 
-const travels: TravelEntriesType = hompageText.Travels;
+type TravelsType = typeof homepageEN.Travels;
+type TravelEntryType = TravelsType[number];
 
-type Props = {};
+function Travels({}: {}) {
+  const { language, setLanguage, texts } = useLanguage();
 
-function Travels({}: Props) {
+  const travels: TravelsType = texts.homepageTexts.Travels;
+
+  if (!texts) return <p>Loading Travels....</p>;
+
   return (
     <section className="grid grid-cols-1 xl:grid-cols-2 gap-5 py-10 px-5 sm:px-10 lg:px-15 xl:px-20 2xl:px-25">
       {travels &&
-        travels.map((entry) => (
+        travels.map((entry: TravelEntryType) => (
           <TravelEntry
             header={entry.head}
             body={entry.body}

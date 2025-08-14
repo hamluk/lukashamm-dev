@@ -1,12 +1,13 @@
 {
   "Header": {
     "head": "Lukas Hamm",
-    "description": "Full-Stack Softwareentwickler | Freelancer | AI Enthusiast"
+    "description": "AI & Full-Stack Softwareentwickler | Freelancer | AI Enthusiast"
   },
 
   "Hero": {
-    "greeting": "Hi, ich bin Lukas! 👋🏻",
-    "head": " Hauptberuflich Softwareentwickler 👨‍💻 Nebenbei Vielreisender 🗺️",
+    "greeting_head": "Hi, ich bin Lukas! 👋🏻",
+    "greeting_body": "Hauptberuflich Softwareentwickler 👨‍💻",
+    "greeting_footer": "Nebenbei Vielreisender 🗺️",
     "body": "Ich entwickle KI-basierte Softwarelösungen als Full-Stack Softwareentwickler – remote von überall auf der Welt. Genauso wie im echten Leben vereine ich auf dieser Webseite meine Leideschaft für das Entwickeln neuer Technologien und das Entdecken der Welt. Begleite mich auf meiner Reise, indem wir zusammenarbeiten oder du einen Blick in meinen Alltag unterwegs wirfst.",
     "footer": "~ stay adventurous!"
   },

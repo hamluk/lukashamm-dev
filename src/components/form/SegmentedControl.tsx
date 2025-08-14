@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import { useLanguage } from "../../context/LanguageContext";
 
 type Props = {
   activeView: string;
@@ -6,6 +7,10 @@ type Props = {
 };
 
 function SegmentedControl({ activeView, onUpdate }: Props) {
+  const { language, setLanguage, texts } = useLanguage();
+
+  if (!texts) return <p>Loading Segmented Control....</p>;
+
   return (
     <div className="flex flex-row justify-center p-5">
       <div className="flex flex-row inset-shadow-sm rounded-lg bg-gray-100 gap-2 p-1">
@@ -19,7 +24,7 @@ function SegmentedControl({ activeView, onUpdate }: Props) {
             }
           )}
         >
-          Projekte 👨‍💻
+          {texts.uiLabelsTexts.segmented_control.projects}
         </button>
         <button
           onClick={() => onUpdate("travels")}
@@ -31,7 +36,7 @@ function SegmentedControl({ activeView, onUpdate }: Props) {
             }
           )}
         >
-          Reisen 🌍
+          {texts.uiLabelsTexts.segmented_control.travels}
         </button>
       </div>
     </div>

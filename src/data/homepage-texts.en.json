@@ -1,0 +1,38 @@
+{
+  "Header": {
+    "head": "Lukas Hamm",
+    "description": "Full-Stack Software Developer | Freelancer | AI Enthusiast"
+  },
+
+  "Hero": {
+    "greeting_head": "Hi, I'm Lukas! 👋🏻",
+    "greeting_body": "Full-time Software Developer 👨‍💻",
+    "greeting_footer": "Part-time World Traveler 🗺️",
+    "body": "I develop and deploy AI-powered software solutions as a full-stack software developer – working remotely from anywhere in the world. Just like in real life, this website combines my passion for building new technologies with my love for discovering the world. Join me on my journey, whether by working together or by taking a glimpse into my life on the road.",
+    "footer": "~ stay adventurous!"
+  },
+  "Travels": [
+    {
+      "id": 1,
+      "head": "My Leap into the Digital Nomad Life",
+      "dates": "since late February 2025",
+      "body": "Right now, my travels are taking me across Southeast Asia – from bustling street food markets in Bangkok to stunning dive spots in Malaysia and the tropical islands of Indonesia. Every place surprises me with new impressions, warm encounters, and an incredible diversity of food, cultures, and lifestyles.",
+      "subbody": "What this journey has shown me? How much you can learn when you’re open to new perspectives, unfamiliar habits, and spontaneous adventures.",
+      "img": "/assets/SEA.jpeg"
+    },
+    {
+      "id": 2,
+      "head": "Time Off in Portugal",
+      "dates": "2 weeks in September 2024",
+      "body": "After deciding to work as a digital nomad and travel the world, I prepared everything at home to embark on this path. But before it all began, I wanted to travel once more without any work obligations. For that, I chose Portugal and explored the country with a small backpack for 14 days, traveling from north to south.",
+      "img": "/assets/Portugal.jpeg"
+    },
+    {
+      "id": 3,
+      "head": "Vietnam – Where It All Began",
+      "dates": "30 days in February 2024",
+      "body": "My first long-distance trip took me to Vietnam. Over the course of a month, I traveled the country from south to north, experiencing a breathtaking culture surrounded by friendly people and picturesque landscapes. My journey through Vietnam ultimately set me on the path to becoming a digital nomad and traveling the world.",
+      "img": "/assets/Vietnam.jpeg"
+    }
+  ]
+}

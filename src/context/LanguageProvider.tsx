@@ -18,7 +18,10 @@ export interface TextNamespaces {
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>("en");
-  const [texts, setTexts] = useState<TextNamespaces | null>(null);
+  const [texts, setTexts] = useState<TextNamespaces>({
+    homepageTexts: homepageEn,
+    uiLabelsTexts: uiLabelsEn,
+  });
 
   const setLanguage = useCallback((language: Language) => {
     setLanguageState(language);
@@ -39,11 +42,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
             homepageTexts: homepageModule.default,
             uiLabelsTexts: uiModule.default,
           });
-          console.log(
-            `Language texts loaded for "${currentLanguage}": `,
-            texts?.uiLabelsTexts.buttons.change_language,
-            uiModule.default
-          );
         }
       } catch (error) {
         console.error(

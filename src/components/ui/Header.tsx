@@ -7,7 +7,11 @@ export default function Header({}: {}) {
   const { language, setLanguage, texts } = useLanguage();
 
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const [isLargeScreen, setIsLargeScreen] = useState(() =>
+    typeof window !== "undefined"
+      ? window.matchMedia("(min-width: 1024px)").matches
+      : false
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,6 +56,11 @@ export default function Header({}: {}) {
   return (
     <motion.header
       {...{
+        initial: {
+          height: dynamicHeaderHeight,
+          paddingLeft: dynamicPadding,
+          paddingRight: dynamicPadding,
+        },
         animate: {
           height: dynamicHeaderHeight,
           paddingLeft: dynamicPadding,
@@ -99,11 +108,18 @@ export default function Header({}: {}) {
             animate: {
               height: dynamicDividerHeight,
             },
-            transition: { duration: 0.3, ease: "easeInOut" },
+            transition: { duration: 0.5, ease: "easeInOut" },
           }}
           className="bg-gray-400 w-0.5"
         ></motion.div>
-        <div className="flex flex-col sm:flex-row gap-1 sm:gap-3">
+        <motion.div
+          {...{
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { duration: 0.8, ease: "easeInOut" },
+          }}
+          className="flex flex-col sm:flex-row gap-1 sm:gap-3"
+        >
           <a
             className="hover:cursor-pointer"
             href="https://github.com/hamluk"
@@ -130,7 +146,7 @@ export default function Header({}: {}) {
           >
             {texts.uiLabelsTexts.buttons.change_language}
           </button>
-        </div>
+        </motion.div>
       </div>
     </motion.header>
   );

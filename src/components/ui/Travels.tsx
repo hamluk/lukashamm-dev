@@ -6,7 +6,7 @@ type TravelsType = typeof homepageEN.Travels;
 type TravelEntryType = TravelsType[number];
 
 function Travels({}: {}) {
-  const { language, setLanguage, texts } = useLanguage();
+  const { texts } = useLanguage();
 
   if (!texts) return <p>Loading Travels....</p>;
 

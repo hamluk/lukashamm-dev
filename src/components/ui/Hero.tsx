@@ -2,6 +2,7 @@ import { useLanguage } from "../../context/LanguageContext";
 import PrimaryButton from "../form/PrimaryButton";
 import SecondaryButton from "../form/SecondaryButton";
 import ProfilImage from "../../assets/LukasHammProfil.jpeg";
+import { motion } from "framer-motion";
 
 function Hero({}: {}) {
   const { language, setLanguage, texts } = useLanguage();
@@ -28,13 +29,20 @@ function Hero({}: {}) {
         top: newElementPosition - finalOffset,
         behavior: "smooth",
       });
-    }, 25);
+    }, 40);
   };
 
   if (!texts) return <p>Loading Hero....</p>;
 
   return (
-    <section className="flex flex-col lg:flex-row items-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35">
+    <motion.section
+      {...{
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { duration: 0.8, ease: "easeInOut" },
+      }}
+      className="flex flex-col lg:flex-row items-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
+    >
       <div className="flex flex-col gap-6 lg:gap-8 items-center">
         <div className="flex flex-col items-baseline gap-3 max-w-2xl">
           <div className="max-w-md sm:min-w-sm sm:max-w-lg">
@@ -59,6 +67,7 @@ function Hero({}: {}) {
         <div className="flex gap-6">
           <PrimaryButton
             title={texts.uiLabelsTexts.buttons.contact}
+            route="mailto:lukas@lukashamm.dev"
           ></PrimaryButton>
           <SecondaryButton
             title={texts.uiLabelsTexts.buttons.projects_link}
@@ -67,12 +76,17 @@ function Hero({}: {}) {
         </div>
       </div>
 
-      <img
+      <motion.img
+        {...{
+          initial: { opacity: 0 },
+          animate: { opacity: 1 },
+          transition: { duration: 1.2, ease: "easeInOut" },
+        }}
         src={ProfilImage}
         alt="Image"
         className="object-cover shadow-md w-110 sm:w-110 lg:w-120 xl:w-130 2xl:w-140 rounded-md"
-      ></img>
-    </section>
+      ></motion.img>
+    </motion.section>
   );
 }
 

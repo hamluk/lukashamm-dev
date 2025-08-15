@@ -20,14 +20,14 @@ export default function WorkEntry({
   return (
     <a href={link}>
       <section className="flex flex-col gap-4 text-black">
-        <div className="overflow-hidden rounded-xl">
+        <div className="flex items-center overflow-hidden rounded-xl h-80 sm:h-60 lg:h-70">
           <img
             src={image}
             alt="Travel Image Vietnam"
-            className="object-center object-contain h-90 transition-transform duration-300 ease-in-out hover:scale-105"
+            className="object-contain object-center transition-transform duration-300 ease-in-out hover:scale-105"
           ></img>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-2">
           <div className="flex flex-row justify-between items-baseline px-1">
             <h2 className="max-h-30 text-2xl font-semibold">{header}</h2>
             <p className="rtext-xs italic">{dates}</p>

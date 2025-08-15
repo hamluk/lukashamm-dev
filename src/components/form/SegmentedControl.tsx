@@ -13,7 +13,7 @@ function SegmentedControl({ activeView, onUpdate }: Props) {
 
   return (
     <div className="flex flex-row justify-center p-5">
-      <div className="flex flex-row inset-shadow-sm rounded-lg bg-gray-100 gap-2 p-1">
+      <div className="flex flex-row items-center inset-shadow-sm rounded-lg bg-gray-100 gap-2 p-1">
         <button
           onClick={() => onUpdate("projects")}
           className={classNames(
@@ -26,6 +26,7 @@ function SegmentedControl({ activeView, onUpdate }: Props) {
         >
           {texts.uiLabelsTexts.segmented_control.projects}
         </button>
+        <p className="text-dark-text">&</p>
         <button
           onClick={() => onUpdate("travels")}
           className={classNames(

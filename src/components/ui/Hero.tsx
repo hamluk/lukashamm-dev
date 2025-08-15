@@ -6,6 +6,31 @@ import ProfilImage from "../../assets/LukasHammProfil.jpeg";
 function Hero({}: {}) {
   const { language, setLanguage, texts } = useLanguage();
 
+  const scrollToProjects = () => {
+    const section = document.getElementById("achievements");
+
+    if (!section) return;
+
+    const initialOffset = 0;
+    const finalOffset = 100;
+
+    const elementPosition =
+      section.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({
+      top: elementPosition - initialOffset,
+      behavior: "smooth",
+    });
+
+    setTimeout(() => {
+      const newElementPosition =
+        section.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({
+        top: newElementPosition - finalOffset,
+        behavior: "smooth",
+      });
+    }, 25);
+  };
+
   if (!texts) return <p>Loading Hero....</p>;
 
   return (
@@ -37,6 +62,7 @@ function Hero({}: {}) {
           ></PrimaryButton>
           <SecondaryButton
             title={texts.uiLabelsTexts.buttons.projects_link}
+            handleClick={scrollToProjects}
           ></SecondaryButton>
         </div>
       </div>

@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/ui/Header";
 import Hero from "./components/ui/Hero";
 import Footer from "./components/ui/Footer";
-import Achievments from "./components/ui/Achievments";
+import Achievements from "./components/ui/Achievements";
 import { LanguageProvider } from "./context/LanguageProvider";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 
         <main className="flex-1">
           <Hero />
-          <Achievments />
+          <Achievements />
         </main>
 
         <Footer />

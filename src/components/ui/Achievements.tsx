@@ -1,16 +1,15 @@
 import { useState } from "react";
 import Travels from "./Travels";
-import classNames from "classnames";
 import SegmentedControl from "../form/SegmentedControl";
 import Work from "./Work";
 
 type Props = {};
 
-function Achievments({}: Props) {
+function Achievements({}: Props) {
   const [activeView, setActiveView] = useState<string>("projects");
 
   return (
-    <section className="flex flex-col w-full">
+    <section id="achievements" className="flex flex-col w-full">
       <SegmentedControl activeView={activeView} onUpdate={setActiveView} />
       <div>
         {activeView === "projects" && <Work />}
@@ -20,4 +19,4 @@ function Achievments({}: Props) {
   );
 }
 
-export default Achievments;
+export default Achievements;

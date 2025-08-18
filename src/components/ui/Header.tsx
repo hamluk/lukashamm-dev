@@ -2,6 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useLanguage } from "../../context/LanguageContext";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Links from "./Links";
 
 export default function Header({}: {}) {
   const { language, setLanguage, texts } = useLanguage();
@@ -80,10 +81,18 @@ export default function Header({}: {}) {
         className="flex flex-col h-auto lg:gap-1"
       >
         <div className="flex items-center gap-4 lg:gap-10">
-          <h1 className="text-2xl lg:text-6xl font-serif ">LH</h1>
-          <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-dark-text">
+          <a
+            href="/"
+            className="text-2xl lg:text-6xl font-serif hover:cursor-pointer"
+          >
+            LH
+          </a>
+          <a
+            href="/"
+            className="text-2xl lg:text-4xl font-serif font-semibold text-dark-text hover:cursor-pointer"
+          >
             {texts.homepageTexts.Header.head}
-          </h1>
+          </a>
         </div>
         <div>
           <motion.h2
@@ -120,23 +129,7 @@ export default function Header({}: {}) {
           }}
           className="flex flex-col sm:flex-row gap-1 sm:gap-3"
         >
-          <a
-            className="hover:cursor-pointer"
-            href="https://github.com/hamluk"
-            target="_blank"
-          >
-            <FaGithub className="sm:size-6" />
-          </a>
-          <a
-            className="hover:cursor-pointer"
-            href="https://www.linkedin.com/in/lukashamm-dev"
-            target="_blank"
-          >
-            <FaLinkedin className="sm:size-6" />
-          </a>
-          <a className="hover:cursor-pointer" href="mailto:lukas@lukashamm.dev">
-            <FaEnvelope className="sm:size-6" />
-          </a>
+          <Links />
           <button
             className="cursor-pointer text-xs sm:text-xl text-dark-blue font-bold rounded-md"
             onClick={() => {

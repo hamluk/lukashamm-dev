@@ -7,6 +7,7 @@ import {
 
 import homepageEn from "../data/homepage-texts.en.json";
 import uiLabelsEn from "../data/ui-labels.en.json";
+import usePersistentLanguage from "../hooks/usePersistentLanguage";
 
 export type HomepageTexts = typeof homepageEn;
 export type UILabelsTexts = typeof uiLabelsEn;
@@ -17,7 +18,7 @@ export interface TextNamespaces {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguageState] = useState<Language>("en");
+  const { language, setLanguageState } = usePersistentLanguage();
   const [texts, setTexts] = useState<TextNamespaces>({
     homepageTexts: homepageEn,
     uiLabelsTexts: uiLabelsEn,
@@ -58,14 +59,14 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     };
   }, [language]);
 
-  const value: LanguageContextType = {
+  const contextValues: LanguageContextType = {
     language,
     setLanguage,
     texts,
   };
 
   return (
-    <LanguageContext.Provider value={value}>
+    <LanguageContext.Provider value={contextValues}>
       {children}
     </LanguageContext.Provider>
   );

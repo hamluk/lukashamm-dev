@@ -1,11 +1,11 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useLanguage } from "../../context/LanguageContext";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Links from "./Links";
+import LanguageDropdown from "./LanguageDropdown";
 
 export default function Header({}: {}) {
-  const { language, setLanguage, texts } = useLanguage();
+  const { texts } = useLanguage();
 
   const [isScrolled, setIsScrolled] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(() =>
@@ -127,18 +127,10 @@ export default function Header({}: {}) {
             animate: { opacity: 1 },
             transition: { duration: 0.8, ease: "easeInOut" },
           }}
-          className="flex flex-col sm:flex-row gap-1 sm:gap-3"
+          className="flex flex-col items-center sm:flex-row gap-1 sm:gap-3"
         >
           <Links />
-          <button
-            className="cursor-pointer text-xs sm:text-xl text-dark-blue font-bold rounded-md"
-            onClick={() => {
-              console.log("button clicked");
-              setLanguage(language === "en" ? "de" : "en");
-            }}
-          >
-            {texts.uiLabelsTexts.buttons.change_language}
-          </button>
+          <LanguageDropdown />
         </motion.div>
       </div>
     </motion.header>

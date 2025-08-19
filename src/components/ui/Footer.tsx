@@ -15,7 +15,7 @@ function Footer({}: Props) {
       <div className="flex flex-col items-baseline">
         <a
           href="/impressum"
-          className="font-semibold pb-2 hover:opacity-75 hover:cursor-pointer"
+          className="font-semibold pb-2 hover:opacity-75 hover:cursor-pointer hover:underline"
         >
           Impressum
         </a>
@@ -23,6 +23,12 @@ function Footer({}: Props) {
       </div>
       <div className="flex flex-col items-baseline">
         <p className=" pb-2 font-semibold">Links</p>
+        <a
+          href="/"
+          className="font-semibold pb-1 hover:opacity-75 hover:underline hover:cursor-pointer"
+        >
+          Home
+        </a>
         <Links />
       </div>
     </footer>

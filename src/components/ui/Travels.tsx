@@ -17,6 +17,7 @@ function Travels({}: {}) {
       {travels &&
         travels.map((entry: TravelEntryType) => (
           <TravelEntry
+            key={entry.id}
             header={entry.head}
             body={entry.body}
             dates={entry.dates}

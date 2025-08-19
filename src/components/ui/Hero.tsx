@@ -5,20 +5,20 @@ import ProfilImage from "../../assets/LukasHammProfil.jpeg";
 import { motion } from "framer-motion";
 
 function Hero({}: {}) {
-  const { language, setLanguage, texts } = useLanguage();
+  const { texts } = useLanguage();
 
   const scrollToProjects = () => {
     const section = document.getElementById("achievements");
+    const header = document.getElementById("header");
 
-    if (!section) return;
+    if (!section || !header) return;
 
-    const initialOffset = 0;
-    const finalOffset = 100;
+    const headerHeight = header.clientHeight;
 
     const elementPosition =
       section.getBoundingClientRect().top + window.scrollY;
     window.scrollTo({
-      top: elementPosition - initialOffset,
+      top: elementPosition - headerHeight,
       behavior: "smooth",
     });
 
@@ -26,7 +26,7 @@ function Hero({}: {}) {
       const newElementPosition =
         section.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
-        top: newElementPosition - finalOffset,
+        top: newElementPosition - headerHeight,
         behavior: "smooth",
       });
     }, 40);
@@ -46,18 +46,18 @@ function Hero({}: {}) {
       <div className="flex flex-col gap-6 lg:gap-8 items-center">
         <div className="flex flex-col items-baseline gap-3 max-w-2xl">
           <div className="max-w-md sm:min-w-sm sm:max-w-lg">
-            <h2 className="text-xl sm:text-2xl font-semibold font-serif">
+            <h2 className="text-l sm:text-2xl font-semibold font-serif">
               {texts.homepageTexts.Hero.greeting_head}
             </h2>
-            <h2 className="text-xl sm:text-2xl font-semibold font-serif">
+            <h2 className="text-l sm:text-2xl font-semibold font-serif">
               {texts.homepageTexts.Hero.greeting_body}
             </h2>
-            <h2 className="text-xl sm:text-2xl font-semibold font-serif">
+            <h2 className="text-l sm:text-2xl font-semibold font-serif">
               {texts.homepageTexts.Hero.greeting_footer}
             </h2>
           </div>
           <div>
-            <h4 className="sm:max-w-2xl text-base sm:text-xl">
+            <h4 className="sm:max-w-2xl text-base sm:text-xl h-55 sm:h-45 lg:h-65">
               {texts.homepageTexts.Hero.body}
             </h4>
             <h3 className="text-l italic">{texts.homepageTexts.Hero.footer}</h3>
@@ -65,13 +65,16 @@ function Hero({}: {}) {
         </div>
 
         <div className="flex gap-6">
-          <PrimaryButton
-            title={texts.uiLabelsTexts.buttons.contact}
-            route="mailto:lukas@lukashamm.dev"
-          ></PrimaryButton>
+          <a href="mailto:lukas@lukashamm.dev">
+            <PrimaryButton
+              title={texts.uiLabelsTexts.buttons.contact}
+              addClassName="min-w-38"
+            ></PrimaryButton>
+          </a>
           <SecondaryButton
             title={texts.uiLabelsTexts.buttons.projects_link}
             handleClick={scrollToProjects}
+            addClassName="min-w-30"
           ></SecondaryButton>
         </div>
       </div>

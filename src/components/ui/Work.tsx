@@ -19,6 +19,7 @@ export default function Work({}: {}) {
         uiLabelsTexts &&
         homepageTexts.Work.map((entry: HomepageTexts["Work"][number]) => (
           <WorkEntry
+            key={entry.id}
             header={entry.head}
             body={entry.body}
             dates={entry.dates}

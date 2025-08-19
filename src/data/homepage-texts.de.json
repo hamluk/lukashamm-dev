@@ -1,7 +1,7 @@
 {
   "Header": {
     "head": "Lukas Hamm",
-    "description": "AI & Full-Stack Softwareentwickler | Freelancer | AI Enthusiast"
+    "description": "AI & Full-Stack Softwareentwickler | Freelancer | AI-Enthusiast"
   },
 
   "Hero": {
@@ -10,6 +10,11 @@
     "greeting_footer": "Nebenbei Vielreisender 🗺️",
     "body": "Ich entwickle KI-basierte Softwarelösungen als Full-Stack Softwareentwickler – remote von überall auf der Welt. Genauso wie im echten Leben vereine ich auf dieser Webseite meine Leideschaft für das Entwickeln neuer Technologien und das Entdecken der Welt. Begleite mich auf meiner Reise, indem wir zusammenarbeiten oder du einen Blick in meinen Alltag unterwegs wirfst.",
     "footer": "~ stay adventurous!"
+  },
+
+  "WorkAndTravel": {
+    "head": "Arbeiten und gleichzeitig reisen - Wie soll das funktionieren?",
+    "body": "Ich kann verstehen, dass diese Frage aufkommt wenn man auf mein Profil stößt."
   },
 
   "Travels": [
@@ -46,7 +51,7 @@
     {
       "id": 1,
       "head": "Acinon.ai",
-      "date": "seit Februar 2025",
+      "dates": "seit Februar 2025",
       "body": "Für Acinon.ai entwickle ich als Full Stack Entwickler KI-gestützte Anwendungen, die Geschäftsprozesse optimieren und sowohl im Frontend als auch im Backend benutzerfreundliche und skalierbare Lösungen bieten.",
       "img": "/assets/acinon_ai.png",
       "link": "https://acinon.ai/"
@@ -54,7 +59,7 @@
     {
       "id": 2,
       "head": "GitHub",
-      "date": "laufend",
+      "dates": "laufend",
       "body": "Auf meiner GitHub-Seite befasse ich mich laufend mit inovativen Projekte und Ideen im Bereich Künstliche Intelligenz, teile Ansätze mit der Entwickler-Community und biete so Inspiration sowie Einblicke in meine Arbeit.",
       "img": "/assets/ai_assistent.png",
       "link": "https://github.com/hamluk"

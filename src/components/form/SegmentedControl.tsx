@@ -7,12 +7,12 @@ type Props = {
 };
 
 function SegmentedControl({ activeView, onUpdate }: Props) {
-  const { language, setLanguage, texts } = useLanguage();
+  const { texts } = useLanguage();
 
   if (!texts) return <p>Loading Segmented Control....</p>;
 
   return (
-    <div className="flex flex-row justify-center p-5">
+    <div className="flex flex-row p-5">
       <div className="flex flex-row items-center inset-shadow-sm rounded-lg bg-gray-100 gap-2 p-1">
         <button
           onClick={() => onUpdate("projects")}

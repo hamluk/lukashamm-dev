@@ -5,7 +5,7 @@ type Props = {};
 
 function Footer({}: Props) {
   return (
-    <footer className="flex justify-between px-6 py-8 bg-light-green text-olive-green sm:text-sm text-xs text-center">
+    <footer className="flex justify-between px-6 py-8 bg-light-green text-olive-green sm:text-sm text-xs">
       <div className="flex flex-col items-baseline">
         <p className="font-semibold pb-2">Kontakt</p>
         <p>Lukas Hamm</p>

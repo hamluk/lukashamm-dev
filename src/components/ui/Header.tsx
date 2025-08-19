@@ -56,6 +56,7 @@ export default function Header({}: {}) {
 
   return (
     <motion.header
+      id="header"
       {...{
         initial: {
           height: dynamicHeaderHeight,

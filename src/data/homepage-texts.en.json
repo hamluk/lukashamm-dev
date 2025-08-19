@@ -1,7 +1,7 @@
 {
   "Header": {
     "head": "Lukas Hamm",
-    "description": "Full-Stack Software Developer | Freelancer | AI Enthusiast"
+    "description": "Full-Stack Software Developer | Freelancer | AI-Enthusiast"
   },
 
   "Hero": {
@@ -10,6 +10,11 @@
     "greeting_footer": "Part-time World Traveler 🗺️",
     "body": "I develop and deploy AI-powered software solutions as a full-stack software developer – working remotely from anywhere in the world. Just like in real life, this website combines my passion for building new technologies with my love for discovering the world. Join me on my journey, whether by working together or by taking a glimpse into my life on the road.",
     "footer": "~ stay adventurous!"
+  },
+
+  "WorkAndTravel": {
+    "head": "Arbeiten und gleichzeitig reisen - Wie soll das funktionieren?",
+    "body": "Arbeiten und gleichzeitig reisen - Wie soll das funktionieren? Ich kann verstehen, dass diese Frage aufkommt wenn man auf mein Profil stößt."
   },
 
   "Travels": [

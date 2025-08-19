@@ -3,22 +3,20 @@ import Travels from "./Travels";
 import SegmentedControl from "../form/SegmentedControl";
 import Work from "./Work";
 import { AnimatePresence, motion } from "framer-motion";
+import { useLanguage } from "../../context/LanguageContext";
 
 type Props = {};
 
 function Achievements({}: Props) {
+  const { texts } = useLanguage();
   const [activeView, setActiveView] = useState<string>("projects");
-  const [isTravelsPreloaded, setTravelsPreloaded] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setTravelsPreloaded(true);
-    }, 100);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
-    <section id="achievements" className="flex flex-col w-full">
+    <section id="achievements" className="flex flex-col w-full items-center">
+      <div className="flex flex-col text-center items-center text-dark-text p-5 m-auto">
+        <p className="text-2xl ">{texts.homepageTexts.WorkAndTravel.head}</p>
+        <p>{texts.homepageTexts.WorkAndTravel.body}</p>
+      </div>
       <SegmentedControl activeView={activeView} onUpdate={setActiveView} />
 
       <AnimatePresence mode="wait">

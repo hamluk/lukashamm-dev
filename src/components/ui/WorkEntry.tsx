@@ -20,8 +20,8 @@ export default function WorkEntry({
   discover_text,
 }: Props) {
   return (
-    <a href={link}>
-      <section className="flex flex-col gap-4 text-black">
+    <section className="flex flex-col gap-4 text-black">
+      <a href={link}>
         <div className="flex items-center overflow-hidden rounded-xl h-80 sm:h-60 lg:h-70">
           <img
             src={image}
@@ -30,16 +30,16 @@ export default function WorkEntry({
             className="object-contain object-center transition-transform duration-300 ease-in-out hover:scale-105"
           ></img>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 pt-2">
           <div className="flex flex-row justify-between items-baseline px-1">
             <h2 className="max-h-30 text-3xl">{header}</h2>
             <p className="rtext-xs italic">{dates}</p>
           </div>
           <p className="">{body}</p>
           {subbody !== undefined && <p className="">{subbody}</p>}
-          <PrimaryButton title={discover_text} />
+          <PrimaryButton title={discover_text} addClassName="w-35" />
         </div>
-      </section>
-    </a>
+      </a>
+    </section>
   );
 }

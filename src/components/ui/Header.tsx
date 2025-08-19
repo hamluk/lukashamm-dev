@@ -42,7 +42,7 @@ export default function Header({}: {}) {
     ? "6.25rem"
     : "6.25rem";
 
-  const dynamicPadding = isLargeScreen ? "2.25rem" : "1.75rem";
+  const dynamicPadding = isLargeScreen ? "4.5rem" : "1.75rem";
 
   const dynamicDividerHeight = isLargeScreen
     ? isScrolled
@@ -70,7 +70,7 @@ export default function Header({}: {}) {
         },
         transition: { duration: 0.3, ease: "easeInOut" },
       }}
-      className="flex justify-between items-center sticky top-0 z-50 text-olive-green bg-white shadow-md "
+      className="flex justify-between items-center sticky top-0 z-50 text-olive-green bg-white shadow-md"
     >
       <motion.div
         {...{

@@ -4,7 +4,10 @@ import SegmentedControl from "../form/SegmentedControl";
 import Work from "./Work";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLanguage } from "../../context/LanguageContext";
-import PaperPlaneStart from "../../assets/paper_plane_start.png";
+import ProgrammingSVG from "../../assets/programming_illustration.svg";
+import AdventureSVG from "../../assets/adventure_illustration.svg";
+import BeachSVG from "../../assets/beach_illustration.svg";
+import RemoteSVG from "../../assets/remote_illustration.svg";
 import PaperPlaneEnd from "../../assets/paper_plane_end.png";
 
 type Props = {};
@@ -16,21 +19,29 @@ function Achievements({}: Props) {
   return (
     <section
       id="achievements"
-      className="flex flex-col w-full items-center text-dark-text"
+      className="flex flex-col w-full items-center text-dark-text py-10"
     >
       <div className="flex flex-col items-center text-center">
         <div className="flex flex-col items-center sm:flex-row px-2">
           <img
-            src={PaperPlaneStart}
-            className="object-contain aspect-1/1 w-30 sm:w-35 md:w-40 lg:w-45 xl:w-50"
+            src={RemoteSVG}
+            className="object-contain aspect-1/1 w-20 sm:w-25 lg:w-30 xl:w-40"
+          ></img>
+          <img
+            src={ProgrammingSVG}
+            className="object-contain aspect-1/1 w-20 sm:w-25 lg:w-30 xl:w-40"
           ></img>
           <p className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-serif font-semibold max-w-110 lg:max-w-140  xl:max-w-160">
             <p>{texts.homepageTexts.WorkAndTravel.head}</p>
             <p>{texts.homepageTexts.WorkAndTravel.subhead}</p>
           </p>
           <img
-            src={PaperPlaneEnd}
-            className="object-contain aspect-1/1 w-30 sm:w-35 md:w-40 lg:w-45 xl:w-50"
+            src={BeachSVG}
+            className="object-contain aspect-1/1 w-20 sm:w-25 lg:w-30 xl:w-40"
+          ></img>
+          <img
+            src={AdventureSVG}
+            className="object-contain aspect-1/1 w-20 sm:w-25 lg:w-30 xl:w-40"
           ></img>
         </div>
         <p className="text-base lg:text-lg pt-4 px-5 max-w-200 lg:max-w-250">

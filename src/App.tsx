@@ -6,7 +6,7 @@ import AppRoutes from "./router";
 function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <AppRoutes />
       </BrowserRouter>
     </LanguageProvider>

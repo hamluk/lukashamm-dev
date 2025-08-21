@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 type Props = {};
 
 export default function LanguageDropdown({}: Props) {
-  const { language, setLanguage, texts } = useLanguage();
+  const { language, setLanguage } = useLanguage();
   const [open, setOpen] = useState<boolean>(false);
   const options = [
     { value: "en", label: "EN" },

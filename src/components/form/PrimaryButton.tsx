@@ -5,7 +5,7 @@ type Props = {
   addClassName?: string;
 };
 
-function PrimaryButton({ title, route, handleClick, addClassName }: Props) {
+function PrimaryButton({ title, addClassName }: Props) {
   return (
     <button
       className={`bg-olive-green font-semibold text-white hover:bg-(image:--gradient-primary-button) hover:cursor-pointer text-sm sm:text-base px-3 py-1.5 rounded-lg ${addClassName}`}

@@ -6,7 +6,7 @@ import {
 import WorkEntry from "./WorkEntry";
 
 export default function Work({}: {}) {
-  const { language, setLanguage, texts } = useLanguage();
+  const { texts } = useLanguage();
 
   if (!texts) return <p>Loading Work....</p>;
 

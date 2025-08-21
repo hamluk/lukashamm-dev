@@ -1,5 +1,3 @@
-import React, { Component } from "react";
-
 type Props = {
   title: string;
   route?: string;
@@ -7,7 +5,7 @@ type Props = {
   addClassName?: string;
 };
 
-function SecondaryButton({ title, route, handleClick, addClassName }: Props) {
+function SecondaryButton({ title, handleClick, addClassName }: Props) {
   return (
     <button
       onClick={handleClick}

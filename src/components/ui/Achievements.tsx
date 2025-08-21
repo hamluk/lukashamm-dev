@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Travels from "./Travels";
 import SegmentedControl from "../form/SegmentedControl";
 import Work from "./Work";
@@ -8,7 +8,6 @@ import ProgrammingSVG from "../../assets/programming_illustration.svg";
 import AdventureSVG from "../../assets/adventure_illustration.svg";
 import BeachSVG from "../../assets/beach_illustration.svg";
 import RemoteSVG from "../../assets/remote_illustration.svg";
-import PaperPlaneEnd from "../../assets/paper_plane_end.png";
 
 type Props = {};
 

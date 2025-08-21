@@ -1,4 +1,3 @@
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import Links from "./Links";
 
 type Props = {};

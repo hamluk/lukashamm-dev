@@ -35,6 +35,10 @@
   scroll-behavior: smooth;
 }
 
+.markdown > * {
+  all: revert;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

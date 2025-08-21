@@ -20,7 +20,7 @@ export default function WorkEntry({
   discover_text,
 }: Props) {
   return (
-    <section className="flex flex-col gap-4 text-black">
+    <section className="flex flex-col gap-4">
       <a href={link}>
         <div className="flex items-center overflow-hidden rounded-xl h-80 sm:h-60 lg:h-70">
           <img

@@ -13,8 +13,13 @@
   },
 
   "WorkAndTravel": {
-    "head": "Arbeiten und gleichzeitig reisen - Wie soll das funktionieren?",
-    "body": "Ich kann verstehen, dass diese Frage aufkommt wenn man auf mein Profil stößt."
+    "head": "Arbeiten und gleichzeitig reisen - ",
+    "subhead": "Wie soll das funktionieren?",
+    "body": "Ich kann verstehen, dass diese Frage aufkommt wenn man auf mein Profil stößt. Für mich ist die Antwort darauf allerdings sehr klar. Es geht nicht um ein Entweder-oder, sondern darum, dass beides feste Bestandteile meines Lebens sind. Würde ich diese Entscheidung in Frage stellen, müsste ich mir vielmehr die grundlegende Frage stellen: „Wie funktioniert überhaupt das Leben?“ – und genau diese habe ich mir mit meinem Schritt in die Selbstständigkeit selbst beantwortet."
+  },
+
+  "Projects": {
+    "head": "Erfahre mehr über meine laufenden und abgeschlossenen Projekte"
   },
 
   "Travels": [

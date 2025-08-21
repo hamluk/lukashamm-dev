@@ -8,7 +8,7 @@ type Props = {
 
 function TravelEntry({ header, dates, body, subbody, image }: Props) {
   return (
-    <section className="flex flex-col lg:flex-row gap-4 text-black">
+    <section className="flex flex-col lg:flex-row gap-4">
       <div className="flex flex-col gap-1">
         <p className="row-span-1 col-span-3 text-xs italic">{dates}</p>
         <h2 className="max-h-30 row-span-1 col-span-3 text-3xl">{header}</h2>

@@ -35,7 +35,7 @@ export default function LanguageDropdown({}: Props) {
 
         <AnimatePresence>
           {open && (
-            <motion.div className="flex flex-col items-baseline absolute pl-1 bg-highlight-section w-full">
+            <motion.div className="flex flex-col items-baseline absolute rounded-b-lg pl-1 bg-highlight-section w-full">
               {options.map((option) => (
                 <button
                   key={option.value}

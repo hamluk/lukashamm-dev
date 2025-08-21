@@ -13,8 +13,13 @@
   },
 
   "WorkAndTravel": {
-    "head": "Arbeiten und gleichzeitig reisen - Wie soll das funktionieren?",
-    "body": "Arbeiten und gleichzeitig reisen - Wie soll das funktionieren? Ich kann verstehen, dass diese Frage aufkommt wenn man auf mein Profil stößt."
+    "head": "Working and traveling at the same time –",
+    "subhead": "How does that work?",
+    "body": "I can understand why this question arises when people come across my profile. For me, however, the answer is very clear. It's not a question of either/or, but rather that both are integral parts of my life. If I were to question this decision, I would have to ask myself the fundamental question: “How does life work?” – and that is precisely what I answered for myself when I took the step into self-employment."
+  },
+
+  "Projects": {
+    "head": "Learn more about my ongoing and past projects"
   },
 
   "Travels": [

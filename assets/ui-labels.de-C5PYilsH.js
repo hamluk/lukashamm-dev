@@ -1,0 +1,1 @@
+const e={contact:"Gemeinsam starten",projects_link:"Meine Geschichte",change_language:"EN",discover:"Mehr erfahren"},t={projects:"Arbeit 👨‍💻",travels:"Reisen 🗺️"},n={buttons:e,segmented_control:t};export{e as buttons,n as default,t as segmented_control};

@@ -1,7 +1,7 @@
 import { useLanguage } from "../../context/LanguageContext";
 import PrimaryButton from "../form/PrimaryButton";
 import SecondaryButton from "../form/SecondaryButton";
-import ProfilImage from "../../assets/LukasHammProfil.jpeg";
+import ProfilImage from "/assets/LukasHammProfil.jpeg";
 import { motion } from "framer-motion";
 
 function Hero({}: {}) {

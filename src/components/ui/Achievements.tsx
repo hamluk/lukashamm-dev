@@ -8,6 +8,7 @@ import ProgrammingSVG from "/assets/programming_illustration.svg";
 import AdventureSVG from "/assets/adventure_illustration.svg";
 import BeachSVG from "/assets/beach_illustration.svg";
 import RemoteSVG from "/assets/remote_illustration.svg";
+import TestImg from "/assets/ai_assistent.png";
 
 type Props = {};
 
@@ -40,6 +41,10 @@ function Achievements({}: Props) {
           ></img>
           <img
             src={AdventureSVG}
+            className="object-contain aspect-1/1 w-20 sm:w-25 lg:w-30 xl:w-40"
+          ></img>
+          <img
+            src={TestImg}
             className="object-contain aspect-1/1 w-20 sm:w-25 lg:w-30 xl:w-40"
           ></img>
         </div>

@@ -29,7 +29,7 @@
       "dates": "since late February 2025",
       "body": "Right now, my travels are taking me across Southeast Asia – from bustling street food markets in Bangkok to stunning dive spots in Malaysia and the tropical islands of Indonesia. Every place surprises me with new impressions, warm encounters, and an incredible diversity of food, cultures, and lifestyles.",
       "subbody": "What this journey has shown me? How much you can learn when you’re open to new perspectives, unfamiliar habits, and spontaneous adventures.",
-      "img": "/lukashamm-dev/assets/SEA.jpeg",
+      "img": "/assets/SEA.jpeg",
       "link": ""
     },
     {
@@ -38,7 +38,7 @@
       "dates": "2 weeks in September 2024",
       "body": "After I had decided to work as a digital nomad and travel the world, I made all the necessary preparations at home to embark on this journey. But before the time was to come, I wanted to travel once more without any professional obligations. I chose to spend 14 days traveling through Portugal. Just me, my small backpack, and the breathtaking Portuguese coastline.",
       "subbody": "At the end of this journey, I was only more certain of my plans.",
-      "img": "/lukashamm-dev/assets/Portugal.jpeg",
+      "img": "/assets/Portugal.jpeg",
       "link": ""
     },
     {
@@ -47,7 +47,7 @@
       "dates": "30 days in February 2024",
       "body": "My first long-distance journey took me to Vietnam. Within a month, I traveled the country from south to north, gaining insight into a breathtaking culture surrounded by friendly people and picturesque landscapes. My journey through Vietnam ultimately led me to work as a digital nomad and travel the world.",
       "subbody": "It is safe to say that without this trip, I would not be where I am today.",
-      "img": "/lukashamm-dev/assets/Vietnam.jpeg",
+      "img": "/assets/Vietnam.jpeg",
       "link": ""
     }
   ],
@@ -59,7 +59,7 @@
       "dates": "since February 2025",
       "body": "For Acinon.ai, I develop AI-powered applications that optimize business processes and deliver user-friendly, scalable solutions across both frontend and backend.",
       "subbody": "",
-      "img": "/lukashamm-dev/assets/acinon_ai.png",
+      "img": "/assets/acinon_ai.png",
       "link": "https://acinon.ai/"
     },
     {
@@ -68,7 +68,7 @@
       "dates": "ongoing",
       "body": "On my GitHub page, I continuously explore innovative projects and ideas in the field of artificial intelligence, share approaches with the developer community, and offer both inspiration and insights into my work.",
       "subbody": "",
-      "img": "/lukashamm-dev/assets/ai_assistent.png",
+      "img": "/assets/ai_assistent.png",
       "link": "https://github.com/hamluk"
     }
   ]

@@ -29,7 +29,7 @@
       "dates": "seit Ende Februar 2025",
       "body": "Aktuell führt mich meine Reise quer durch Südostasien – von geschäftigen Streetfood-Märkten in Bangkok über traumhafte Tauchspots in Malaysia bis hin zu den tropischen Inseln Indonesiens. Jeder Ort überrascht mit neuen Eindrücken, herzlichen Begegnungen und einer unglaublichen Vielfalt an Essen, Kulturen und Lebensstilen.",
       "subbody": "Was mir diese Reise zeigt? Wie viel man lernen kann, wenn man offen für neue Perspektiven, fremde Gewohnheiten und spontane Abenteuer ist. ",
-      "img": "/assets/SEA.jpeg",
+      "img": "../../assets/SEA.jpeg",
       "link": ""
     },
     {
@@ -38,7 +38,7 @@
       "dates": "2 Wochen im September 2024",
       "body": "Nachdem ich mich entschlossen hatte, als digitaler Nomade zu arbeiten und die Welt zu bereisen, traf ich zu Hause alle notwendigen Vorbereitungen, um diese Reise anzutreten. Aber bevor es soweit sein sollte, wollte ich noch einmal ohne jegliche berufliche Verpflichtungen reisen. Ich entschied mich dafür Portugal 14 Tage lang zu bereisen. Nur ich, mein kleiner Rucksack und die atemberaubende Küste Portugals.",
       "subbody": "Am Ende dieser Reise war ich mir meiner Pläne nur noch sicherer.",
-      "img": "/assets/Portugal.jpeg",
+      "img": "../../assets/Portugal.jpeg",
       "link": ""
     },
     {
@@ -47,7 +47,7 @@
       "dates": "30 Tage lang im Februar 2024",
       "body": "Meine erste Fernreise ging nach Vietnam. Innerhalb eines Monats habe ich das Land von Süd nach Nord bereist und dabei Einblick in eine atemberaubende Kultur umgeben von freundlichen Menschen und bilderischen Landschaften erhalten. Meine Reise durch Vietnam hat dazu geführt, dass ich heute als digitaler Nomade arbeite und die Welt bereise.",
       "subbody": "Es lässt sich mit Sicherheit sagen, dass ich ohne die Reise nicht dort wäre, wo ich heute bin.",
-      "img": "/assets/Vietnam.jpeg",
+      "img": "../../assets/Vietnam.jpeg",
       "link": ""
     }
   ],
@@ -58,7 +58,7 @@
       "head": "Acinon.ai",
       "dates": "seit Februar 2025",
       "body": "Für Acinon.ai entwickle ich als Full Stack Entwickler KI-gestützte Anwendungen, die Geschäftsprozesse optimieren und sowohl im Frontend als auch im Backend benutzerfreundliche und skalierbare Lösungen bieten.",
-      "img": "/assets/acinon_ai.png",
+      "img": "../../assets/acinon_ai.png",
       "link": "https://acinon.ai/"
     },
     {
@@ -66,7 +66,7 @@
       "head": "GitHub",
       "dates": "laufend",
       "body": "Auf meiner GitHub-Seite befasse ich mich laufend mit inovativen Projekte und Ideen im Bereich Künstliche Intelligenz, teile Ansätze mit der Entwickler-Community und biete so Inspiration sowie Einblicke in meine Arbeit.",
-      "img": "/assets/ai_assistent.png",
+      "img": "../../assets/ai_assistent.png",
       "link": "https://github.com/hamluk"
     }
   ]

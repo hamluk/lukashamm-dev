@@ -41,7 +41,7 @@ function Hero({}: {}) {
         animate: { opacity: 1 },
         transition: { duration: 0.8, ease: "easeInOut" },
       }}
-      className="flex flex-col lg:flex-row items-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
+      className="flex flex-col lg:flex-row items-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
     >
       <div className="flex flex-col gap-6 lg:gap-8 items-center">
         <div className="flex flex-col items-baseline gap-3 max-w-2xl">

@@ -64,6 +64,14 @@
     },
     {
       "id": 2,
+      "head": "Tutorials",
+      "dates": "ongoing",
+      "body": "In my tutorials, I share guides and insights on various topics related to artificial intelligence, software development, and related technologies. New tutorials are published regularly and showcase practical, hands-on approaches.",
+      "img": "/assets/pydanticai_tutorial.png",
+      "link": "https://dev.to/hamluk"
+    },
+    {
+      "id": 3,
       "head": "GitHub",
       "dates": "ongoing",
       "body": "On my GitHub page, I continuously explore innovative projects and ideas in the field of artificial intelligence, share approaches with the developer community, and offer both inspiration and insights into my work.",

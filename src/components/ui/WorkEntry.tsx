@@ -22,7 +22,7 @@ export default function WorkEntry({
   return (
     <section className="flex flex-col gap-4">
       <a href={link}>
-        <div className="flex items-center overflow-hidden rounded-xl h-80 sm:h-60 lg:h-70">
+        <div className="flex items-center overflow-hidden rounded-xl h-70 sm:h-55">
           <img
             src={image}
             alt="Travel Image Vietnam"

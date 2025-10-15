@@ -63,6 +63,14 @@
     },
     {
       "id": 2,
+      "head": "Tutorials",
+      "dates": "laufend",
+      "body": "In meinen Tutorials teile ich Anleitungen und Insights zu verschiedenen Themen rund um Künstliche Intelligenz, Softwareentwicklung und verwandte Technologien. Neue Tutorials erscheinen regelmäßig und zeigen praxisnahe Ansätze.",
+      "img": "/assets/pydanticai_tutorial.png",
+      "link": "https://dev.to/hamluk"
+    },
+    {
+      "id": 3,
       "head": "GitHub",
       "dates": "laufend",
       "body": "Auf meiner GitHub-Seite befasse ich mich laufend mit inovativen Projekte und Ideen im Bereich Künstliche Intelligenz, teile Ansätze mit der Entwickler-Community und biete so Inspiration sowie Einblicke in meine Arbeit.",

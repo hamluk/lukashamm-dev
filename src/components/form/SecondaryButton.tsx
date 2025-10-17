@@ -1,14 +1,20 @@
 type Props = {
   title: string;
   route?: string;
-  handleClick?: () => void;
+  handleClick?: (project_id: string) => void;
+  section_id?: string;
   addClassName?: string;
 };
 
-function SecondaryButton({ title, handleClick, addClassName }: Props) {
+function SecondaryButton({
+  title,
+  handleClick,
+  section_id,
+  addClassName,
+}: Props) {
   return (
     <button
-      onClick={handleClick}
+      onClick={() => handleClick?.(section_id ?? "")}
       className=" font-semibold hover:cursor-pointer text-sm sm:text-base px-3 py-1 rounded-lg hover:"
     >
       <p

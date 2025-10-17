@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 function Hero({}: {}) {
   const { texts } = useLanguage();
 
-  const scrollToProjects = () => {
-    const section = document.getElementById("achievements");
+  const scrollToProjects = (section_id: string) => {
+    const section = document.getElementById(section_id);
     const header = document.getElementById("header");
 
     if (!section || !header) return;
@@ -65,15 +65,16 @@ function Hero({}: {}) {
         </div>
 
         <div className="flex gap-6">
-          <a href="mailto:lukas@lukashamm.dev">
-            <PrimaryButton
-              title={texts.uiLabelsTexts.buttons.contact}
-              addClassName="min-w-38"
-            ></PrimaryButton>
-          </a>
+          <PrimaryButton
+            title={texts.uiLabelsTexts.buttons.contact}
+            handleClick={scrollToProjects}
+            section_id="packages"
+            addClassName="min-w-38"
+          ></PrimaryButton>
           <SecondaryButton
             title={texts.uiLabelsTexts.buttons.projects_link}
             handleClick={scrollToProjects}
+            section_id="about"
             addClassName="min-w-30"
           ></SecondaryButton>
         </div>

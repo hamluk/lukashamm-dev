@@ -14,7 +14,7 @@ function Packages({}: Props) {
       id="packages"
       className="flex flex-col md:flex-row w-full items-center justify-center bg-highlight-section text-dark-text gap-3 lg:gap-5 py-10 px-5 sm:px-7 lg:px-10 2xl:px-25"
     >
-      <div className="text-center md:text-left w-100 sm:w-130 md:w-100 lg:w-130">
+      <div className="text-center md:text-left w-90 sm:w-130 md:w-100 lg:w-130">
         <div className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-serif font-semibold">
           {texts.homepageTexts.Packages.head}
         </div>

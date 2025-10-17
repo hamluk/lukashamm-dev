@@ -1,7 +1,7 @@
 {
   "Header": {
     "head": "Lukas Hamm",
-    "description": "Full-Stack Software Developer | Freelancer | AI-Enthusiast"
+    "description": "AI Automation Engineer | Freelancer | Traveler"
   },
 
   "Hero": {
@@ -12,10 +12,33 @@
     "footer": "~ stay adventurous!"
   },
 
-  "WorkAndTravel": {
+  "About": {
     "head": "Working and traveling at the same time –",
     "subhead": "How does that work?",
     "body": "I can understand why this question arises when people come across my profile. For me, however, the answer is very clear. It's not a question of either/or, but rather that both are integral parts of my life. If I were to question this decision, I would have to ask myself the fundamental question: “How does life work?” – and that is precisely what I answered for myself when I took the step into self-employment."
+  },
+
+  "Packages": {
+    "head": "My Workshops & AI Packages",
+    "text": "I offer hands-on workshops and tailored AI solutions for freelancers and small businesses. Explore how artificial intelligence can enhance your processes and bring your ideas to life.",
+    "offers": [
+      {
+        "id": 1,
+        "title": "AI Workshops",
+        "body": "Take your first steps with AI and discover how it can create real value for your daily workday in interactive workshops.",
+        "img": "/assets/ai_workshop.png",
+        "link_text": "Start your AI Journey",
+        "link": "mailto:lukas@lukashamm.dev"
+      },
+      {
+        "id": 2,
+        "title": "AI Agent Package",
+        "body": "Take your business to the next level with a tailored AI Agent designed to automate tasks, optimzie your workflows, and turn intelligent ideas into real solutions.",
+        "img": "/assets/ai_agent_package.png",
+        "link_text": "Bring AI Into Your Business",
+        "link": "mailto:lukas@lukashamm.dev"
+      }
+    ]
   },
 
   "Projects": {

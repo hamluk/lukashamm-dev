@@ -1,7 +1,7 @@
 {
   "Header": {
     "head": "Lukas Hamm",
-    "description": "AI & Full-Stack Softwareentwickler | Freelancer | AI-Enthusiast"
+    "description": "AI Automation Engineer | Freelancer | Traveler"
   },
 
   "Hero": {
@@ -12,10 +12,33 @@
     "footer": "~ stay adventurous!"
   },
 
-  "WorkAndTravel": {
+  "About": {
     "head": "Arbeiten und gleichzeitig reisen - ",
     "subhead": "Wie soll das funktionieren?",
     "body": "Ich kann verstehen, dass diese Frage aufkommt wenn man auf mein Profil stößt. Für mich ist die Antwort darauf allerdings sehr klar. Es geht nicht um ein Entweder-oder, sondern darum, dass beides feste Bestandteile meines Lebens sind. Würde ich diese Entscheidung in Frage stellen, müsste ich mir vielmehr die grundlegende Frage stellen: „Wie funktioniert überhaupt das Leben?“ – und genau diese habe ich mir mit meinem Schritt in die Selbstständigkeit selbst beantwortet."
+  },
+
+  "Packages": {
+    "head": "My Workshops & AI Packages",
+    "text": "I offer hands-on workshops and tailored AI solutions for freelancers and small businesses. Explore how artificial intelligence can enhance your processes and bring your ideas to life.",
+    "offers": [
+      {
+        "id": 1,
+        "title": "AI Workshops",
+        "body": "Machen Sie Ihre ersten Schritte mit KI und entdecken Sie in interaktiven Workshops, wie sie echten Mehrwert für Ihren Arbeitsalltag schaffen kann.",
+        "img": "/assets/ai_workshop.png",
+        "link_text": "Starten Sie Ihre KI-Reise",
+        "link": "mailto:lukas@lukashamm.dev"
+      },
+      {
+        "id": 2,
+        "title": "AI Agent Paket",
+        "body": "Bringen Sie Ihr Unternehmen auf das nächste Level mit einem individuell zugeschnittenen KI-Agenten, der Aufgaben automatisiert, Ihre Arbeitsabläufe optimiert und intelligente Ideen in echte Lösungen umsetzt.",
+        "img": "/assets/ai_agent_package.png",
+        "link_text": "Nutzen Sie KI für Ihr Business",
+        "link": "mailto:lukas@lukashamm.dev"
+      }
+    ]
   },
 
   "Projects": {

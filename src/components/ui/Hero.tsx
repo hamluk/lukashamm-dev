@@ -1,7 +1,7 @@
 import { useLanguage } from "../../context/LanguageContext";
 import PrimaryButton from "../form/PrimaryButton";
 import SecondaryButton from "../form/SecondaryButton";
-import ProfilImage from "/assets/LukasHammProfil.jpeg";
+import ProfilImage from "/assets/LukasHamm.jpg";
 import { motion } from "framer-motion";
 
 function Hero({}: {}) {
@@ -41,7 +41,7 @@ function Hero({}: {}) {
         animate: { opacity: 1 },
         transition: { duration: 0.8, ease: "easeInOut" },
       }}
-      className="flex flex-col lg:flex-row items-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
+      className="flex flex-col lg:flex-row items-center justify-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
     >
       <div className="flex flex-col gap-6 lg:gap-8 items-center">
         <div className="flex flex-col items-baseline gap-3 max-w-2xl">
@@ -88,7 +88,7 @@ function Hero({}: {}) {
         }}
         src={ProfilImage}
         alt="Image"
-        className="object-cover shadow-md w-110 sm:w-110 lg:w-120 xl:w-130 2xl:w-140 rounded-md"
+        className="object-contain shadow-md w-65 sm:w-70 lg:w-90 xl:w-90 rounded-md"
       ></motion.img>
     </motion.section>
   );

@@ -41,10 +41,18 @@ function Hero({}: {}) {
         animate: { opacity: 1 },
         transition: { duration: 0.8, ease: "easeInOut" },
       }}
-      className="flex flex-col lg:flex-row items-center justify-center bg-highlight-section inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh-100px)] lg:h-[calc(100vh-180px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
+      className="relative bg-cover bg-center bg-no-repeat flex flex-col lg:flex-row items-center justify-center inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh-100px)] lg:h-[calc(100vh-130px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
+      style={{ backgroundImage: "url('/assets/hero_cover.jpeg')" }}
     >
-      <div className="flex flex-col gap-6 lg:gap-8 items-center">
-        <div className="flex flex-col items-baseline gap-3 max-w-2xl">
+      <motion.div
+        {...{
+          initial: { opacity: 0 },
+          animate: { opacity: 1 },
+          transition: { duration: 1.5, ease: "easeInOut" },
+        }}
+        className="flex flex-col bg-highlight-section p-2.5 opacity-96 shadow-md rounded-lg gap-6 lg:gap-8 items-center"
+      >
+        <div className="flex flex-col items-baseline gap-2 max-w-2xl px-2">
           <div className="max-w-md sm:min-w-sm sm:max-w-lg">
             <h2 className="text-l sm:text-2xl font-semibold font-serif">
               {texts.homepageTexts.Hero.greeting_head}
@@ -57,7 +65,7 @@ function Hero({}: {}) {
             </h2>
           </div>
           <div>
-            <h4 className="sm:max-w-2xl text-base sm:text-xl h-55 sm:h-45 lg:h-65">
+            <h4 className="md:pt-3 lg:pt-5 sm:max-w-2xl text-base sm:text-xl h-55 sm:h-45 lg:h-65">
               {texts.homepageTexts.Hero.body}
             </h4>
             <h3 className="text-l italic">{texts.homepageTexts.Hero.footer}</h3>
@@ -78,17 +86,17 @@ function Hero({}: {}) {
             addClassName="min-w-30"
           ></SecondaryButton>
         </div>
-      </div>
+      </motion.div>
 
       <motion.img
         {...{
           initial: { opacity: 0 },
           animate: { opacity: 1 },
-          transition: { duration: 1.2, ease: "easeInOut" },
+          transition: { duration: 1.5, ease: "easeInOut" },
         }}
         src={ProfilImage}
         alt="Image"
-        className="object-contain shadow-md w-65 sm:w-70 lg:w-90 xl:w-90 rounded-md"
+        className="object-contain shadow-md w-65 sm:w-70 lg:w-90 xl:w-90 rounded-lg"
       ></motion.img>
     </motion.section>
   );

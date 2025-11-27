@@ -12,9 +12,10 @@ function Packages({}: Props) {
   return (
     <section
       id="packages"
-      className="flex flex-col md:flex-row w-full items-center justify-center bg-highlight-section text-dark-text gap-3 lg:gap-5 py-10 px-5 sm:px-7 lg:px-10 2xl:px-25"
+      className="relative bg-cover bg-center flex flex-col md:flex-row w-full items-center justify-center text-dark-text gap-3 lg:gap-5 py-10 px-5 sm:px-7 lg:px-10 2xl:px-25"
+      style={{ backgroundImage: "url('/assets/package_cover.jpeg')" }}
     >
-      <div className="text-center md:text-left w-90 sm:w-130 md:w-100 lg:w-130">
+      <div className="bg-highlight-section p-3 rounded-lg opacity-96 shadow-lg text-center md:text-left w-90 sm:w-130 md:w-100 lg:w-130">
         <div className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-serif font-semibold">
           {texts.homepageTexts.Packages.head}
         </div>

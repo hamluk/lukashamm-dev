@@ -37,7 +37,7 @@ export default function Header({}: {}) {
   const dynamicHeaderHeight = isLargeScreen
     ? isScrolled
       ? "6.25rem"
-      : "11.25rem"
+      : "8.25rem"
     : isScrolled
     ? "6.25rem"
     : "6.25rem";

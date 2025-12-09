@@ -34,7 +34,7 @@ function Hero({}: {}) {
 
   const handleSendEmail = () => {
     const mailtoLink = texts.uiLabelsTexts.buttons.discovery_link;
-    window.open(mailtoLink);
+    window.location.href = mailtoLink;
   };
 
   if (!texts) return <p>Loading Hero....</p>;

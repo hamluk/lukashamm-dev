@@ -10,6 +10,14 @@ function Footer({}: Props) {
         <p>Lukas Hamm</p>
         <p>Tel: +43 699 19212901</p>
         <p>E-Mail: lukas@lukashamm.dev</p>
+        <a
+          href="/CV_LukasHamm.pdf"
+          download="Lukas_CV.pdf"
+          className="underline"
+          rel="noopener noreferrer"
+        >
+          Download CV
+        </a>
       </div>
       <div className="flex flex-col items-baseline">
         <a

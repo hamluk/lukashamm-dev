@@ -73,9 +73,11 @@ function Hero({}: {}) {
             <h4 className="sm:max-w-2xl text-s sm:text-base md:text-lg sm:h-45 md:h-45 lg:h-65">
               {texts.homepageTexts.Hero.body}
             </h4>
-            <h3 className="text-l italic pt-2">
-              {texts.homepageTexts.Hero.footer}
-            </h3>
+            <div className="flex items-baseline justify-between">
+              <h3 className="text-l italic pt-2">
+                {texts.homepageTexts.Hero.footer}
+              </h3>
+            </div>
           </div>
         </div>
 

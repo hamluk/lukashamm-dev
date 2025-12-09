@@ -1,5 +1,7 @@
 {
   "buttons": {
+    "discovery": "Unverbindliches Erstgespräch",
+    "discovery_link": "mailto:lukas@lukashamm.dev?subject=Anfrage%20f%C3%BCr%20ein%20unverbindliches%20Erstgespr%C3%A4ch&body=Hallo%20Lukas%2C%0Aich%20w%C3%BCrde%20gerne%20ein%20unverbindliches%2C%2015-min%C3%BCtiges%20Erstgespr%C3%A4ch%20mit%20dir%20als%20AI%20%26%20Software%20Automation%20Engineer%20vereinbaren.%0ABitte%20lass%20mich%20wissen%2C%20welche%20Termine%20f%C3%BCr%20dich%20passen.%0A%0AVielen%20Dank%20und%20liebe%20Gr%C3%BC%C3%9Fe",
     "contact": "Workshops & AI Pakete",
     "projects_link": "Meine Geschichte",
     "change_language": "EN",

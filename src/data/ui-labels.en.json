@@ -1,5 +1,7 @@
 {
   "buttons": {
+    "discovery": "Book a Discovery Call",
+    "discovery_link": "mailto:lukash@lukashamm.com?subject=Request%20for%20a%20Discovery%20Call&body=Hello%20Lukas%2C%0AI%20would%20like%20to%20schedule%20a%20non-binding%2C%2015-minute%20discovery%20call%20with%20you%20as%20an%20AI%20%26%20Software%20Automation%20Engineer.%0APlease%20let%20me%20know%20which%20times%20work%20best%20for%20you.%0A%0AThank%20you%20and%20best%20regards",
     "contact": "Workshops & AI Packages",
     "projects_link": "My story",
     "change_language": "DE",

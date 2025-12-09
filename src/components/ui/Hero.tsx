@@ -32,6 +32,11 @@ function Hero({}: {}) {
     }, 40);
   };
 
+  const handleSendEmail = () => {
+    const mailtoLink = texts.uiLabelsTexts.buttons.discovery_link;
+    window.open(mailtoLink);
+  };
+
   if (!texts) return <p>Loading Hero....</p>;
 
   return (
@@ -65,14 +70,22 @@ function Hero({}: {}) {
             </h2>
           </div>
           <div>
-            <h4 className="md:pt-3 lg:pt-5 sm:max-w-2xl text-base sm:text-xl h-55 sm:h-45 lg:h-65">
+            <h4 className="sm:max-w-2xl text-s sm:text-base md:text-lg sm:h-45 md:h-45 lg:h-65">
               {texts.homepageTexts.Hero.body}
             </h4>
-            <h3 className="text-l italic">{texts.homepageTexts.Hero.footer}</h3>
+            <h3 className="text-l italic pt-2">
+              {texts.homepageTexts.Hero.footer}
+            </h3>
           </div>
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex gap-6 flex-wrap items-center justify-center">
+          <PrimaryButton
+            title={texts.uiLabelsTexts.buttons.discovery}
+            handleClick={handleSendEmail}
+            section_id="packages"
+            addClassName="min-w-38"
+          ></PrimaryButton>
           <PrimaryButton
             title={texts.uiLabelsTexts.buttons.contact}
             handleClick={scrollToProjects}

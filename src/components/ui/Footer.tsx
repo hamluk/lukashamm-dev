@@ -32,6 +32,12 @@ function Footer({}: Props) {
         >
           Datenschutz
         </a>
+        <a
+          href="/data-privacy-request"
+          className="font-semibold pb-2 hover:opacity-75 hover:cursor-pointer hover:underline"
+        >
+          Datenschutzanfragen
+        </a>
         <p>&copy; 2025 Lukas Hamm. All rights reserved.</p>
       </div>
       <div className="flex flex-col items-baseline">

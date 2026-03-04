@@ -1,35 +1,42 @@
+import scrollToSection from "../../hooks/scrollToSection";
+import PrimaryButton from "../form/PrimaryButton";
+
 type Props = {
+  id: number;
   title: string;
   body: string;
+  sub_body: string;
   img?: string;
-  link_text: string;
-  link: string;
+  button_text: string;
 };
 
-function PackageEntry({ title, body, img, link_text, link }: Props) {
+function PackageEntry({ id, title, body, sub_body, img, button_text }: Props) {
   return (
-    <a href={link}>
-      <div className="flex flex-col rounded-2xl overflow-hidden bg-olive-green text-white shadow-lg w-85 md:w-67 lg:w-80 xl:w-90 h-85 md:h-100 hover:cursor-pointer group">
-        <div className="h-1/2 w-full">
-          <img
-            src={img}
-            alt={title}
-            loading="lazy"
-            className="object-cover w-full h-full"
-          />
+    <div className="bg-highlight-section flex flex-col md:flex-row gap-4 justify-between px-8 py-3 rounded-lg shadow-lg md:text-left md:h-90 md:w-full">
+      <div className="flex flex-col justify-between w-auto md:w-100 xl:w-150">
+        <div className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-serif font-semibold">
+          {title}
         </div>
-
-        <div className="flex flex-col justify-around h-1/2 px-3 pb-3">
-          <h3 className="text-base md:text-lg font-semibold">{title}</h3>
-          <p className="text-sm md:text-sm xl:text-base text-gray-300">
-            {body}
-          </p>
-          <button className="mx-auto px-3 py-0.5 bg-light-green text-olive-green rounded-full transition-transform duration-300 ease-in-out hover:cursor-pointer group-hover:scale-110">
-            {link_text}
-          </button>
-        </div>
+        <p className="lg:text-lg pt-4 max-w-200 lg:max-w-250">{body}</p>
+        <p className="lg:text-lg pt-4 max-w-200 lg:max-w-250">{sub_body}</p>
+        <PrimaryButton
+          title={button_text}
+          handleClick={scrollToSection}
+          section_id="contact"
+          addClassName="max-w-40 text-center"
+        ></PrimaryButton>
       </div>
-    </a>
+      <div
+        className={`object-contain flex-1 -order-1 ${id == 2 ? "" : "md:order-1"}`}
+      >
+        <img
+          src={img}
+          alt={title}
+          loading="lazy"
+          className="w-full h-80 md:h-full"
+        />
+      </div>
+    </div>
   );
 }
 

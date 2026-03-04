@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Links from "./Links";
 import LanguageDropdown from "./LanguageDropdown";
+import PrimaryButton from "../form/PrimaryButton";
+import scrollToSection from "../../hooks/scrollToSection";
 
 export default function Header({}: {}) {
   const { texts } = useLanguage();
@@ -11,7 +13,7 @@ export default function Header({}: {}) {
   const [isLargeScreen, setIsLargeScreen] = useState(() =>
     typeof window !== "undefined"
       ? window.matchMedia("(min-width: 1024px)").matches
-      : false
+      : false,
   );
 
   useEffect(() => {
@@ -39,8 +41,8 @@ export default function Header({}: {}) {
       ? "6.25rem"
       : "8.25rem"
     : isScrolled
-    ? "6.25rem"
-    : "6.25rem";
+      ? "6.25rem"
+      : "6.25rem";
 
   const dynamicPadding = isLargeScreen ? "4.5rem" : "1.75rem";
 
@@ -49,10 +51,14 @@ export default function Header({}: {}) {
       ? "4.5rem"
       : "6.5rem"
     : isScrolled
-    ? "3.25rem"
-    : "4.5rem";
+      ? "3.25rem"
+      : "4.5rem";
 
   if (!texts) return <p>Loading Header....</p>;
+
+  function handleSendEmail(section_id: string): void {
+    throw new Error("Function not implemented.");
+  }
 
   return (
     <motion.header
@@ -90,7 +96,7 @@ export default function Header({}: {}) {
           </a>
           <a
             href="/"
-            className="text-2xl lg:text-4xl font-serif font-semibold text-dark-text hover:cursor-pointer"
+            className="text-2xl lg:text-4xl font-serif font-semibold text-olive-green hover:cursor-pointer"
           >
             {texts.homepageTexts.Header.head}
           </a>
@@ -105,7 +111,7 @@ export default function Header({}: {}) {
               },
               transition: { duration: 0.3, ease: "easeInOut" },
             }}
-            className="text-sm md:text-lg text-wrap text-dark-text"
+            className="hidden lg:flex text-sm md:text-lg text-wrap text-olive-green"
           >
             {texts.homepageTexts.Header.description}
           </motion.h2>
@@ -128,9 +134,14 @@ export default function Header({}: {}) {
             animate: { opacity: 1 },
             transition: { duration: 0.8, ease: "easeInOut" },
           }}
-          className="flex flex-col items-center sm:flex-row gap-1 sm:gap-3"
+          className="flex flex-row items-center sm:flex-row gap-1 sm:gap-3"
         >
-          <Links />
+          <PrimaryButton
+            title={texts.uiLabelsTexts.buttons.discovery}
+            handleClick={scrollToSection}
+            section_id="contact"
+            addClassName="min-w-38 "
+          ></PrimaryButton>
           <LanguageDropdown />
         </motion.div>
       </div>

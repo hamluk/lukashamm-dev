@@ -1,44 +1,86 @@
 {
   "Header": {
     "head": "Lukas Hamm",
-    "description": "AI & Software Automation Engineer | Freelancer | Traveler"
+    "description": "Transforming manual workflows into scalable automation systems"
   },
 
   "Hero": {
-    "greeting_head": "Hi, I'm Lukas! 👋🏻",
-    "greeting_body": "Full-time Software Developer 👨‍💻",
-    "greeting_footer": "Part-time World Traveler 🗺️",
-    "body": "I develop and deploy AI-powered software solutions as a full-stack software developer – working remotely from anywhere in the world. Just like in real life, this website combines my passion for building new technologies with my love for discovering the world. Join me on my journey, whether by working together or by taking a glimpse into my life on the road.",
-    "footer": "~ stay adventurous!"
-  },
-
-  "About": {
-    "head": "Working and traveling at the same time –",
-    "subhead": "How does that work?",
-    "body": "I can understand why this question arises when people come across my profile. For me, however, the answer is very clear. It's not a question of either/or, but rather that both are integral parts of my life. If I were to question this decision, I would have to ask myself the fundamental question: “How does life work?” – and that is precisely what I answered for myself when I took the step into self-employment."
+    "greeting_head": "Hi, I'm Lukas!",
+    "body": "I develop customised automation and AI solutions that intelligently automate manual, error-prone and repetitive business processes. These systems take on tasks such as data processing, internal processes, email management and the structured creation and processing of documents. This saves my clients several hours each week, increases their operational efficiency and allows them to use their resources in a more targeted manner.",
+    "list_1": "Prozesse automatisieren",
+    "list_2": "KI vernünftig und nachhaltig einsetzen",
+    "list_3": "Hebel dort setzen wo wirklich Mehrwert entsteht",
+    "list_4": "Durchschnittlich 10 Stunden Zeitgewinn pro Woche",
+    "img": "/assets/undraw_setup_fzje.svg"
   },
 
   "Packages": {
-    "head": "Workshops & AI Packages",
-    "text": "Turn AI into your competitive advantage. Discover how AI can streamline your workflows or get a custom AI solution to make your business smarter and more efficient. Get in touch today and bring AI into your business.",
+    "head": "Mit Innovation in die Zukunft",
+    "text": "Nutzen Sie Automatisierungen und Künstliche Intelligenz zu Ihrem Wettbewerbsvorteil! ",
     "offers": [
       {
         "id": 1,
-        "title": "AI Workshops",
-        "body": "Take your first steps with AI and discover how it can create real value for your daily workday in interactive workshops.",
-        "img": "/assets/ai_workshop.png",
-        "link_text": "Start your AI Journey",
-        "link": "mailto:lukas@lukashamm.dev?subject=Inquiry%20about%20a%20AI%20Workshop&body=Hello%20Lukas%2C%0D%0A%0D%0AI%E2%80%99m%20interested%20in%20booking%20a%20personal%20AI%20Workshop%20to%20explore%20more%20about%20AI.%0D%0ACould%20you%20please%20send%20me%20the%20details%20on%20your%20workshops%20and%20the%20next%20available%20dates%3F%0D%0A%0D%0ABest%20regards%2C%0D%0A%5BYour%20Name%5D"
+        "title": "Daten Intelligent Verarbeitung",
+        "body": "Viele Unternehmen sitzen auf wertvollen Daten, nutzen sie jedoch nicht effizient. KI-gestützte Automatisierungen erfassen, strukturieren und analysieren Informationen automatisch.",
+        "sub_body": "Das Ergebnis: schnellere Entscheidungen, weniger manueller Aufwand und messbare Zeitersparnis Woche für Woche.",
+        "img": "/assets/undraw_file-search_cbur.svg",
+        "button_text": "Discover more"
       },
       {
         "id": 2,
-        "title": "AI Integration Package",
-        "body": "Take your business to the next level with a tailored AI integration designed to optimzie your workflows, automate tasks, and create real value.",
-        "img": "/assets/ai_agent_package.png",
-        "link_text": "Bring AI Into Your Business",
-        "link": "mailto:lukas@lukashamm.dev?subject=Inquiry%20about%20AI%20integration%20Packages&body=Hello%20Lukas%2C%0D%0A%0D%0AI%E2%80%99m%20interested%20in%20learning%20more%20about%20your%20AI%20Integration%20Packages%20and%20how%20they%20could%20be%20applied%20to%20my%20business.%0D%0ACould%20you%20please%20share%20more%20details%20about%20the%20available%20options%20and%20the%20process%20to%20get%20started%3F%0D%0A%0D%0ABest%20regards%2C%0D%0A%5BYour%20Name%5D"
+        "title": "Interne Prozesse Neu Denken",
+        "body": "Klare Prozesse sind die Basis für effizientes Arbeiten und nachhaltiges Wachstum. Automatisierte Workflows sorgen dafür, dass Abläufe zuverlässig eingehalten werden und Informationen zur richtigen Zeit am richtigen Ort ankommen.",
+        "sub_body": " So vermeiden Sie Fehler, reduzieren Abstimmungsaufwand und steigern die Effizienz im gesamten Unternehmen.",
+        "img": "/assets/undraw_process_0wew.svg",
+        "button_text": "Discover more"
+      },
+      {
+        "id": 3,
+        "title": "Dokumente Automatisch Erstellen",
+        "body": "Angebote, Reports oder interne Dokumente manuell zu erstellen ist zeitintensiv und fehleranfällig. KI kann diese Inhalte datenbasiert generieren und das präzise und in Sekunden.",
+        "sub_body": "Sie sparen Stunden pro Woche, erhöhen die Qualität und beschleunigen Ihre Abläufe nachhaltig.",
+        "img": "/assets/undraw_data-processing_ohfw.svg",
+        "button_text": "Discover more"
       }
     ]
+  },
+
+  "FAQ": {
+    "intro_head": "FAQ",
+    "intro_text": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Für welche Unternehmen lohnen sich Automatisierungen und KI?",
+        "answer": "Automatisierungen und KI lohnen sich besonders für Unternehmen mit wiederkehrenden Prozessen, hohem administrativem Aufwand oder wachsendem Datenvolumen. Bereits ab wenigen Stunden manueller Arbeit pro Woche kann sich eine maßgeschneiderte Lösung wirtschaftlich rechnen."
+      },
+      {
+        "id": 2,
+        "question": "Wie lange dauert die Umsetzung einer individuellen Lösung?",
+        "answer": "Das hängt vom Umfang und der Komplexität ab. Kleinere Automatisierungen können innerhalb weniger Wochen umgesetzt werden, umfangreichere KI-Systeme benötigen entsprechend mehr Zeit. In einem Erstgespräch klären wir realistische Zeitrahmen."
+      },
+      {
+        "id": 3,
+        "question": "Ersetzt KI meine Mitarbeitenden?",
+        "answer": "Nein. Ziel ist es nicht, Menschen zu ersetzen, sondern sie zu entlasten. KI übernimmt repetitive und zeitintensive Aufgaben, sodass sich Teams stärker auf strategische, kreative und wertschöpfende Tätigkeiten konzentrieren können."
+      }
+    ]
+  },
+
+  "About": {
+    "intro_head": "Über mich",
+    "intro_text": "Wer steckt dahinter?",
+    "head": "Working and traveling at the same time –",
+    "body": "Ich entwickle maßgeschneiderte Automatisierungs- und KI-Lösungen, die manuelle, fehleranfällige und repetitive Geschäftsprozesse intelligent automatisieren.",
+    "sub_body": "Diese Systeme übernehmen Aufgaben wie Datenverarbeitung, interne Prozesse, E-Mail-Management sowie die strukturierte Erstellung und Bearbeitung von Dokumenten.",
+    "end_body": "Dadurch sparen meine Kunden jede Woche mehrere Stunden Zeit, steigern ihre betriebliche Effizienz und können ihre Ressourcen gezielter einsetzen.",
+    "cta": "Ich freu mich auf ein Kennenlernen!"
+  },
+
+  "Contact": {
+    "intro_head": "Kontakt",
+    "intro_text": "Kontaktieren Sie mich und ich ünterstütze Sie gerne bei Ihren Aufgaben",
+    "meeting_planer": "Hier Ihr unverbindliches Erstgespräch planen"
   },
 
   "Projects": {

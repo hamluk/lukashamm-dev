@@ -1,6 +1,5 @@
 type Props = {
   title: string;
-  route?: string;
   handleClick?: (project_id: string) => void;
   section_id?: string;
   addClassName?: string;

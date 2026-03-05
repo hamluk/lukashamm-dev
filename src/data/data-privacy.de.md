@@ -1,8 +1,8 @@
 # Datenschutzerklärung
 
-Der Schutz Ihrer persönlichen Daten ist mir ein besonderes Anliegen. Ich verarbeite Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In dieser Datenschutzerklärung informiere ich Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen meiner Website.
+Der Schutz Ihrer persönlichen Daten ist mir ein besonderes Anliegen. Ich verarbeite Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2021). In dieser Datenschutzerklärung informiere ich Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen meiner Website.
 
-### **1. Verantwortlicher**
+### 1. Verantwortlicher
 
 **Name/Firma:** Lukas Hamm
 
@@ -18,71 +18,121 @@ Mitglied der Wirtschaftskammer Österreich (WKÖ), Fachgruppe UBIT.
 
 Zuständige Aufsichtsbehörde: Bezirkshauptmannschaft Eisenstadt.
 
-### **2. Besuch meiner Website**
+### 2. Besuch meiner Website
 
-Beim Besuch meiner Website werden automatisch bestimmte Daten erhoben, die Ihr Browser an meinen Server übermittelt. Diese umfassen:
+Beim Besuch dieser Website werden automatisch Informationen durch den Hosting-Provider erfasst und in Server-Logfiles gespeichert. Erfasst werden insbesondere:
 
 - IP-Adresse
 - Datum und Uhrzeit des Zugriffs
 - aufgerufene Seite/Datei
 - Browsertyp und -version
 - Betriebssystem
+- Referrer-URL
+- HTTP-Statuscode
 
-Diese Daten sind technisch erforderlich, um meine Website darzustellen und ihre Stabilität und Sicherheit zu gewährleisten (Art. 6 Abs. 1 lit. f DSGVO – berechtigtes Interesse). Eine Zusammenführung dieser Daten mit anderen Datenquellen erfolgt nicht.
+Diese Daten sind technisch erforderlich, um die Website bereitzustellen und deren Stabilität und Sicherheit zu gewährleisten.  
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und funktionsfähigen Website).
 
-Die Server-Logs werden gespeichert und anschließend automatisch gelöscht, sofern keine sicherheitsrelevante Notwendigkeit (z. B. Missbrauchsaufklärung) besteht.
+### 3. Hosting
 
-### **3. Cookies**
+Diese Website wird über GitHub bereitgestellt.
 
-Meine Website verwendet nur technisch notwendige Cookies. Technisch notwendige Cookies sind für den Betrieb der Website erforderlich
+Anbieter: GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA
 
-Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO i. V. m. § 96 Abs. 3 TKG
+Dabei kann es zu einer Verarbeitung personenbezogener Daten in den USA kommen. GitHub verwendet nach eigenen Angaben Standardvertragsklauseln (SCCs) gemäß Art. 46 DSGVO zur Absicherung internationaler Datenübermittlungen.
 
-### **4. Kontaktaufnahme**
+Weitere Informationen:
+https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
 
-Wenn Sie per E-Mail Kontakt mit mir aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen gespeichert. Diese Daten werden, bis Sie uns zur Löschung auffordern, gespeichert und gebe ich nicht ohne Ihre Einwilligung weiter.
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO.
 
-Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
-
-### **5. Eingebettete Inhalte und externe Dienste**
+### 4. Eingebettete Inhalte und externe Dienste
 
 Meine Website kann Links zu externen Websites oder eingebettete Inhalte (z. B. Social Media Profile, Kartenmaterial, Videos) enthalten. Beim Aufruf solcher Inhalte können Daten (z. B. Ihre IP-Adresse) direkt an die Betreiber dieser Plattformen übermittelt werden. Auf die Verarbeitung dieser Daten durch Dritte habe ich keinen Einfluss.
 
 Ich empfehle, die Datenschutzerklärungen der jeweiligen Anbieter zu lesen.
 
-### **6. Hosting**
+### 5. HubSpot
 
-Der Hoster erhebt in sog. Logfiles folgende Daten, die Ihr Browser übermittelt:
+Für die Verarbeitung von Kontaktanfragen, Terminbuchungen sowie die Verwaltung von Kundenbeziehungen verwende ich HubSpot.
 
-IP-Adresse, die Adresse der vorher besuchten Website (Referer Anfrage-Header), Datum und Uhrzeit der Anfrage, Zeitzonendifferenz zur Greenwich Mean Time, Inhalt der Anforderung, HTTP-Statuscode, übertragene Datenmenge, Website, von der die Anforderung kommt und Informationen zu Browser und Betriebssystem.
+Anbieter: HubSpot, Inc., 25 First Street, Cambridge, MA 02141, USA.
 
-Das ist erforderlich, um meine Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten. Dies entspricht meinem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+Der Datenhosting-Standort meines Accounts ist die Europäische Union (Deutschland).
 
-Es erfolgt kein Tracking und ich habe auf diese Daten keinen direkten Zugriff.
+Mit HubSpot besteht ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO.
 
-Ich setzen für die Zurverfügungstellung meiner Website folgenden Hoster ein:
+Eine Übermittlung personenbezogener Daten in Drittländer erfolgt, soweit technisch erforderlich, auf Grundlage geeigneter Garantien (insbesondere EU-Standardvertragsklauseln).
 
-GitHub Inc.
+Zur Absicherung der Formulare und Terminbuchungsfunktionen wird ein Content Delivery Network (CDN) eingesetzt. Dabei kann es zu einer Verarbeitung von IP-Adressen durch den technischen Infrastruktur-Dienstleister kommen.
 
-88 Colin P Kelly Jr St
+### 6. Kontaktformular über HubSpot
 
-San Francisco, CA 94107
+Auf meiner Website ist ein Kontaktformular eingebunden. Dabei werden folgende Daten verarbeitet:
 
-United States
+- Vorname
+- Nachname
+- E-Mail-Adresse
+- Anfragetyp
+- Nachricht
 
-Dieser ist Empfänger Ihrer personenbezogenen Daten. Dies entspricht meinem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in meinen Räumlichkeiten vorhalten zu müssen. Serverstandort ist USA.
+Die Verarbeitung erfolgt ausschließlich zur Bearbeitung Ihrer Anfrage und für mögliche Anschlussfragen.
 
-Weitere Informationen zu Widerspruchs- und Beseitigungsmöglichkeiten gegenüber GitHub finden Sie unter: [https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages)
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen).
 
-Sie haben das Recht der Verarbeitung zu widersprechen. Ob der Widerspruch erfolgreich ist, ist im Rahmen einer Interessenabwägung zu ermitteln.
+Die Daten werden gespeichert, solange sie zur Bearbeitung der Anfrage erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
 
-Die Daten werden gelöscht, sobald der Zweck der Verarbeitung entfällt.
+### 7. Terminvereinbarung über HubSpot (Meeting-Planer)
 
-Die Verarbeitung der unter diesem Abschnitt angegebenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Die Funktionsfähigkeit der Website ist ohne die Verarbeitung nicht gewährleistet.
+Sie haben die Möglichkeit, über einen eingebundenen Meeting-Planer einen Termin zu vereinbaren. Dabei werden folgende Daten verarbeitet:
 
-GitHub hat Compliance-Maßnahmen für internationale Datenübermittlungen umgesetzt. Diese gelten für alle weltweiten Aktivitäten, bei denen GitHub personenbezogene Daten von natürlichen Personen in der EU verarbeitet. Diese Maßnahmen basieren auf den EU-Standardvertragsklauseln (SCCs). Weitere Informationen finden Sie unter: [https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1–the-standard-contractual-clauses-processors](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1--the-standard-contractual-clauses-processors)
+- Vorname
+- Nachname
+- E-Mail-Adresse
 
-### **7. Ihre Rechte**
+Die Verarbeitung erfolgt zur Organisation und Durchführung eines Erstgesprächs.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO.
+
+Die im Rahmen der Terminvereinbarung erhobenen Daten werden gespeichert, sofern dies zur Durchführung des Gesprächs oder für anschließende geschäftliche Kommunikation erforderlich ist.
+
+### 8. Durchführung von Online-Meetings
+
+Die vereinbarten Termine werden über Google Meet durchgeführt.
+
+Dabei werden personenbezogene Daten (z. B. Name, E-Mail-Adresse, Meeting-Metadaten, ggf. IP-Adresse) durch Google verarbeitet.
+
+Anbieter: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+
+Weitere Informationen zur Datenverarbeitung durch Google:
+https://policies.google.com/privacy
+
+Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO.
+
+### 9. Datenschutzanfragen
+
+Über den Footer meiner Website können Sie Datenschutzanfragen (z. B. Auskunft, Löschung, Datenexport) stellen. Die technische Umsetzung erfolgt über eine durch HubSpot bereitgestellte Lösung.
+
+Die Verarbeitung dieser Daten erfolgt ausschließlich zur Bearbeitung Ihres datenschutzrechtlichen Anliegens.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtung).
+
+### 10. Cookies
+
+Diese Website verwendet ausschließlich technisch notwendige Cookies, die für den Betrieb der Website erforderlich sind.
+
+Rechtsgrundlage:
+Art. 6 Abs. 1 lit. f DSGVO in Verbindung mit § 165 TKG 2021.
+
+Es erfolgt kein Tracking zu Marketing- oder Analysezwecken.
+
+### 11. Speicherdauer
+
+Personenbezogene Daten werden nur so lange gespeichert, wie dies für die jeweiligen Verarbeitungszwecke erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.
+
+Anfragen und Kommunikationsdaten werden regelmäßig überprüft und gelöscht, sofern keine geschäftliche oder gesetzliche Notwendigkeit zur weiteren Speicherung besteht.
+
+### 12. Ihre Rechte
 
 Ihnen stehen nach der DSGVO grundsätzlich folgende Rechte zu:
 
@@ -91,18 +141,20 @@ Ihnen stehen nach der DSGVO grundsätzlich folgende Rechte zu:
 - **Löschung** (Art. 17 DSGVO)
 - **Einschränkung der Verarbeitung** (Art. 18 DSGVO)
 - **Datenübertragbarkeit** (Art. 20 DSGVO)
-- **Widerspruch** gegen die Verarbeitung (Art. 21 DSGVO)
+- **Widerspruch** (Art. 21 DSGVO)
 
 Wenn Sie der Meinung sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche in sonstiger Weise verletzt wurden, können Sie sich bei der zuständigen Aufsichtsbehörde beschweren. In Österreich ist dies die **Datenschutzbehörde**:
 
 Österreichische Datenschutzbehörde, Barichgasse 40-42, 1030 Wien.
 
-### **8. Sicherheit**
+### 13. Datensicherheit
 
-Ich treffe technische und organisatorische Maßnahmen, um Ihre Daten vor Verlust, Manipulation und unberechtigtem Zugriff zu schützen. Diese Website nutzt **TLS-Verschlüsselung (HTTPS)**. So werden übermittelte Daten vor unbefugtem Zugriff geschützt (Art. 32 DSGVO).
+Ich treffe geeignete technische und organisatorische Maßnahmen, um Ihre personenbezogenen Daten vor Verlust, Manipulation und unberechtigtem Zugriff zu schützen.
 
-### **9. Änderungen dieser Datenschutzerklärung**
+Diese Website nutzt TLS-Verschlüsselung (HTTPS).
 
-Ich behalte mir vor, diese Datenschutzerklärung bei Bedarf anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder Änderungen meiner Leistungen berücksichtigt.
+### 14. Änderungen dieser Datenschutzerklärung
 
-Stand: 20.08.2025
+Ich behalte mir vor, diese Datenschutzerklärung bei Bedarf anzupassen, um sie an geänderte rechtliche Anforderungen oder technische Änderungen meiner Website anzupassen
+
+Stand: 04.03.2026

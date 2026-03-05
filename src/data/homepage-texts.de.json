@@ -1,44 +1,97 @@
 {
   "Header": {
     "head": "Lukas Hamm",
-    "description": "AI & Software Automation Engineer | Freelancer | Traveler"
+    "description": "Geschäftsprozesse in skalierbare Systeme verwandeln"
   },
 
   "Hero": {
-    "greeting_head": "Hi, ich bin Lukas! 👋🏻",
-    "greeting_body": "Hauptberuflich Softwareentwickler 👨‍💻",
-    "greeting_footer": "Nebenbei Vielreisender 🗺️",
-    "body": "Ich entwickle KI-basierte Softwarelösungen als Full-Stack Softwareentwickler – remote von überall auf der Welt. Genauso wie im echten Leben vereine ich auf dieser Webseite meine Leideschaft für das Entwickeln neuer Technologien und das Entdecken der Welt. Begleite mich auf meiner Reise, indem wir zusammenarbeiten oder du einen Blick in meinen Alltag unterwegs wirfst.",
-    "footer": "~ stay adventurous!"
-  },
-
-  "About": {
-    "head": "Arbeiten und gleichzeitig reisen - ",
-    "subhead": "Wie soll das funktionieren?",
-    "body": "Ich kann verstehen, dass diese Frage aufkommt wenn man auf mein Profil stößt. Für mich ist die Antwort darauf allerdings sehr klar. Es geht nicht um ein Entweder-oder, sondern darum, dass beides feste Bestandteile meines Lebens sind. Würde ich diese Entscheidung in Frage stellen, müsste ich mir vielmehr die grundlegende Frage stellen: „Wie funktioniert überhaupt das Leben?“ – und genau diese habe ich mir mit meinem Schritt in die Selbstständigkeit selbst beantwortet."
+    "greeting_head": "Bringen Sie Ihr Unternehmen auf das nächste Level",
+    "body": "Mit KI und Automatisierungen optimieren Sie Prozesse, sparen Zeit und machen Ihr Unternehmen fit für die Zukunft.",
+    "list_1": "Arbeitsprozesse automatisieren",
+    "list_2": "KI sinnvoll und nachhaltig einsetzen",
+    "list_3": "Wöchentlich durchschnittlich 10 Stunden Zeit sparen",
+    "list_4": "Innovation und Wachstum fördern",
+    "img": "/assets/undraw_setup_fzje.svg"
   },
 
   "Packages": {
-    "head": "Workshops & AI Pakete",
-    "text": "Machen Sie KI zu Ihrem Wettbewerbsvorteil. Entdecken Sie, wie künstliche Intelligenz Ihre Arbeitsabläufe effizienter gestaltet und Ihr Unternehmen mit individuellen KI-Lösungen intelligenter und leistungsfähiger macht. Kontaktieren Sie mich noch heute und bringen Sie KI in Ihr Unternehmen.",
+    "head": "Innovation, die wirkt",
+    "text": "Entdecken Sie, wie Automatisierung und KI Ihre Prozesse optimieren und Sie messbare Vorteile erzielen.",
     "offers": [
       {
         "id": 1,
-        "title": "AI Workshops",
-        "body": "Machen Sie Ihre ersten Schritte mit KI und entdecken Sie in interaktiven Workshops, wie sie echten Mehrwert für Ihren Arbeitsalltag schaffen kann.",
-        "img": "/assets/ai_workshop.png",
-        "link_text": "Starten Sie Ihre KI-Reise",
-        "link": "mailto:lukas@lukashamm.dev?subject=Anfrage%20zu%20AI%20Workshop&body=Hallo%20Lukas%2C%0D%0A%0D%0Aich%20interessiere%20mich%20f%C3%BCr%20einen%20pers%C3%B6nlichen%20AI%20Workshop%2C%20um%20mehr%20%C3%BCber%20den%20praktischen%20Einsatz%20von%20KI%20zu%20erfahren.%0D%0AK%C3%B6nntest%20du%20mir%20bitte%20n%C3%A4here%20Informationen%20zu%20den%20Workshops%20und%20m%C3%B6gliche%20Termine%20zukommen%20lassen%3F%0D%0A%0D%0AViele%20Gr%C3%BC%C3%9Fe%2C%0D%0A%5BDein%20Name%5D"
+        "title": "Daten intelligent verarbeiten",
+        "body": "Viele Daten, wenig Nutzen? KI-gestützte Automatisierungen erfassen, strukturieren und analysieren Informationen automatisch.",
+        "list_1": "weniger manueller Aufwand",
+        "list_2": "schnellere Entscheidungen treffen",
+        "list_3": "messbare Zeitersparnis gewinnen",
+        "img": "/assets/undraw_file-search_cbur.svg",
+        "button_text": "Jetzt loslegen"
       },
       {
         "id": 2,
-        "title": "KI-Integrationspaket",
-        "body": "Bringen Sie Ihr Unternehmen auf das nächste Level mit einer individuell entwickelten KI-Integration um Ihre Arbeitsabläufe zu optimieren, Aufgaben zu automatisieren und einen echten Mehrwert zu schaffen.",
-        "img": "/assets/ai_agent_package.png",
-        "link_text": "Nutzen Sie KI für Ihr Business",
-        "link": "mailto:lukas@lukashamm.dev?subject=Anfrage%20zu%20KI%Integrationspaket&body=Hallo%20Lukas%2C%0D%0A%0D%0Aich%20interessiere%20mich%20f%C3%BCr%20dein%20KI%Integrationspaket%20und%20m%C3%B6chte%20gerne%20erfahren%2C%0D%0Awie%20sich%20eine%20solche%20Integration%20in%20meinem%20Unternehmen%20einsetzen%20l%C3%A4sst.%0D%0AK%C3%B6nntest%20du%20mir%20bitte%20mehr%20Informationen%20zu%20den%20M%C3%B6glichkeiten%20und%20dem%20Ablauf%20senden%3F%0D%0A%0D%0ABeste%20Gr%C3%BC%C3%9Fe%2C%0D%0A%5BDein%20Name%5D"
+        "title": "Prozesse automatisieren, Klarheit schaffen",
+        "body": "Zu viele Abstimmungen und unklare Abläufe? Automatisierte Workflows sorgen für klare Prozesse und strukturierte Zusammenarbeit.",
+        "list_1": "klare Prozesse schaffen",
+        "list_2": "weniger Abstimmungsaufwand",
+        "list_3": "skalierbares Wachstum ermöglichen",
+        "img": "/assets/undraw_process_0wew.svg",
+        "button_text": "Jetzt loslegen"
+      },
+      {
+        "id": 3,
+        "title": "Qualität automatisch sicherstellen",
+        "body": "Fehler kosten Zeit und Geld. KI und Automatisierungen prüfen Daten, Prozesse und Ergebnisse automatisch und melden Abweichungen sofort.",
+        "list_1": "frühzeitig Fehler erkennen",
+        "list_2": "dauerhaft Qualität sichern",
+        "list_3": "nachhaltig Vertrauen bei Kunden stärken",
+        "img": "/assets/undraw_data-processing_ohfw.svg",
+        "button_text": "Jetzt loslegen"
       }
     ]
+  },
+
+  "FAQ": {
+    "intro_head": "FAQ",
+    "intro_text": "Häufige Fragen rund um Automatisierung und KI direkt beantwortet.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Für welche Unternehmen lohnen sich Automatisierungen und KI?",
+        "answer": "Automatisierungen und KI lohnen sich besonders für Unternehmen mit wiederkehrenden Prozessen, hohem administrativem Aufwand oder wachsendem Datenvolumen. Bereits ab wenigen Stunden manueller Arbeit pro Woche kann sich eine Automatisierungen oder KI-Lösungen wirtschaftlich rechnen."
+      },
+      {
+        "id": 2,
+        "question": "Muss ich meine bestehenden Systeme oder Arbeitsweisen umstellen?",
+        "answer": "Nein. Sie werden Ihrer Arbeitsweise nicht zwingend verändern müssen. Die Automatisierungen und KI-Lösungen bauen auf Ihren bestehenden Systemen auf und ergänzen diese sinnvoll, anstatt bestehende Systeme zu verändern."
+      },
+      {
+        "id": 4,
+        "question": "Ersetzt KI meine Mitarbeitenden?",
+        "answer": "Nein. Ziel ist es nicht, Menschen zu ersetzen, sondern sie zu entlasten. KI übernimmt repetitive und zeitintensive Aufgaben, sodass sich Ihr Team stärker auf strategische, kreative und wertschöpfende Tätigkeiten konzentrieren können. Sie unterstützt, statt zu ersetzen."
+      },
+      {
+        "id": 3,
+        "question": "Wie läuft das Erstgespräch ab?",
+        "answer": "Das 30-minütige Erstgespräch dient als unverbindliche erste Analyse Ihrer aktuellen Situation. Gemeinsam identifizieren wir Ihre größten Problemfelder, prüfen, welche Prozesse sich automatisieren lassen und wie KI konkret eingesetzt werden kann. Am Ende erhalten Sie kostenlos ein Dokument mit einer Übersicht, wo in Ihrem Unternehmen die größten Automatisierungs- und KI-Potenziale liegen. "
+      }
+    ]
+  },
+
+  "About": {
+    "intro_head": "Über mich",
+    "intro_text": "Hier erfahren Sie, wer ich bin, was mich antreibt und wie ich Unternehmen mit KI und Automatisierung unterstütze.",
+    "head": "Hi, Ich bin Lukas!",
+    "body": "Ich bin AI & Software Automation Engineer und entwickle maßgeschneiderte Automatisierungs- und KI-Lösungen, die manuelle, fehleranfällige und repetitive Geschäftsprozesse intelligent automatisieren.",
+    "sub_body": "Meine langjährige Ausbildung und praktische Erfahrung als Software Entwickler in Großunternehmen haben dafür gesorgt, dass ich nicht nur Software verstehe, sondern auch genau weiß, wie man in Software denken muss.",
+    "end_body": "Ich nutze dieses Wissen um Produkte für meine Kunden zu entwickeln, durch diese Sie jede Woche mehrere Stunden Zeit zurück gewinnen, ihre betriebliche Effizienz steigern und ihre Ressourcen gezielter einsetzen können.",
+    "cta": "Ich freu mich auf ein Kennenlernen!"
+  },
+
+  "Contact": {
+    "intro_head": "Lassen Sie uns sprechen",
+    "intro_text": "Ihr Weg zu mehr Effizienz und Innovation beginnt hier. Kontaktieren Sie mich noch heute und starten Sie Ihre Transformation.",
+    "meeting_planer": "Planen Sie Ihr unverbindliches Erstgespräch"
   },
 
   "Projects": {

@@ -18,7 +18,7 @@ function About({}: Props) {
         className="relative bg-cover bg-center items-center justify-around flex flex-col md:flex-row text-dark-text gap-3 py-10 px-5 sm:px-7 lg:px-10 2xl:px-25"
         style={{ backgroundImage: "url('/assets/package_cover.jpeg')" }}
       >
-        <div className="flex flex-col gap-2 bg-highlight-section p-4 w-auto md:w-110 lg:w-130 xl:w-170 shadow-md rounded-lg">
+        <div className="flex flex-col gap-2 bg-highlight-section p-4 w-full md:w-110 lg:w-130 xl:w-170 shadow-md rounded-lg">
           <h2 className="text-2xl text-dark-text font-semibold md:text-4xl font-serif">
             {texts.homepageTexts.About.head}
           </h2>
@@ -41,7 +41,7 @@ function About({}: Props) {
         <img
           src={ProfilImage}
           alt="Image"
-          className="object-contain shadow-md flex-1 minw-60 max-w-80 rounded-xl"
+          className="shadow-md max-w-xs md:max-w-90 rounded-xl"
         ></img>
       </section>
     </>

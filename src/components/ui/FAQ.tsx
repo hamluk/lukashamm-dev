@@ -34,7 +34,7 @@ export default function FAQ() {
               return (
                 <div
                   key={item.id}
-                  className={`w-sm sm:w-xl md:w-2xl lg:w-4xl xl:w-6xl rounded-xl
+                  className={`w-full sm:w-xl md:w-2xl lg:w-4xl xl:w-6xl rounded-xl
                     ${isOpen ? "bg-light-green shadow-md" : "bg-white"}
                     `}
                 >
@@ -63,7 +63,7 @@ export default function FAQ() {
                         className="overflow-hidden"
                       >
                         <div className="bg-dark-text border-t mx-5 mb-2"></div>
-                        <div className="px-6 pb-6 text-base sm:text-lg md:text-lg leading-relaxed">
+                        <div className="px-6 pb-6 text-lg sm:text-lg md:text-lg leading-relaxed">
                           {item.answer}
                         </div>
                       </motion.div>

@@ -13,9 +13,8 @@ function scrollToSection(section_id: string) {
   setTimeout(() => {
     section.scrollIntoView({
       behavior: "smooth",
-      block: "start",
     });
-  }, 40);
+  }, 100);
 }
 
 export default scrollToSection;

@@ -4,7 +4,7 @@ import { type Language } from "../context/LanguageContext";
 export default function usePersistentLanguage() {
   const [language, setLanguageState] = useState<Language>(() => {
     const saved = localStorage.getItem("language");
-    return (saved as Language) || "en";
+    return (saved as Language) || "de";
   });
 
   useEffect(() => {

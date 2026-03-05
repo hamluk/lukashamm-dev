@@ -56,10 +56,6 @@ export default function Header({}: {}) {
 
   if (!texts) return <p>Loading Header....</p>;
 
-  function handleSendEmail(section_id: string): void {
-    throw new Error("Function not implemented.");
-  }
-
   return (
     <motion.header
       id="header"
@@ -140,9 +136,9 @@ export default function Header({}: {}) {
             title={texts.uiLabelsTexts.buttons.discovery}
             handleClick={scrollToSection}
             section_id="contact"
-            addClassName="min-w-38 "
+            addClassName="min-w-38 hidden sm:block"
           ></PrimaryButton>
-          <LanguageDropdown />
+          <Links />
         </motion.div>
       </div>
     </motion.header>

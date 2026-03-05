@@ -35,7 +35,9 @@ export default function FAQ() {
                 return (
                   <div
                     key={item.id}
-                    className="w-full border border-gray-200 rounded-xl bg-white shadow-sm"
+                    className={`w-full  rounded-xl
+                    ${isOpen ? "bg-light-green shadow-md" : "bg-white"}
+                    `}
                   >
                     <button
                       onClick={() => toggleFAQ(index)}
@@ -46,7 +48,7 @@ export default function FAQ() {
                       </span>
 
                       {/* Plus / Minus Icon */}
-                      <span className="text-base md:text-xl font-light">
+                      <span className="text-base md:text-2xl text-olive-green">
                         {isOpen ? <FaMinus /> : <FaPlus />}
                       </span>
                     </button>
@@ -61,6 +63,7 @@ export default function FAQ() {
                           transition={{ duration: 0.3, ease: "easeInOut" }}
                           className="overflow-hidden"
                         >
+                          <div className="bg-dark-text border-t mx-5 mb-2"></div>
                           <div className="px-6 pb-6 text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed">
                             {item.answer}
                           </div>

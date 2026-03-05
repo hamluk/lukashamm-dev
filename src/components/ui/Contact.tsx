@@ -23,35 +23,6 @@ function Contact({}: Props) {
             <ContactEmbed />
           </div>
         </div>
-        {/* <SegmentedControl activeView={activeView} onUpdate={setActiveView} />
-        <div className="h-195 w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-2">
-          <AnimatePresence mode="wait">
-            {activeView === "form" && (
-              <motion.div
-                key="form"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.3 }}
-                className="h-full w-full"
-              >
-                <ContactEmbed />
-              </motion.div>
-            )}
-
-            {activeView === "meeting" && (
-              <motion.div
-                key="meeting"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.3 }}
-                className="h-full w-full"
-              >
-                <MeetingsEmbed />
-              </motion.div>
-            )}
-          </AnimatePresence> */}
       </section>
     </div>
   );

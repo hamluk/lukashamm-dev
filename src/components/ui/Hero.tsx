@@ -80,17 +80,6 @@ function Hero({}: {}) {
           ></SecondaryButton>
         </div>
       </motion.div>
-
-      {/* <motion.img
-        {...{
-          initial: { opacity: 0 },
-          animate: { opacity: 1 },
-          transition: { duration: 1.5, ease: "easeInOut" },
-        }}
-        src={texts.homepageTexts.Hero.img}
-        alt="Image"
-        className="object-contain flex-1 rounded-lg max-w-150"
-      ></motion.img> */}
     </motion.section>
   );
 }

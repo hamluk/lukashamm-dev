@@ -28,7 +28,6 @@ export default function LanguageDropdown({}: Props) {
             setOpen((prev) => !prev);
           }}
         >
-          {/* {texts.uiLabelsTexts.buttons.change_language} */}
           <IoLanguage className="size-4 sm:size-6" />
           <TiArrowSortedDown />
         </button>

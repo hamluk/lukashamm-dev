@@ -1,7 +1,6 @@
 function scrollToSection(section_id: string) {
   const section = document.getElementById(section_id);
   const header = document.getElementById("header");
-
   if (!section || !header) return;
 
   const headerHeight = header.clientHeight;
@@ -11,13 +10,10 @@ function scrollToSection(section_id: string) {
     top: elementPosition - headerHeight,
     behavior: "smooth",
   });
-
   setTimeout(() => {
-    const newElementPosition =
-      section.getBoundingClientRect().top + window.scrollY;
-    window.scrollTo({
-      top: newElementPosition - headerHeight,
+    section.scrollIntoView({
       behavior: "smooth",
+      block: "start",
     });
   }, 40);
 }

@@ -9,7 +9,7 @@ function Contact({}: Props) {
   /*   const [activeView, setActiveView] = useState<string>("form"); */
 
   return (
-    <div id="contact">
+    <div id="contact" className="scroll-mt-32">
       <SectionIntro
         head={texts.homepageTexts.Contact.intro_head}
         text={texts.homepageTexts.Contact.intro_text}

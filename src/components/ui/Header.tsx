@@ -48,11 +48,11 @@ export default function Header({}: {}) {
 
   const dynamicHeaderHeight = isLargeScreen
     ? isScrolled
-      ? "6.25rem"
+      ? "8.25rem"
       : "8.25rem"
     : isScrolled
-      ? "6.25rem"
-      : "6.25rem";
+      ? "8.25rem"
+      : "8.25rem";
 
   const dynamicPadding = isLargeScreen ? "4.5rem" : "1.75rem";
 

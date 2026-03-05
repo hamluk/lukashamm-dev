@@ -11,7 +11,7 @@ function Packages({}: Props) {
   const homepageTexts: HomepageTexts = texts.homepageTexts;
 
   return (
-    <div id="packages">
+    <div id="packages" className="scroll-mt-32">
       <SectionIntro
         head={texts.homepageTexts.Packages.head}
         text={texts.homepageTexts.Packages.text}

@@ -41,7 +41,7 @@ function About({}: Props) {
         <img
           src={ProfilImage}
           alt="Image"
-          className="object-contain shadow-md flex-1 max-w-80 overflow-auto rounded-xl"
+          className="object-contain shadow-md flex-1 minw-60 max-w-80 rounded-xl"
         ></img>
       </section>
     </>

@@ -4,8 +4,8 @@ type Props = {};
 
 function Footer({}: Props) {
   return (
-    <footer className="flex justify-between px-6 py-8 lg:px-16 xl:px-20 2xl:px-24 bg-light-green text-olive-green sm:text-sm text-xs">
-      <div className="flex flex-col items-baseline">
+    <footer className="flex justify-between px-6 py-8 lg:px-16 xl:px-20 2xl:px-24 bg-light-green text-olive-green text-sm md:text-base">
+      <div className="hidden md:flex flex-col items-baseline">
         <p className="font-semibold pb-2">Kontakt</p>
         <p>Lukas Hamm</p>
         <p>Tel: +43 699 19212901</p>

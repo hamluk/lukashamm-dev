@@ -14,7 +14,9 @@ function SectionIntro({ head, text }: Props) {
         </span>
         <div className="flex-1 border-b border-dark-text"></div>
       </div>
-      <div className="text-dark-text text-2xl leading-8 px-8 py-3">{text}</div>
+      <div className="text-dark-text text-2xl md:text-2xl leading-8 px-8 py-3">
+        {text}
+      </div>
     </div>
   );
 }

@@ -2,9 +2,9 @@ import { useLanguage } from "../../context/LanguageContext";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Links from "./Links";
-import LanguageDropdown from "./LanguageDropdown";
 import PrimaryButton from "../form/PrimaryButton";
 import scrollToSection from "../../hooks/scrollToSection";
+import { useNavigate } from "react-router-dom";
 
 export default function Header({}: {}) {
   const { texts } = useLanguage();
@@ -27,7 +27,7 @@ export default function Header({}: {}) {
   }, []);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(min-width: 1024px)");
+    const mediaQuery = window.matchMedia("(min-width: 1200px)");
     setIsLargeScreen(mediaQuery.matches);
 
     const handler = (e: MediaQueryListEvent) => setIsLargeScreen(e.matches);
@@ -35,6 +35,16 @@ export default function Header({}: {}) {
 
     return () => mediaQuery.removeEventListener("change", handler);
   }, []);
+
+  const navigate = useNavigate();
+
+  const handleContactClick = () => {
+    if (location.pathname === "/") {
+      scrollToSection("contact");
+    } else {
+      navigate("/#contact");
+    }
+  };
 
   const dynamicHeaderHeight = isLargeScreen
     ? isScrolled
@@ -81,18 +91,18 @@ export default function Header({}: {}) {
           },
           transition: { duration: 0.3, ease: "easeInOut" },
         }}
-        className="flex flex-col h-auto lg:gap-1"
+        className="flex flex-col h-auto"
       >
         <div className="flex items-center gap-4 lg:gap-10">
           <a
             href="/"
-            className="text-2xl lg:text-6xl font-serif hover:cursor-pointer"
+            className="text-5xl xl:text-7xl font-serif hover:cursor-pointer"
           >
             LH
           </a>
           <a
             href="/"
-            className="text-2xl lg:text-4xl font-serif font-semibold text-olive-green hover:cursor-pointer"
+            className="hidden md:block text-3xl xl:text-5xl font-serif font-semibold text-olive-green hover:cursor-pointer"
           >
             {texts.homepageTexts.Header.head}
           </a>
@@ -107,7 +117,7 @@ export default function Header({}: {}) {
               },
               transition: { duration: 0.3, ease: "easeInOut" },
             }}
-            className="hidden lg:flex text-sm md:text-lg text-wrap text-olive-green"
+            className="hidden lg:flex text-sm md:text-lg lg:text-xl xl:text-2xl text-wrap text-olive-green"
           >
             {texts.homepageTexts.Header.description}
           </motion.h2>
@@ -134,11 +144,11 @@ export default function Header({}: {}) {
         >
           <PrimaryButton
             title={texts.uiLabelsTexts.buttons.discovery}
-            handleClick={scrollToSection}
+            handleClick={handleContactClick}
             section_id="contact"
-            addClassName="min-w-38 hidden sm:block"
+            addClassName="min-w-38 text-sm lg:text-base"
           ></PrimaryButton>
-          <Links />
+          <Links addClassName="hidden md:flex" />
         </motion.div>
       </div>
     </motion.header>

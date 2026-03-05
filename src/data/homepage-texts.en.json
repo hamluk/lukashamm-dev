@@ -22,7 +22,9 @@
         "id": 1,
         "title": "Daten Intelligent Verarbeitung",
         "body": "Viele Unternehmen sitzen auf wertvollen Daten, nutzen sie jedoch nicht effizient. KI-gestützte Automatisierungen erfassen, strukturieren und analysieren Informationen automatisch.",
-        "sub_body": "Das Ergebnis: schnellere Entscheidungen, weniger manueller Aufwand und messbare Zeitersparnis Woche für Woche.",
+        "list_1": "Fehler vermeiden",
+        "list_2": "Abstimmungsaufwand reduzieren",
+        "list_3": "Effizienz steigern",
         "img": "/assets/undraw_file-search_cbur.svg",
         "button_text": "Discover more"
       },
@@ -30,7 +32,9 @@
         "id": 2,
         "title": "Interne Prozesse Neu Denken",
         "body": "Klare Prozesse sind die Basis für effizientes Arbeiten und nachhaltiges Wachstum. Automatisierte Workflows sorgen dafür, dass Abläufe zuverlässig eingehalten werden und Informationen zur richtigen Zeit am richtigen Ort ankommen.",
-        "sub_body": " So vermeiden Sie Fehler, reduzieren Abstimmungsaufwand und steigern die Effizienz im gesamten Unternehmen.",
+        "list_1": "Fehler vermeiden",
+        "list_2": "Abstimmungsaufwand reduzieren",
+        "list_3": "Effizienz steigern",
         "img": "/assets/undraw_process_0wew.svg",
         "button_text": "Discover more"
       },
@@ -38,7 +42,9 @@
         "id": 3,
         "title": "Dokumente Automatisch Erstellen",
         "body": "Angebote, Reports oder interne Dokumente manuell zu erstellen ist zeitintensiv und fehleranfällig. KI kann diese Inhalte datenbasiert generieren und das präzise und in Sekunden.",
-        "sub_body": "Sie sparen Stunden pro Woche, erhöhen die Qualität und beschleunigen Ihre Abläufe nachhaltig.",
+        "list_1": "Fehler vermeiden",
+        "list_2": "Abstimmungsaufwand reduzieren",
+        "list_3": "Effizienz steigern",
         "img": "/assets/undraw_data-processing_ohfw.svg",
         "button_text": "Discover more"
       }

@@ -24,7 +24,9 @@ function Packages({}: Props) {
                 id={entry.id}
                 title={entry.title}
                 body={entry.body}
-                sub_body={entry.sub_body}
+                list_1={entry.list_1}
+                list_2={entry.list_2}
+                list_3={entry.list_3}
                 img={entry.img}
                 button_text={entry.button_text}
               />

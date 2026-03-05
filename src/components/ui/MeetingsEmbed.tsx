@@ -21,7 +21,7 @@ export default function MeetingsEmbed() {
     <div className="w-full h-full rounded-2xl">
       {!blocked ? (
         <>
-          <h2 className="text-2xl text-dark-text text-center">
+          <h2 className="text-2xl font-semibold text-dark-text text-center">
             {texts.homepageTexts.Contact.meeting_planer}
           </h2>
           <iframe

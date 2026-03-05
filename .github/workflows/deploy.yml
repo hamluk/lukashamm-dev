@@ -1,4 +1,8 @@
-name: Deploy to GitHub Pages
+name: Deploy Personal Website
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
 
 on:
   push:

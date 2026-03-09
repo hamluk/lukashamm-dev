@@ -9,10 +9,7 @@ function About({}: Props) {
 
   return (
     <>
-      <SectionIntro
-        head={texts.homepageTexts.About.intro_head}
-        text={texts.homepageTexts.About.intro_text}
-      />
+      <SectionIntro head={texts.homepageTexts.About.intro_head} />
       <section
         id="about"
         className="relative bg-cover bg-center items-center justify-around flex flex-col md:flex-row text-dark-text gap-3 py-10 px-5 sm:px-7 lg:px-10 2xl:px-25"
@@ -31,7 +28,7 @@ function About({}: Props) {
           <h4 className="text-lg md:text-xl">
             {texts.homepageTexts.About.end_body}
           </h4>
-          <div className="pt-1 text-lg md:text-2xl">
+          <div className="pt-1 text-lg md:text-xl font-semibold">
             <div className="flex flex-row justify-between items-center">
               <span>{texts.homepageTexts.About.cta}</span>
             </div>

@@ -18,10 +18,7 @@ export default function FAQ() {
 
   return (
     <div>
-      <SectionIntro
-        head={texts.homepageTexts.FAQ.intro_head}
-        text={texts.homepageTexts.FAQ.intro_text}
-      />
+      <SectionIntro head={texts.homepageTexts.FAQ.intro_head} />
       <section className="w-full bg-gradient-to-br from-[#84a8b8]/30 via-[#84a8b8]/20 to-[#84a8b8]/40 text-dark-text px-5 py-5 sm:px-7 lg:px-10 2xl:px-25">
         <div className="w-full flex flex-col justify-center items-center gap-4">
           {homepageTexts.FAQ.questions.map(

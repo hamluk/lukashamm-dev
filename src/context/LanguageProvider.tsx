@@ -34,8 +34,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     async function loadLanguageTexts(currentLanguage: Language) {
       try {
         const [homepageModule, uiModule] = await Promise.all([
-          import(`../data/homepage-texts.${currentLanguage}.json`),
-          import(`../data/ui-labels.${currentLanguage}.json`),
+          import(`../data/homepage-texts.de.json`), // ${currentLanguage}
+          import(`../data/ui-labels.de.json`),
         ]);
 
         if (isActive) {
@@ -47,7 +47,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       } catch (error) {
         console.error(
           `Error loading language files for "${currentLanguage}": `,
-          error
+          error,
         );
       }
     }

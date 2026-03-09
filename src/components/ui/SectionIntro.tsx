@@ -1,9 +1,8 @@
 type Props = {
   head: string;
-  text: string;
 };
 
-function SectionIntro({ head, text }: Props) {
+function SectionIntro({ head }: Props) {
   return (
     <div className="text-center px-3 md:px-20 py-5">
       {/* Section Intro */}
@@ -13,9 +12,6 @@ function SectionIntro({ head, text }: Props) {
           {head}
         </span>
         <div className="md:flex-1 w-3xs border-b border-dark-text"></div>
-      </div>
-      <div className="text-dark-text text-lg md:text-2xl leading-8 md:px-8 md:py-3">
-        {text}
       </div>
     </div>
   );

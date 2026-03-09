@@ -12,10 +12,7 @@ function Packages({}: Props) {
 
   return (
     <div id="packages" className="scroll-mt-32">
-      <SectionIntro
-        head={texts.homepageTexts.Packages.head}
-        text={texts.homepageTexts.Packages.text}
-      />
+      <SectionIntro head={texts.homepageTexts.Packages.head} />
       <section className="items-center flex flex-col text-dark-text gap-3 lg:gap-5 px-5 pb-5 sm:px-7 lg:px-10 2xl:px-25">
         {homepageTexts.Packages.offers.map(
           (entry: HomepageTexts["Packages"]["offers"][number]) => {

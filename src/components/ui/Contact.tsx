@@ -14,10 +14,7 @@ function Contact({}: Props) {
 
   return (
     <div id="contact" className="scroll-mt-32">
-      <SectionIntro
-        head={texts.homepageTexts.Contact.intro_head}
-        text={texts.homepageTexts.Contact.intro_text}
-      />
+      <SectionIntro head={texts.homepageTexts.Contact.intro_head} />
       <section
         id="contact"
         className="flex flex-col items-center gap-4 py-10 px-6 bg-gradient-to-br from-[#84a8b8]/30 via-[#84a8b8]/20 to-[#84a8b8]/40"

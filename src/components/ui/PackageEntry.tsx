@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import scrollToSection from "../../hooks/scrollToSection";
 import PrimaryButton from "../form/PrimaryButton";
 import { FaRegCheckCircle } from "react-icons/fa";
@@ -24,7 +25,13 @@ function PackageEntry({
   button_text,
 }: Props) {
   return (
-    <div className="bg-highlight-section flex flex-col md:flex-row gap-4 justify-between items-center px-8 py-3 rounded-lg shadow-md md:text-left">
+    <motion.div
+      className="bg-highlight-section flex flex-col md:flex-row gap-4 justify-between items-center px-8 py-3 rounded-lg shadow-md md:text-left"
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.6 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
       <div className="flex flex-col justify-between w-auto md:w-100 xl:w-150">
         <div className="text-3xl md:text-2xl font-serif font-semibold">
           {title}
@@ -61,7 +68,7 @@ function PackageEntry({
       >
         <img src={img} alt={title} loading="lazy" className="h-full w-full" />
       </div>
-    </div>
+    </motion.div>
   );
 }
 

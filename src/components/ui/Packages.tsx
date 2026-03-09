@@ -2,11 +2,20 @@ import { useLanguage } from "../../context/LanguageContext";
 import PackageEntry from "./PackageEntry";
 import type { HomepageTexts } from "../../context/LanguageProvider";
 import SectionIntro from "./SectionIntro";
+import type { Card } from "./CardStackCarousel";
+import CardStackCarousel from "./CardStackCarousel";
 
 type Props = {};
 
 function Packages({}: Props) {
   const { texts } = useLanguage();
+
+  const cards: Card[] = [
+    { id: 1, title: "Card 1", text: "Content of card 1" },
+    { id: 2, title: "Card 2", text: "Content of card 2" },
+    { id: 3, title: "Card 3", text: "Content of card 3" },
+    { id: 4, title: "Card 4", text: "Content of card 4" },
+  ];
 
   const homepageTexts: HomepageTexts = texts.homepageTexts;
 
@@ -30,6 +39,7 @@ function Packages({}: Props) {
             );
           },
         )}
+        <CardStackCarousel cards={cards} />
       </section>
     </div>
   );

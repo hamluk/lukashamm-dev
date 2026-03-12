@@ -42,23 +42,27 @@ function Hero({}: {}) {
           <div className="text-xl md:text-xl xl:text-2xl font-bold">
             <ul>
               <li>
-                <span className="flex felx-row items-center-safe gap-2">
-                  <HiArrowRight /> {texts.homepageTexts.Hero.list_1}
+                <span className="flex felx-row items-start gap-2">
+                  <HiArrowRight className="shrink-0 mt-1" />{" "}
+                  {texts.homepageTexts.Hero.list_1}
                 </span>
               </li>
               <li>
-                <span className="flex felx-row items-center-safe gap-2">
-                  <HiArrowRight /> {texts.homepageTexts.Hero.list_2}
+                <span className="flex felx-row items-start gap-2">
+                  <HiArrowRight className="shrink-0 mt-1" />{" "}
+                  {texts.homepageTexts.Hero.list_2}
                 </span>
               </li>
               <li>
-                <span className="flex felx-row items-center-safe gap-2">
-                  <HiArrowRight /> {texts.homepageTexts.Hero.list_3}
+                <span className="flex felx-row items-start gap-2">
+                  <HiArrowRight className="shrink-0 mt-1" />{" "}
+                  {texts.homepageTexts.Hero.list_3}
                 </span>
               </li>
               <li>
-                <span className="flex felx-row items-center-safe gap-2">
-                  <HiArrowRight /> {texts.homepageTexts.Hero.list_4}
+                <span className="flex felx-row items-start gap-2">
+                  <HiArrowRight className="shrink-0 mt-1" />{" "}
+                  {texts.homepageTexts.Hero.list_4}
                 </span>
               </li>
             </ul>

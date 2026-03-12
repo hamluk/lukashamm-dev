@@ -51,6 +51,83 @@
     ]
   },
 
+  "Applications": {
+    "cards": [
+      {
+        "id": 1,
+        "title": "Lead- und Angebotsautomatisierung",
+        "text": "Neue Kundenanfragen werden automatisch erfasst und Angebote schnell erstellt.",
+        "before": "Anfragen werden manuell bearbeitet und Angebote dauern lange.",
+        "after": "Leads werden automatisch erfasst und Angebote in Minuten erstellt.",
+        "examples": [
+          "Leads automatisch ins CRM übernehmen",
+          "Angebote aus Vorlagen erstellen",
+          "automatische Follow-up Mails versenden"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "KI für Kundenanfragen",
+        "text": "Beantworten Sie Kundenfragen automatisch und reagieren Sie schneller als Ihre Konkurrenz.",
+        "before": "Kunden warten lange auf eine Antwort.",
+        "after": "Kunden erhalten rund um die Uhr sofort eine Antwort.",
+        "examples": [
+          "häufige Fragen automatisch beantworten",
+          "Anfragen intelligent an Mitarbeiter weiterleiten",
+          "Antworten per Website, E-Mail oder Messenger"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Automatisierte Kundenpflege",
+        "text": "Bleiben Sie automatisch mit Ihren Kunden in Kontakt.",
+        "before": "Kunden werden nach dem Kauf oft nicht mehr kontaktiert.",
+        "after": "Kunden erhalten automatisch Updates, Angebote und Feedbackanfragen.",
+        "examples": [
+          "automatische Follow-up E-Mails",
+          "Feedback nach dem Kauf einholen",
+          "Kunden über neue Produkte informieren"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Automatische Rechnungsverfolgung",
+        "text": "Behalten Sie offene Rechnungen im Blick – ganz ohne manuellen Aufwand.",
+        "before": "Offene Rechnungen werden oft zu spät erinnert.",
+        "after": "Erinnerungen werden automatisch versendet und Zahlungen schneller eingeholt.",
+        "examples": [
+          "automatische Zahlungserinnerungen",
+          "Status offener Rechnungen überwachen",
+          "Rechnungen automatisch erstellen"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Automatische Dokumentenerstellung",
+        "text": "Erstellen Sie Dokumente automatisch aus Ihren vorhandenen Daten.",
+        "before": "Dokumente werden jedes Mal manuell erstellt.",
+        "after": "Dokumente entstehen automatisch aus Vorlagen und Daten.",
+        "examples": [
+          "Angebote automatisch generieren",
+          "Verträge und Bestätigungen erstellen",
+          "Dokumente aus Formulareingaben erzeugen"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Automatisiertes Social Media Marketing",
+        "text": "Bleiben Sie online sichtbar und präsent – ganz ohne täglichen Aufwand.",
+        "before": "Posts erscheinen unregelmäßig oder gar nicht.",
+        "after": "Ihr Unternehmen ist regelmäßig online sichtbar und bleibt im Gedächtnis Ihrer Kunden.",
+        "examples": [
+          "Beiträge automatisch planen und veröffentlichen",
+          "Kommentare automatisch beantworten",
+          "KI unterstützt bei der Content-Erstellung"
+        ]
+      }
+    ]
+  },
+
   "FAQ": {
     "intro_head": "FAQ",
     "intro_text": "Häufige Fragen rund um Automatisierung und KI direkt beantwortet.",

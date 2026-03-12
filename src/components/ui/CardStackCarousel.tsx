@@ -16,7 +16,7 @@ type Props = {
 };
 
 function CardStackCarousel({ cards }: Props) {
-  const [active, setActive] = useState(2);
+  const [active, setActive] = useState(0);
 
   const prev = () => {
     if (active > 0) {
@@ -42,35 +42,6 @@ function CardStackCarousel({ cards }: Props) {
     return "opacity-0 pointer-events-none";
   };
 
-  //   const getCardStyle = (i: number) => {
-  //     const position = (i - index + cards.length) % cards.length;
-
-  //     if (position === 0) {
-  //       if (direction === "left") return "translate-x-24 scale-90 z-20";
-  //       if (direction === "right") return "-translate-x-24 scale-90 z-20";
-
-  //       return "translate-x-0 scale-100 z-30 opacity-100";
-  //     }
-
-  //     if (position === 1) {
-  //       if (direction === "left")
-  //         return "translate-x-24 scale-90 z-30 opacity-90";
-  //       if (direction === "right")
-  //         return "-translate-x-24 scale-90 z-30 opacity-90";
-  //     }
-
-  //     if (position === 2) {
-  //       if (direction === "left")
-  //         return "-translate-x-24 scale-90 z-30 opacity-90";
-  //       if (direction === "right")
-  //         return "translate-x-24 scale-90 z-30 opacity-90";
-  //     }
-
-  //     //if (position === 2) return "translate-x-24 scale-90 z-10 opacity-80";
-
-  //     return "opacity-0";
-  //   };
-
   return (
     <motion.div
       className="flex flex-col items-center gap-8"
@@ -79,11 +50,11 @@ function CardStackCarousel({ cards }: Props) {
       viewport={{ once: true, amount: 0.6 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <div className="relative w-[300px] h-[200px]">
+      <div className="relative w-[300px] h-[400px]">
         {cards.map((card, index) => (
           <div
             key={card.id}
-            className={`absolute w-[300px] h-[200px] bg-white rounded-xl shadow-xl flex items-center justify-center text-xl font-semibold transition-all duration-500 ${getPosition(index)}`}
+            className={`absolute w-[350px] h-[375px] bg-white rounded-xl shadow-xl flex items-center justify-center text-xl font-semibold transition-all duration-500 ${getPosition(index)}`}
           >
             {card.title}
           </div>

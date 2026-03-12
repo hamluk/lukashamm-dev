@@ -5,12 +5,12 @@ import {
   type LanguageContextType,
 } from "./LanguageContext";
 
-import homepageEn from "../data/homepage-texts.en.json";
-import uiLabelsEn from "../data/ui-labels.en.json";
+import homepageDe from "../data/homepage-texts.de.json";
+import uiLabelsDe from "../data/ui-labels.de.json";
 import usePersistentLanguage from "../hooks/usePersistentLanguage";
 
-export type HomepageTexts = typeof homepageEn;
-export type UILabelsTexts = typeof uiLabelsEn;
+export type HomepageTexts = typeof homepageDe;
+export type UILabelsTexts = typeof uiLabelsDe;
 
 export interface TextNamespaces {
   homepageTexts: HomepageTexts;
@@ -20,8 +20,8 @@ export interface TextNamespaces {
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const { language, setLanguageState } = usePersistentLanguage();
   const [texts, setTexts] = useState<TextNamespaces>({
-    homepageTexts: homepageEn,
-    uiLabelsTexts: uiLabelsEn,
+    homepageTexts: homepageDe,
+    uiLabelsTexts: uiLabelsDe,
   });
 
   const setLanguage = useCallback((language: Language) => {

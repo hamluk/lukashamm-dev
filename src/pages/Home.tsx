@@ -5,6 +5,7 @@ import About from "../components/ui/About";
 import Packages from "../components/ui/Packages";
 import FAQ from "../components/ui/FAQ";
 import Contact from "../components/ui/Contact";
+import Applications from "../components/ui/Applications";
 
 type Props = {};
 
@@ -16,6 +17,7 @@ export default function Home({}: Props) {
       <main className="flex-1 w-full">
         <Hero />
         <Packages />
+        <Applications />
         <FAQ />
         <About />
         <Contact />

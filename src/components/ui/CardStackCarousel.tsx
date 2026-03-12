@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 import {
   IoIosArrowDropleftCircle,
@@ -71,7 +72,13 @@ function CardStackCarousel({ cards }: Props) {
   //   };
 
   return (
-    <div className="flex flex-col items-center gap-8">
+    <motion.div
+      className="flex flex-col items-center gap-8"
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.6 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
       <div className="relative w-[300px] h-[200px]">
         {cards.map((card, index) => (
           <div
@@ -100,7 +107,7 @@ function CardStackCarousel({ cards }: Props) {
           <IoIosArrowDroprightCircle />
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

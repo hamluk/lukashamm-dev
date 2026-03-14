@@ -25,13 +25,7 @@ function PackageEntry({
   button_text,
 }: Props) {
   return (
-    <motion.div
-      className="bg-highlight-section flex flex-col md:flex-row gap-4 justify-between items-center px-8 py-3 rounded-lg shadow-md md:text-left"
-      initial={{ opacity: 0, y: 100 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.6 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-    >
+    <div className="flex flex-col md:flex-row gap-4 justify-between items-center px-8 py-3 rounded-lg md:text-left">
       <div className="flex flex-col justify-between w-auto md:w-100 xl:w-150">
         <div className="text-3xl md:text-2xl font-serif font-semibold">
           {title}
@@ -60,7 +54,7 @@ function PackageEntry({
           title={button_text}
           handleClick={scrollToSection}
           section_id="contact"
-          addClassName="min-w-38 max-w-38 md:max-w-38 xl:max-w-45 mt-4 text-center text-sm lg:text-base"
+          addClassName="min-w-38 max-w-38 md:max-w-38 xl:max-w-45 mt-4 text-center text-sm lg:text-base bg-olive-green"
         ></PrimaryButton>
       </div>
       <div
@@ -68,7 +62,7 @@ function PackageEntry({
       >
         <img src={img} alt={title} loading="lazy" className="h-full w-full" />
       </div>
-    </motion.div>
+    </div>
   );
 }
 

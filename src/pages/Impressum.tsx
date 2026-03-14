@@ -7,7 +7,7 @@ export default function Impressum({}: Props) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="flex-1 text-dark-text p-10 lg:px-20 w-110">
+      <div className="flex-1 text-dark-text p-15 pt-25 lg:px-20 w-110">
         <p className="text-3xl font-semibold pb-3">Impressum</p>
         <p>Lukas Hamm</p>
         <p>Prof.-Rainer-Straße 19</p>
@@ -42,7 +42,7 @@ export default function Impressum({}: Props) {
         <p>Mitglied der WKÖ, Fachgruppe UBIT</p>
         <p>Bezirkshauptmannschaft Eisenstadt</p>
       </div>
-      <div className="text-dark-text text-sm px-10 lg:px-15 pb-5">
+      <div className="text-dark-text text-sm p-15 lg:px-15 pb-5">
         <p>
           <p>
             <span className="font-bold">Haftungsausschluss:</span> Die Inhalte

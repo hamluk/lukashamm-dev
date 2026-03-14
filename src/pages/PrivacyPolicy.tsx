@@ -9,7 +9,7 @@ export default function Impressum({}: Props) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="markdown flex-1 text-dark-text p-10 lg:px-20">
+      <div className="markdown flex-1 text-dark-text p-15 pt-20 lg:px-20">
         <ReactMarkdown>{privacy}</ReactMarkdown>
       </div>
       <Footer />

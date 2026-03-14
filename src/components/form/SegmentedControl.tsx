@@ -13,11 +13,11 @@ function SegmentedControl({ activeView, onUpdate }: Props) {
 
   return (
     <div className="flex flex-row">
-      <div className="flex flex-row items-center text-lg sm:text-base md:text-lg font-semibold inset-shadow-sm rounded-4xl bg-gray-100 gap-2 p-1">
+      <div className="flex flex-row items-center text-lg sm:text-base md:text-lg font-semibold inset-shadow-sm rounded-4xl bg-gray-100 gap-2 p-2">
         <button
           onClick={() => onUpdate("form")}
           className={classNames(
-            "rounded-4xl transition-all duration-300 ease-in-out px-3 py-2 hover:cursor-pointer",
+            "rounded-4xl transition-all duration-300 ease-in-out px-3 py-3 hover:cursor-pointer",
             {
               "bg-gray-100 text-olive-green hover:bg-light-green":
                 activeView === "meeting",

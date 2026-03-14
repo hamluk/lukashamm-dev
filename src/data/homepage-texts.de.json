@@ -55,6 +55,7 @@
     "cards": [
       {
         "id": 1,
+        "icon": "offer",
         "title": "Lead- und Angebotsautomatisierung",
         "text": "Neue Kundenanfragen werden automatisch erfasst und Angebote schnell erstellt.",
         "before": "Anfragen werden manuell bearbeitet und Angebote dauern lange.",
@@ -67,6 +68,7 @@
       },
       {
         "id": 2,
+        "icon": "offer",
         "title": "KI für Kundenanfragen",
         "text": "Beantworten Sie Kundenfragen automatisch und reagieren Sie schneller als Ihre Konkurrenz.",
         "before": "Kunden warten lange auf eine Antwort.",
@@ -79,6 +81,7 @@
       },
       {
         "id": 3,
+        "icon": "offer",
         "title": "Automatisierte Kundenpflege",
         "text": "Bleiben Sie automatisch mit Ihren Kunden in Kontakt.",
         "before": "Kunden werden nach dem Kauf oft nicht mehr kontaktiert.",
@@ -91,6 +94,7 @@
       },
       {
         "id": 4,
+        "icon": "offer",
         "title": "Automatische Rechnungsverfolgung",
         "text": "Behalten Sie offene Rechnungen im Blick – ganz ohne manuellen Aufwand.",
         "before": "Offene Rechnungen werden oft zu spät erinnert.",
@@ -103,6 +107,7 @@
       },
       {
         "id": 5,
+        "icon": "offer",
         "title": "Automatische Dokumentenerstellung",
         "text": "Erstellen Sie Dokumente automatisch aus Ihren vorhandenen Daten.",
         "before": "Dokumente werden jedes Mal manuell erstellt.",
@@ -115,6 +120,7 @@
       },
       {
         "id": 6,
+        "icon": "offer",
         "title": "Automatisiertes Social Media Marketing",
         "text": "Bleiben Sie online sichtbar und präsent – ganz ohne täglichen Aufwand.",
         "before": "Posts erscheinen unregelmäßig oder gar nicht.",

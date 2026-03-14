@@ -13,11 +13,11 @@ function Contact({}: Props) {
   const [activeView, setActiveView] = useState<string>("form");
 
   return (
-    <div id="contact" className="scroll-mt-32">
+    <section id="contact bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
       <SectionIntro head={texts.homepageTexts.Contact.intro_head} />
-      <section
+      <div
         id="contact"
-        className="flex flex-col items-center gap-4 py-10 px-6 bg-gradient-to-br from-[#84a8b8]/30 via-[#84a8b8]/20 to-[#84a8b8]/40"
+        className="flex flex-col items-center gap-4 py-10 px-6 "
       >
         <SegmentedControl activeView={activeView} onUpdate={setActiveView} />
         <div className="h-195 w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-2">
@@ -49,8 +49,8 @@ function Contact({}: Props) {
             )}
           </AnimatePresence>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

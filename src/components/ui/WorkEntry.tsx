@@ -37,7 +37,10 @@ export default function WorkEntry({
           </div>
           <p className="">{body}</p>
           {subbody !== undefined && <p className="">{subbody}</p>}
-          <PrimaryButton title={discover_text} addClassName="w-35" />
+          <PrimaryButton
+            title={discover_text}
+            addClassName="w-35 bg-olive-green"
+          />
         </div>
       </a>
     </section>

@@ -9,12 +9,14 @@ function About({}: Props) {
   const { texts } = useLanguage();
 
   return (
-    <>
-      <SectionIntro head={texts.homepageTexts.About.intro_head} />
-      <section
+    <section
+      id="about"
+      className="relative bg-cover bg-center"
+      style={{ backgroundImage: "url('/assets/package_cover.jpeg')" }}
+    >
+      <div
         id="about"
         className="relative bg-cover bg-center items-center justify-around flex flex-col md:flex-row text-dark-text gap-3 py-10 px-5 sm:px-7 lg:px-10 2xl:px-25"
-        style={{ backgroundImage: "url('/assets/package_cover.jpeg')" }}
       >
         <motion.div
           className="flex flex-col gap-2 bg-highlight-section p-4 w-full md:w-110 lg:w-130 xl:w-170 shadow-md rounded-lg"
@@ -54,8 +56,8 @@ function About({}: Props) {
             className="shadow-md max-w-xs md:max-w-90 rounded-xl"
           ></img>
         </motion.div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
 

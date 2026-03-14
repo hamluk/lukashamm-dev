@@ -6,23 +6,23 @@ type Props = {
 
 export default function Links({ addClassName }: Props) {
   return (
-    <div className={`text-base gap-1 sm:gap-3 ${addClassName}`}>
+    <div className={`${addClassName}`}>
       <a
         className="hover:cursor-pointer"
         href="https://github.com/hamluk"
         target="_blank"
       >
-        <FaGithub className="sm:size-5" />
+        <FaGithub />
       </a>
       <a
         className="hover:cursor-pointer"
         href="https://www.linkedin.com/in/lukashamm-dev"
         target="_blank"
       >
-        <FaLinkedin className="sm:size-5" />
+        <FaLinkedin />
       </a>
       <a className="hover:cursor-pointer" href="mailto:lukas@lukashamm.dev">
-        <FaEnvelope className="sm:size-5" />
+        <FaEnvelope />
       </a>
     </div>
   );

@@ -11,9 +11,12 @@ function Packages({}: Props) {
   const homepageTexts: HomepageTexts = texts.homepageTexts;
 
   return (
-    <div id="packages" className="scroll-mt-32">
+    <div
+      id="packages"
+      className="bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40"
+    >
       <SectionIntro head={texts.homepageTexts.Packages.head} />
-      <section className="items-center flex flex-col bg-gradient-to-br from-[#84a8b8]/30 via-[#84a8b8]/20 to-[#84a8b8]/40 text-dark-text gap-3 lg:gap-5 px-5 py-5 sm:px-7 lg:px-10 2xl:px-25">
+      <section className="items-center flex flex-col  text-dark-text gap-3 lg:gap-5 px-5 py-5 sm:px-7 lg:px-10 2xl:px-25">
         {homepageTexts.Packages.offers.map(
           (entry: HomepageTexts["Packages"]["offers"][number]) => {
             return (

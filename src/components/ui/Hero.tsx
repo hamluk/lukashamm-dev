@@ -1,12 +1,21 @@
+import { PiArrowCircleDownFill } from "react-icons/pi";
 import { useLanguage } from "../../context/LanguageContext";
 import scrollToSection from "../../hooks/scrollToSection";
-import PrimaryButton from "../form/PrimaryButton";
-import SecondaryButton from "../form/SecondaryButton";
 import { motion } from "framer-motion";
 import { HiArrowRight } from "react-icons/hi";
+import { useEffect, useState } from "react";
 
 function Hero({}: {}) {
   const { texts } = useLanguage();
+  const [bounce, setBounce] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setBounce(false);
+    }, 3500);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   if (!texts) return <p>Loading Hero....</p>;
 
@@ -17,7 +26,7 @@ function Hero({}: {}) {
         animate: { opacity: 1 },
         transition: { duration: 0.8, ease: "easeInOut" },
       }}
-      className="relative bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh-100px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
+      className="relative bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
       style={{ backgroundImage: "url('/assets/hero_cover.jpeg')" }}
     >
       <motion.div
@@ -26,7 +35,7 @@ function Hero({}: {}) {
           animate: { opacity: 1 },
           transition: { duration: 1.5, ease: "easeInOut" },
         }}
-        className="flex flex-col bg-highlight-section my-8 p-2.5 shadow-md rounded-lg gap-4 lg:gap-8 items-center"
+        className="flex flex-col bg-highlight-section mt-20 sm:mt-5 p-2.5 shadow-md rounded-lg gap-4 lg:gap-8 items-center"
       >
         <div className="flex flex-col items-baseline gap-6 md:gap-2 px-2 md:w-2xl xl:w-4xl">
           <div className="">
@@ -70,18 +79,12 @@ function Hero({}: {}) {
         </div>
 
         <div className="flex flex-row gap-4 items-center justify-center">
-          <PrimaryButton
-            title={texts.uiLabelsTexts.buttons.discovery}
-            handleClick={scrollToSection}
-            section_id="contact"
-            addClassName="min-w-38 text-sm lg:text-base"
-          ></PrimaryButton>
-          <SecondaryButton
-            handleClick={scrollToSection}
-            section_id="packages"
-            title={texts.uiLabelsTexts.buttons.contact}
-            addClassName="min-w-38 text-sm lg:text-base"
-          ></SecondaryButton>
+          <PiArrowCircleDownFill
+            className={`text-5xl text-soft-blue hover:cursor-pointer 
+              ${bounce ? "animate-bounce" : ""}
+            `}
+            onClick={() => scrollToSection("packages")}
+          />
         </div>
       </motion.div>
     </motion.section>

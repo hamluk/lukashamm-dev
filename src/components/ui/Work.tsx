@@ -24,7 +24,7 @@ export default function Work({}: {}) {
               header={entry.head}
               body={entry.body}
               dates={entry.dates}
-              subbody={entry.subbody}
+              subbody={entry.dates}
               image={entry.img}
               link={entry.link}
               discover_text={uiLabelsTexts.buttons.discover}

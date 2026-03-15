@@ -18,7 +18,10 @@ export default function FAQ() {
 
   return (
     <section className="flex flex-col lg:flex-row items-center lg:items-start gap-4 w-full text-dark-text px-5 py-5 sm:px-7 lg:px-10 2xl:px-25 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
-      <SectionIntro head={texts.homepageTexts.FAQ.intro_head} />
+      <SectionIntro
+        head={texts.homepageTexts.FAQ.intro_head}
+        text={texts.homepageTexts.FAQ.intro_text}
+      />
       <div className="space-y-4">
         {homepageTexts.FAQ.questions.map(
           (item: HomepageTexts["FAQ"]["questions"][number], index: number) => {

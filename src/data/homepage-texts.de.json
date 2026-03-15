@@ -15,8 +15,8 @@
   },
 
   "Packages": {
-    "head": "Innovation, die wirkt",
-    "text": "Entdecken Sie, wie Automatisierung und KI Ihre Prozesse optimieren und Sie messbare Vorteile erzielen.",
+    "intro_head": "Weniger Aufwand. Mehr Effizienz.",
+    "intro_text": "Unklare Prozesse, Zeitverlust und manuelle Aufgaben bremsen viele Unternehmen aus. Mit durchdachter Automatisierung und KI schaffen Sie Struktur, sparen Zeit und sichern sich nachhaltige Wettbewerbsvorteile.",
     "offers": [
       {
         "id": 1,
@@ -52,6 +52,8 @@
   },
 
   "Applications": {
+    "intro_head": "Konkrete Lösungen für mehr Effizienz im Unternehmen",
+    "intro_text": "Diese typischen Automatisierungen zeigen, wie Abläufe einfacher, schneller und strukturierter werden. Entdecken Sie konkrete Lösungen, die Ihnen Zeit sparen und Ihr Unternehmen spürbar entlasten.",
     "cards": [
       {
         "id": 1,
@@ -135,8 +137,8 @@
   },
 
   "FAQ": {
-    "intro_head": "FAQ",
-    "intro_text": "Häufige Fragen rund um Automatisierung und KI direkt beantwortet.",
+    "intro_head": "FAQ - Wichtige Fragen einfach erklärt",
+    "intro_text": "Von Kosten über Umsetzung bis zum konkreten Nutzen: Häufige Fragen rund um Automatisierung und KI direkt beantwortet.",
     "questions": [
       {
         "id": 1,
@@ -172,8 +174,8 @@
   },
 
   "Contact": {
-    "intro_head": "Lassen Sie uns sprechen",
-    "intro_text": "Ihr Weg zu mehr Effizienz und Innovation beginnt hier. Kontaktieren Sie mich noch heute und starten Sie Ihre Transformation.",
+    "intro_head": "Starten Sie jetzt den nächsten Schritt",
+    "intro_text": "Lassen Sie uns gemeinsam herausfinden, wie Automatisierung und KI Ihr Unternehmen konkret voranbringen. Schreiben Sie mir einfach oder sichern Sie sich direkt ein unverbindliches Erstgespräch.",
     "meeting_planer": "Planen Sie Ihr unverbindliches Erstgespräch"
   },
 

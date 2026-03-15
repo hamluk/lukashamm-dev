@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import scrollToSection from "../../hooks/scrollToSection";
 import PrimaryButton from "../form/PrimaryButton";
 import { FaRegCheckCircle } from "react-icons/fa";
@@ -25,11 +24,9 @@ function PackageEntry({
   button_text,
 }: Props) {
   return (
-    <div className="flex flex-col md:flex-row gap-4 justify-between items-center px-8 py-3 rounded-lg md:text-left">
+    <div className="flex flex-col md:flex-row bg-white shadow-xl gap-4 justify-between items-center px-8 py-3 rounded-lg md:text-left">
       <div className="flex flex-col justify-between w-auto md:w-100 xl:w-150">
-        <div className="text-3xl md:text-2xl font-serif font-semibold">
-          {title}
-        </div>
+        <div className="text-3xl md:text-2xl font-semibold">{title}</div>
         <p className="text-lg pt-4 max-w-200 lg:max-w-250">{body}</p>
         <p className="text-lg pt-4 max-w-200 lg:max-w-250">
           <ul>

@@ -14,7 +14,10 @@ function Contact({}: Props) {
 
   return (
     <section id="contact bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
-      <SectionIntro head={texts.homepageTexts.Contact.intro_head} />
+      <SectionIntro
+        head={texts.homepageTexts.Contact.intro_head}
+        text={texts.homepageTexts.Contact.intro_text}
+      />
       <div
         id="contact"
         className="flex flex-col items-center gap-4 py-10 px-6 "

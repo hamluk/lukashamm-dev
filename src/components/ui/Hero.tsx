@@ -80,7 +80,7 @@ function Hero({}: {}) {
 
         <div className="flex flex-row gap-4 items-center justify-center">
           <PiArrowCircleDownFill
-            className={`text-5xl text-soft-blue hover:cursor-pointer 
+            className={`text-5xl text-highlight-accent hover:cursor-pointer 
               ${bounce ? "animate-bounce" : ""}
             `}
             onClick={() => scrollToSection("packages")}

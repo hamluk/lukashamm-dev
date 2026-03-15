@@ -24,7 +24,10 @@ function Applications({}: Props) {
 
   return (
     <section className="py-6">
-      <SectionIntro head={texts.homepageTexts.About.intro_head} />
+      <SectionIntro
+        head={texts.homepageTexts.Applications.intro_head}
+        text={texts.homepageTexts.Applications.intro_text}
+      />
       <div className="text-white w-full max-w-[1200px] mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {homepageTexts.Applications.cards.map(

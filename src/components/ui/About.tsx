@@ -1,6 +1,5 @@
 import { useLanguage } from "../../context/LanguageContext";
 import ProfilImage from "/assets/LukasHamm.jpg";
-import SectionIntro from "./SectionIntro";
 import { motion } from "framer-motion";
 
 type Props = {};

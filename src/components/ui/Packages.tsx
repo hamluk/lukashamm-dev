@@ -15,7 +15,10 @@ function Packages({}: Props) {
       id="packages"
       className="bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40"
     >
-      <SectionIntro head={texts.homepageTexts.Packages.head} />
+      <SectionIntro
+        head={texts.homepageTexts.Packages.intro_head}
+        text={texts.homepageTexts.Packages.intro_text}
+      />
       <section className="items-center flex flex-col  text-dark-text gap-3 lg:gap-5 px-5 py-5 sm:px-7 lg:px-10 2xl:px-25">
         {homepageTexts.Packages.offers.map(
           (entry: HomepageTexts["Packages"]["offers"][number]) => {

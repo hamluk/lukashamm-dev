@@ -6,7 +6,7 @@ function scrollToSection(section_id: string) {
     section.scrollIntoView({
       behavior: "smooth",
     });
-  }, 100);
+  });
 }
 
 export default scrollToSection;

@@ -39,8 +39,11 @@ function Hero({}: {}) {
       >
         <div className="flex flex-col items-baseline gap-6 md:gap-2 px-2 md:w-2xl xl:w-4xl">
           <div className="">
-            <h2 className="text-4xl lg:mb-8 text-dark-text font-semibold md:text-4xl xl:text-5xl font-serif">
-              {texts.homepageTexts.Hero.greeting_head}
+            <h2 className="text-4xl lg:mb-8 text-dark-text font-semibold md:text-4xl xl:text-5xl font-serif px-3 tracking-tight">
+              <span>{texts.homepageTexts.Hero.greeting_head}</span>
+              <span className=" text-highlight-accent">
+                {texts.homepageTexts.Hero.greeting_head_color}
+              </span>
             </h2>
           </div>
           <div>
@@ -48,7 +51,7 @@ function Hero({}: {}) {
               {texts.homepageTexts.Hero.body}
             </h4>
           </div>
-          <div className="text-xl md:text-xl xl:text-2xl font-bold">
+          <div className="text-xl md:text-xl xl:text-2xl font-bold text-muted-foreground leading-relaxed">
             <ul>
               <li>
                 <span className="flex felx-row items-start gap-2">
@@ -80,7 +83,7 @@ function Hero({}: {}) {
 
         <div className="flex flex-row gap-4 items-center justify-center">
           <PiArrowCircleDownFill
-            className={`text-5xl text-highlight-accent hover:cursor-pointer 
+            className={`text-5xl text-highlight-accent hover:text-dark-blue-2 hover:cursor-pointer 
               ${bounce ? "animate-bounce" : ""}
             `}
             onClick={() => scrollToSection("packages")}

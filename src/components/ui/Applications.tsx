@@ -4,6 +4,9 @@ import ApplicationEntry from "./ApplicationEntry";
 import type { HomepageTexts } from "../../context/LanguageProvider";
 import { BiSolidOffer } from "react-icons/bi";
 import type { IconType } from "react-icons";
+import { HiChatBubbleLeftRight, HiDocumentText } from "react-icons/hi2";
+import { FaInstagram, FaUsers } from "react-icons/fa";
+import { MdPayment } from "react-icons/md";
 
 type Props = {};
 
@@ -15,20 +18,19 @@ function Applications({}: Props) {
 
   const iconMap: Record<IconKey, IconType> = {
     offer: BiSolidOffer,
-    chat: BiSolidOffer,
-    crm: BiSolidOffer,
-    payment: BiSolidOffer,
-    document: BiSolidOffer,
-    social: BiSolidOffer,
+    chat: HiChatBubbleLeftRight,
+    crm: FaUsers,
+    payment: MdPayment,
+    document: HiDocumentText,
+    social: FaInstagram,
   };
-
   return (
-    <section className="py-6">
+    <section className="py-24 lg:py-32 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
       <SectionIntro
         head={texts.homepageTexts.Applications.intro_head}
         text={texts.homepageTexts.Applications.intro_text}
       />
-      <div className="text-white w-full max-w-[1200px] mx-auto px-6">
+      <div className="max-w-6xl mx-auto text-white w-full px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {homepageTexts.Applications.cards.map(
             (entry: HomepageTexts["Applications"]["cards"][number]) => {
@@ -38,8 +40,6 @@ function Applications({}: Props) {
                   Icon={Icon}
                   title={entry.title}
                   text={entry.text}
-                  before={entry.before}
-                  after={entry.after}
                   examples={entry.examples}
                 />
               );

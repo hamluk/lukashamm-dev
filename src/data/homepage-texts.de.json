@@ -5,7 +5,8 @@
   },
 
   "Hero": {
-    "greeting_head": "Bringen Sie Ihr Unternehmen auf das nächste Level",
+    "greeting_head": "Bringen Sie Ihr Unternehmen auf das ",
+    "greeting_head_color": "nächste Level!",
     "body": "Mit KI und Automatisierungen optimieren Sie Prozesse, sparen Zeit und machen Ihr Unternehmen fit für die Zukunft.",
     "list_1": "Arbeitsprozesse automatisieren",
     "list_2": "KI sinnvoll und nachhaltig einsetzen",
@@ -35,7 +36,7 @@
         "list_1": "klare Prozesse schaffen",
         "list_2": "weniger Abstimmungsaufwand",
         "list_3": "skalierbares Wachstum ermöglichen",
-        "img": "/assets/undraw_process_0wew.svg",
+        "img": "/assets/undraw_work-together_0f8c.svg",
         "button_text": "Jetzt loslegen"
       },
       {
@@ -45,8 +46,41 @@
         "list_1": "frühzeitig Fehler erkennen",
         "list_2": "dauerhaft Qualität sichern",
         "list_3": "nachhaltig Vertrauen bei Kunden stärken",
-        "img": "/assets/undraw_data-processing_ohfw.svg",
+        "img": "/assets/undraw_data-points_uc3j.svg",
         "button_text": "Jetzt loslegen"
+      }
+    ]
+  },
+
+  "PainPoints": {
+    "intro_head": "Wenn Abläufe Zeit und Energie kosten",
+    "intro_text": "Viele Unternehmen verlieren täglich wertvolle Zeit durch manuelle Aufgaben, unklare Prozesse und langsame Kommunikation. Diese versteckten Ineffizienzen bremsen Wachstum, erhöhen Kosten und erschweren den Fokus auf das Wesentliche.",
+    "pains": [
+      "Anfragen werden mehrfach manuell bearbeitet und Informationen gehen verloren.",
+      "Abstimmungen dauern länger als nötig, weil klare Abläufe fehlen.",
+      "Kunden warten lange auf Angebote und Rückmeldungen.",
+      "Wichtige Aufgaben werden nach hinten verschoben, da der Arbeitsalltag zu stark fragmentiert ist."
+    ]
+  },
+
+  "Process": {
+    "intro_head": "So einfach starten Sie mit Automatisierung und KI",
+    "intro_text": "In drei Schritten analysieren wir Ihre Abläufe, entwickeln eine passende Lösung und setzen diese effizient um. Ich begleite Sie persönlich vom ersten Gespräch bis zur erfolgreichen Umsetzung.",
+    "steps": [
+      {
+        "number": "Schritt - 01",
+        "title": "Analyse Ihrer Situation",
+        "text": "Wir betrachten gemeinsam Ihre Abläufe, identifizieren Zeitfresser und erkennen konkrete Automatisierungs-Potenziale."
+      },
+      {
+        "number": "Schritt - 02",
+        "title": "Individuelle Lösung entwickeln",
+        "text": "Auf Basis Ihrer Ziele entsteht ein klarer Plan, wie Automatisierung und KI sinnvoll in Ihrem Unternehmen eingesetzt werden können."
+      },
+      {
+        "number": "Schritt - 03",
+        "title": "Umsetzung & Optimierung",
+        "text": "Ich setze die Lösung technisch um und begleite Sie, bis Prozesse stabil laufen und messbare Ergebnisse erzielt werden."
       }
     ]
   },
@@ -70,7 +104,7 @@
       },
       {
         "id": 2,
-        "icon": "offer",
+        "icon": "chat",
         "title": "KI für Kundenanfragen",
         "text": "Beantworten Sie Kundenfragen automatisch und reagieren Sie schneller als Ihre Konkurrenz.",
         "before": "Kunden warten lange auf eine Antwort.",
@@ -83,7 +117,7 @@
       },
       {
         "id": 3,
-        "icon": "offer",
+        "icon": "crm",
         "title": "Automatisierte Kundenpflege",
         "text": "Bleiben Sie automatisch mit Ihren Kunden in Kontakt.",
         "before": "Kunden werden nach dem Kauf oft nicht mehr kontaktiert.",
@@ -96,7 +130,7 @@
       },
       {
         "id": 4,
-        "icon": "offer",
+        "icon": "payment",
         "title": "Automatische Rechnungsverfolgung",
         "text": "Behalten Sie offene Rechnungen im Blick – ganz ohne manuellen Aufwand.",
         "before": "Offene Rechnungen werden oft zu spät erinnert.",
@@ -109,7 +143,7 @@
       },
       {
         "id": 5,
-        "icon": "offer",
+        "icon": "document",
         "title": "Automatische Dokumentenerstellung",
         "text": "Erstellen Sie Dokumente automatisch aus Ihren vorhandenen Daten.",
         "before": "Dokumente werden jedes Mal manuell erstellt.",
@@ -122,7 +156,7 @@
       },
       {
         "id": 6,
-        "icon": "offer",
+        "icon": "social",
         "title": "Automatisiertes Social Media Marketing",
         "text": "Bleiben Sie online sichtbar und präsent – ganz ohne täglichen Aufwand.",
         "before": "Posts erscheinen unregelmäßig oder gar nicht.",

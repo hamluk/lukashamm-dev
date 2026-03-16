@@ -19,9 +19,9 @@ function SegmentedControl({ activeView, onUpdate }: Props) {
           className={classNames(
             "rounded-4xl transition-all duration-300 ease-in-out px-3 py-3 hover:cursor-pointer",
             {
-              "bg-gray-100 text-olive-green hover:bg-light-green":
+              "bg-gray-100 text-dark-blue-2 hover:bg-dark-blue-2/50 hover:text-white":
                 activeView === "meeting",
-              "bg-olive-green text-white": activeView === "form",
+              "bg-dark-blue-2 text-white": activeView === "form",
             },
           )}
         >
@@ -33,9 +33,9 @@ function SegmentedControl({ activeView, onUpdate }: Props) {
           className={classNames(
             "rounded-3xl transition-all duration-300 ease-in-out px-3 py-2 hover:cursor-pointer",
             {
-              "bg-gray-100 text-olive-green hover:bg-light-green":
+              "bg-gray-100 text-dark-blue-2 hover:bg-dark-blue-2/50 hover:text-white":
                 activeView === "form",
-              "bg-olive-green text-white": activeView === "meeting",
+              "bg-dark-blue-2 text-white": activeView === "meeting",
             },
           )}
         >

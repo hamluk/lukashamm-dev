@@ -10,15 +10,15 @@ function About({}: Props) {
   return (
     <section
       id="about"
-      className="relative bg-cover bg-center"
+      className="py-24 lg:py-24 relative bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/package_cover.jpeg')" }}
     >
       <div
         id="about"
-        className="relative bg-cover bg-center items-center justify-around flex flex-col md:flex-row text-dark-text gap-3 py-10 px-5 sm:px-7 lg:px-10 2xl:px-25"
+        className="max-w-6xl mx-auto relative bg-cover bg-center items-center justify-around flex flex-col md:flex-row text-dark-text gap-6 py-10"
       >
         <motion.div
-          className="flex flex-col gap-2 bg-highlight-section p-4 w-full md:w-110 lg:w-130 xl:w-170 shadow-md rounded-lg"
+          className="flex flex-col gap-4 bg-highlight-section p-4 w-full shadow-md rounded-lg"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}

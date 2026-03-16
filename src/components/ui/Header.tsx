@@ -46,7 +46,6 @@ export default function Header({}: {}) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  if (!texts) return <p>Loading Header....</p>;
   return (
     <div
       className={`fixed top-4 left-0 w-full z-50 text-dark-text transition-transform duration-600 will-change-transform
@@ -55,7 +54,6 @@ export default function Header({}: {}) {
     >
       <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-6 lg:px-8">
         <div className="bg-highlight-section rounded-2xl h-16 flex items-center justify-between shadow-lg px-5 lg:px-8 transition-all">
-          {/* LEFT */}
           <div className="flex items-center shrink-0">
             <a
               href="/"
@@ -65,18 +63,16 @@ export default function Header({}: {}) {
             </a>
           </div>
 
-          {/* RIGHT DESKTOP */}
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
             <Links addClassName="flex text-2xl gap-3" />
             <PrimaryButton
               title={texts.uiLabelsTexts.buttons.discovery}
               handleClick={handleContactClick}
               section_id="contact"
-              addClassName="min-w-38 text-base bg-highlight-accent"
+              addClassName="min-w-38 text-base bg-highlight-accent text-white"
             ></PrimaryButton>
           </div>
 
-          {/* HAMBURGER */}
           <button
             className="md:hidden text-3xl"
             onClick={() => setMenuOpen(true)}
@@ -102,7 +98,7 @@ export default function Header({}: {}) {
               title={texts.uiLabelsTexts.buttons.discovery}
               handleClick={handleContactClick}
               section_id="contact"
-              addClassName="min-w-38 text-base bg-highlight-accent"
+              addClassName="min-w-38 text-base bg-highlight-accent text-white"
             ></PrimaryButton>
           </div>
         </div>

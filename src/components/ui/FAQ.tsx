@@ -13,16 +13,16 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setOpenIndex(openIndex === index ? 0 : index);
   };
 
   return (
-    <section className="flex flex-col lg:flex-row items-center lg:items-start gap-4 w-full text-dark-text px-5 py-5 sm:px-7 lg:px-10 2xl:px-25 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
+    <section className="flex flex-col lg:flex-row w-full text-dark-text py-24 lg:py-32 px-5 sm:px-7 lg:px-20 2xl:px-45 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
       <SectionIntro
         head={texts.homepageTexts.FAQ.intro_head}
         text={texts.homepageTexts.FAQ.intro_text}
       />
-      <div className="space-y-4">
+      <div className="space-y-4 lg:w-600">
         {homepageTexts.FAQ.questions.map(
           (item: HomepageTexts["FAQ"]["questions"][number], index: number) => {
             const isOpen = openIndex === index;
@@ -36,13 +36,12 @@ export default function FAQ() {
               >
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full text-left px-6 lg:px-4 py-4 flex gap-3 justify-between items-center"
+                  className="w-full text-left px-6 lg:px-4 py-4 flex gap-3 justify-between items-center hover:cursor-pointer"
                 >
                   <span className="font-semibold text-xl sm:text-2xl lg:text-xl xl:text-2xl font-serif text-dark-text">
                     {item.question}
                   </span>
 
-                  {/* Plus / Minus Icon */}
                   <span className="text-lg md:text-2xl lg:text-xl text-olive-green">
                     {isOpen ? <FaMinus /> : <FaPlus />}
                   </span>

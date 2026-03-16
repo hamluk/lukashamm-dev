@@ -1,36 +1,25 @@
 import type { IconType } from "react-icons";
-import { FaRegThumbsDown, FaRegThumbsUp } from "react-icons/fa6";
+import { PiDotFill } from "react-icons/pi";
 
 type Props = {
   Icon: IconType;
   title: string;
   text: string;
-  before: string;
-  after: string;
   examples: string[];
 };
 
-function ApplicationEntry({
-  title,
-  text,
-  before,
-  after,
-  examples,
-  Icon,
-}: Props) {
+function ApplicationEntry({ title, text, examples, Icon }: Props) {
   return (
-    <div className="flex flex-col justify-around bg-dark-blue-2 rounded-4xl shadow-md p-6">
+    <div className="flex flex-col justify-start bg-dark-blue-2 rounded-4xl shadow-md p-6">
       <div className="text-4xl text-light-green mb-3">
         <Icon />
       </div>
-      <h3 className="text-2xl font-bold text-light-green">{title}</h3>
+      <h3 className="text-2xl font-bold text-white tracking-tight">{title}</h3>
 
-      {/* Description */}
-      <div className="text-white font-bold">
-        <p className="mt-3 text-base">{text}</p>
+      <div className="text-light-green font-bold mt-3 text-muted-foreground leading-relaxed">
+        <p className="text-base">{text}</p>
 
-        {/* Before / After */}
-        <div className="mt-4 flex flex-col gap-2 text-base">
+        {/* <div className="mt-4 flex flex-col gap-2 text-base">
           <div className="flex gap-2 items-center">
             <span className="font-semibold text-red-500">
               <FaRegThumbsDown />
@@ -44,12 +33,16 @@ function ApplicationEntry({
             </span>
             <span>{after}</span>
           </div>
-        </div>
+        </div> */}
 
-        {/* Examples */}
-        <ul className="mt-4 flex flex-col gap-1">
+        <ul className="flex flex-col gap-1">
           {examples.map((entry) => (
-            <li>{entry}</li>
+            <li>
+              <span className="flex felx-row items-start gap-2">
+                <PiDotFill className="shrink-0 mt-1" />
+                {entry}
+              </span>
+            </li>
           ))}
         </ul>
       </div>

@@ -6,6 +6,8 @@ import Packages from "../components/ui/Packages";
 import FAQ from "../components/ui/FAQ";
 import Contact from "../components/ui/Contact";
 import Applications from "../components/ui/Applications";
+import PainPoints from "../components/ui/PainPoints";
+import Process from "../components/ui/Process";
 
 type Props = {};
 
@@ -17,7 +19,9 @@ export default function Home({}: Props) {
       <main className="flex-1 w-full">
         <Hero />
         <Packages />
+        <PainPoints />
         <Applications />
+        <Process />
         <FAQ />
         <About />
         <Contact />

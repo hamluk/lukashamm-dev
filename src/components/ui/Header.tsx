@@ -4,14 +4,12 @@ import PrimaryButton from "../form/PrimaryButton";
 import scrollToSection from "../../hooks/scrollToSection";
 import { useNavigate } from "react-router-dom";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 export default function Header({}: {}) {
   const { texts } = useLanguage();
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
-  const [showHeader, setShowHeader] = useState(true);
-  const lastScrollY = useRef(0);
 
   const handleContactClick = () => {
     if (location.pathname === "/") {
@@ -21,39 +19,10 @@ export default function Header({}: {}) {
     }
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      const SCROLL_THRESHOLD = window.innerHeight - 150;
-
-      if (currentScrollY < SCROLL_THRESHOLD) {
-        setShowHeader(true);
-        lastScrollY.current = currentScrollY;
-        return;
-      }
-
-      if (currentScrollY > lastScrollY.current) {
-        setShowHeader(false);
-      } else {
-        setShowHeader(true);
-      }
-
-      lastScrollY.current = currentScrollY;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    <div
-      className={`fixed top-4 left-0 w-full z-50 text-dark-text transition-transform duration-600 will-change-transform
-    ${showHeader ? "translate-y-0" : "-translate-y-24"}
-  `}
-    >
-      <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-6 lg:px-8">
-        <div className="bg-highlight-section rounded-2xl h-16 flex items-center justify-between shadow-lg px-5 lg:px-8 transition-all">
+    <div className="fixed left-0 top-0 w-full z-50 text-dark-text transition-transform duration-600 will-change-transform">
+      <div className="mx-auto w-full bg-highlight-section shadow-lg">
+        <div className=" h-16 flex items-center justify-between py-10 px-5 max-w-7xl m-auto transition-all">
           <div className="flex items-center shrink-0">
             <a
               href="/"

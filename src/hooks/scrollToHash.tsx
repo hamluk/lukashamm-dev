@@ -12,7 +12,7 @@ function ScrollToHash() {
       // kurzer Delay damit React DOM fertig gerendert hat
       setTimeout(() => {
         scrollToSection(sectionId);
-      }, 500);
+      });
     }
   }, [location]);
 

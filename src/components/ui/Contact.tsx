@@ -13,12 +13,12 @@ function Contact({}: Props) {
   const [activeView, setActiveView] = useState<string>("form");
 
   return (
-    <div id="contact" className="scroll-mt-32">
-      <SectionIntro head={texts.homepageTexts.Contact.intro_head} />
-      <section
-        id="contact"
-        className="flex flex-col items-center gap-4 py-10 px-6 bg-gradient-to-br from-[#84a8b8]/30 via-[#84a8b8]/20 to-[#84a8b8]/40"
-      >
+    <section id="contact" className="py-24 lg:py-32 ">
+      <SectionIntro
+        head={texts.homepageTexts.Contact.intro_head}
+        text={texts.homepageTexts.Contact.intro_text}
+      />
+      <div id="contact" className="flex flex-col items-center gap-4 px-6 ">
         <SegmentedControl activeView={activeView} onUpdate={setActiveView} />
         <div className="h-195 w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-2">
           <AnimatePresence mode="wait">
@@ -49,8 +49,8 @@ function Contact({}: Props) {
             )}
           </AnimatePresence>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

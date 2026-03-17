@@ -7,13 +7,18 @@ type Props = {};
 
 function Packages({}: Props) {
   const { texts } = useLanguage();
-
   const homepageTexts: HomepageTexts = texts.homepageTexts;
 
   return (
-    <div id="packages" className="scroll-mt-32">
-      <SectionIntro head={texts.homepageTexts.Packages.head} />
-      <section className="items-center flex flex-col text-dark-text gap-3 lg:gap-5 px-5 pb-5 sm:px-7 lg:px-10 2xl:px-25">
+    <section
+      id="packages"
+      className="py-24 lg:py-32 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40"
+    >
+      <SectionIntro
+        head={texts.homepageTexts.Packages.intro_head}
+        text={texts.homepageTexts.Packages.intro_text}
+      />
+      <div className="md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-6 items-center flex flex-col text-dark-text gap-3 lg:gap-5">
         {homepageTexts.Packages.offers.map(
           (entry: HomepageTexts["Packages"]["offers"][number]) => {
             return (
@@ -30,8 +35,8 @@ function Packages({}: Props) {
             );
           },
         )}
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 

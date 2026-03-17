@@ -1,18 +1,17 @@
 type Props = {
   head: string;
+  text: string;
 };
 
-function SectionIntro({ head }: Props) {
+function SectionIntro({ head, text }: Props) {
   return (
-    <div className="text-center px-3 md:px-20 py-5">
-      {/* Section Intro */}
-      <div className="flex flex-row md:flex-row w-full items-center rounded-full">
-        <div className="md:flex-1 w-3xs border-b border-dark-text"></div>
-        <span className="text-dark-text font-serif font-semibold text-3xl md:text-4xl min-w-3xs leading-8 md:px-10 py-3">
-          {head}
-        </span>
-        <div className="md:flex-1 w-3xs border-b border-dark-text"></div>
-      </div>
+    <div className="flex flex-col max-w-3xl mx-auto mb-10 lg:mb-14 px-8 sm:px-12 lg:px-0">
+      <span className="text-dark-text text-2xl md:text-3xl lg:text-4xl font-semibold px-2 tracking-tight">
+        {head}
+      </span>
+      <span className="text-dark-text mt-4 text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed">
+        {text}
+      </span>
     </div>
   );
 }

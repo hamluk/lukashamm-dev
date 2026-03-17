@@ -12,7 +12,7 @@ export default function MeetingsEmbed() {
       if (!loaded) {
         setBlocked(true);
       }
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timeout);
   }, [loaded]);
@@ -51,7 +51,7 @@ function FallbackMessage() {
         href="https://meetings-eu1.hubspot.com/lukas-hamm?embed=true"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-4 py-2 bg-olive-green text-white rounded-lg"
+        className="px-4 py-2 bg-dark-blue-2 text-white rounded-lg"
       >
         Meeting Planer stattdessen in eigenem Tab öffnen
       </a>

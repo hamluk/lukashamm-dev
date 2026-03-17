@@ -1,12 +1,21 @@
+import { PiArrowCircleDownFill } from "react-icons/pi";
 import { useLanguage } from "../../context/LanguageContext";
 import scrollToSection from "../../hooks/scrollToSection";
-import PrimaryButton from "../form/PrimaryButton";
-import SecondaryButton from "../form/SecondaryButton";
 import { motion } from "framer-motion";
 import { HiArrowRight } from "react-icons/hi";
+import { useEffect, useState } from "react";
 
 function Hero({}: {}) {
   const { texts } = useLanguage();
+  const [bounce, setBounce] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setBounce(false);
+    }, 3500);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   if (!texts) return <p>Loading Hero....</p>;
 
@@ -17,7 +26,7 @@ function Hero({}: {}) {
         animate: { opacity: 1 },
         transition: { duration: 0.8, ease: "easeInOut" },
       }}
-      className="relative bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center inset-shadow-sm gap-10 text-dark-text sm:h-[calc(100vh-100px)] py-5 sm:py-10 md:py-15 px-7 xl:px-20 2xl:px-35"
+      className="relative bg-cover bg-center bg-no-repeat inset-shadow-sm text-dark-text min-h-screen flex items-center"
       style={{ backgroundImage: "url('/assets/hero_cover.jpeg')" }}
     >
       <motion.div
@@ -26,63 +35,60 @@ function Hero({}: {}) {
           animate: { opacity: 1 },
           transition: { duration: 1.5, ease: "easeInOut" },
         }}
-        className="flex flex-col bg-highlight-section my-8 p-2.5 shadow-md rounded-lg gap-4 lg:gap-8 items-center"
+        className=" bg-highlight-section w-auto mx-6 lg:mx-auto px-6 py-10 shadow-md rounded-lg items-center my-23 md:my-0 translate-y-0 md:-translate-y-4 xl:-translate-y-8"
       >
-        <div className="flex flex-col items-baseline gap-6 md:gap-2 px-2 md:w-2xl xl:w-4xl">
-          <div className="">
-            <h2 className="text-4xl lg:mb-8 text-dark-text font-semibold md:text-4xl xl:text-5xl font-serif">
-              {texts.homepageTexts.Hero.greeting_head}
-            </h2>
-          </div>
+        <div className="flex flex-col gap-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl max-w-3xl font-serif font-semibold tracking-tight">
+            <span>{texts.homepageTexts.Hero.greeting_head}</span>
+            <span className=" text-highlight-accent">
+              {texts.homepageTexts.Hero.greeting_head_color}
+            </span>
+          </h2>
           <div>
-            <h4 className="text-2xl lg:mb-2 md:text-2xl xl:text-3xl">
+            <h4 className="max-w-2xl text-xl md:text-xl xl:text-2xl">
               {texts.homepageTexts.Hero.body}
             </h4>
           </div>
-          <div className="text-xl md:text-xl xl:text-2xl font-bold">
-            <ul>
-              <li>
-                <span className="flex felx-row items-start gap-2">
-                  <HiArrowRight className="shrink-0 mt-1" />{" "}
-                  {texts.homepageTexts.Hero.list_1}
-                </span>
-              </li>
-              <li>
-                <span className="flex felx-row items-start gap-2">
-                  <HiArrowRight className="shrink-0 mt-1" />{" "}
-                  {texts.homepageTexts.Hero.list_2}
-                </span>
-              </li>
-              <li>
-                <span className="flex felx-row items-start gap-2">
-                  <HiArrowRight className="shrink-0 mt-1" />{" "}
-                  {texts.homepageTexts.Hero.list_3}
-                </span>
-              </li>
-              <li>
-                <span className="flex felx-row items-start gap-2">
-                  <HiArrowRight className="shrink-0 mt-1" />{" "}
-                  {texts.homepageTexts.Hero.list_4}
-                </span>
-              </li>
-            </ul>
-          </div>
+          <ul className="max-w-xl text-base lg:text-lg font-bold text-muted leading-relaxed">
+            <li>
+              <span className="flex felx-row items-start gap-2">
+                <HiArrowRight className="shrink-0 mt-1.5" />{" "}
+                {texts.homepageTexts.Hero.list_1}
+              </span>
+            </li>
+            <li>
+              <span className="flex felx-row items-start gap-2">
+                <HiArrowRight className="shrink-0 mt-1.5" />{" "}
+                {texts.homepageTexts.Hero.list_2}
+              </span>
+            </li>
+            <li>
+              <span className="flex felx-row items-start gap-2">
+                <HiArrowRight className="shrink-0 mt-1.5" />{" "}
+                {texts.homepageTexts.Hero.list_3}
+              </span>
+            </li>
+            <li>
+              <span className="flex felx-row items-start gap-2">
+                <HiArrowRight className="shrink-0 mt-1.5" />{" "}
+                {texts.homepageTexts.Hero.list_4}
+              </span>
+            </li>
+            <li>
+              <span className="flex felx-row items-start gap-2">
+                <HiArrowRight className="shrink-0 mt-1.5" />{" "}
+                {texts.homepageTexts.Hero.list_5}
+              </span>
+            </li>
+          </ul>
         </div>
 
-        <div className="flex flex-row gap-4 items-center justify-center">
-          <PrimaryButton
-            title={texts.uiLabelsTexts.buttons.discovery}
-            handleClick={scrollToSection}
-            section_id="contact"
-            addClassName="min-w-38 text-sm lg:text-base"
-          ></PrimaryButton>
-          <SecondaryButton
-            handleClick={scrollToSection}
-            section_id="packages"
-            title={texts.uiLabelsTexts.buttons.contact}
-            addClassName="min-w-38 text-sm lg:text-base"
-          ></SecondaryButton>
-        </div>
+        <PiArrowCircleDownFill
+          className={`w-full m-auto text-5xl text-highlight-accent hover:text-dark-blue-2 hover:cursor-pointer 
+              ${bounce ? "animate-bounce" : ""}
+            `}
+          onClick={() => scrollToSection("packages")}
+        />
       </motion.div>
     </motion.section>
   );

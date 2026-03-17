@@ -10,7 +10,7 @@ function ContactEmbed() {
       if (!loaded) {
         setBlocked(true);
       }
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timeout);
   }, [loaded]);
@@ -44,7 +44,7 @@ function FallbackMessage() {
         href="https://2g2jec.share-eu1.hsforms.com/2YRtpYPVdTweRBnZkFMziNg"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-4 py-2 bg-olive-green text-white rounded-lg"
+        className="px-4 py-2 bg-dark-blue-2 text-white rounded-lg"
       >
         Formular stattdessen in eigenem Tab öffnen
       </a>

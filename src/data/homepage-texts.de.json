@@ -5,18 +5,20 @@
   },
 
   "Hero": {
-    "greeting_head": "Bringen Sie Ihr Unternehmen auf das nächste Level",
-    "body": "Mit KI und Automatisierungen optimieren Sie Prozesse, sparen Zeit und machen Ihr Unternehmen fit für die Zukunft.",
+    "greeting_head": "Bringen Sie Ihr Unternehmen auf das ",
+    "greeting_head_color": "nächste Level!",
+    "body": "Mit Automatisierungen und KI optimieren Sie Prozesse, sparen Zeit und machen Ihr Unternehmen fit für die Zukunft.",
     "list_1": "Arbeitsprozesse automatisieren",
     "list_2": "KI sinnvoll und nachhaltig einsetzen",
     "list_3": "Wöchentlich durchschnittlich 10 Stunden Zeit sparen",
     "list_4": "Innovation und Wachstum fördern",
+    "list_5": "Sicher und DSGVO-konform",
     "img": "/assets/undraw_setup_fzje.svg"
   },
 
   "Packages": {
-    "head": "Innovation, die wirkt",
-    "text": "Entdecken Sie, wie Automatisierung und KI Ihre Prozesse optimieren und Sie messbare Vorteile erzielen.",
+    "intro_head": "Weniger Aufwand. Mehr Effizienz.",
+    "intro_text": "Unklare Prozesse, Zeitverlust und manuelle Aufgaben bremsen viele Unternehmen aus. Automatisierung und KI sorgen genau da für Abhilfe. Dadurch struktrieren Sie Ihre Arbeitsabläufe, sparen Zeit und sichern sich Ihren Wettbewerbsvorteil.",
     "offers": [
       {
         "id": 1,
@@ -35,7 +37,7 @@
         "list_1": "klare Prozesse schaffen",
         "list_2": "weniger Abstimmungsaufwand",
         "list_3": "skalierbares Wachstum ermöglichen",
-        "img": "/assets/undraw_process_0wew.svg",
+        "img": "/assets/undraw_work-together_0f8c.svg",
         "button_text": "Jetzt loslegen"
       },
       {
@@ -45,20 +47,148 @@
         "list_1": "frühzeitig Fehler erkennen",
         "list_2": "dauerhaft Qualität sichern",
         "list_3": "nachhaltig Vertrauen bei Kunden stärken",
-        "img": "/assets/undraw_data-processing_ohfw.svg",
+        "img": "/assets/undraw_data-points_uc3j.svg",
         "button_text": "Jetzt loslegen"
       }
     ]
   },
 
+  "PainPoints": {
+    "intro_head": "Wenn Abläufe Zeit und Energie kosten",
+    "intro_text": "Viele Unternehmen verlieren täglich wertvolle Zeit durch manuelle Aufgaben, unklare Abläufe und verzögerte Kommunikation. Diese oft unbemerkten Ineffizienzen bremsen das Wachstum, erhöhen Kosten und verhindern den Fokus auf wirklich wichtige Themen.",
+    "pains": [
+      {
+        "icon": "hours",
+        "text": "Mitarbeiter verbringen Stunden mit manuellen Aufgaben, was wertvolle Zeit für strategische oder wertschöpfende Tätigkeiten blockiert."
+      },
+      {
+        "icon": "manual",
+        "text": "Manuelle Dateneingabe, Bearbeitung oder Weiterleitung von Informationen führt zu Verzögerungen in der Prozesskette."
+      },
+      {
+        "icon": "change",
+        "text": "Die Umstellung von manuellen auf digitale Prozesse ohne klare Struktur erzeugt Unsicherheit."
+      },
+      {
+        "icon": "slow",
+        "text": "Langsame Prozesse resultieren in längeren Wartezeiten für Kunden, was die Kundenbindung gefährdet."
+      }
+    ]
+  },
+
+  "Process": {
+    "intro_head": "So einfach starten Sie mit Automatisierung und KI",
+    "intro_text": "In drei klar strukturierten Schritten analysieren wir Ihre Abläufe, identifizieren versteckte Potenziale und entschließen uns für eine passende Lösung. Anschließend wird diese umgesetzt. Transparent, planbar und mit Fokus auf Effizienz und messbare Ergebnisse.",
+    "steps": [
+      {
+        "number": "Schritt - 01",
+        "title": "Abläufe gezielt analysieren",
+        "text": "In einem unverbindlichen Erstgespräch werden Ihre aktuellen Prozesse konkret betrachtet, Engpässe sichtbar gemacht und klare Zielbilder für mögliche Verbesserungen definiert."
+      },
+      {
+        "number": "Schritt - 02",
+        "title": "Strategie und Lösung",
+        "text": "Auf Basis der Analyse entsteht ein strukturiertes Konzept, das zeigt, welche Automatisierungen sinnvoll sind und wie eine sichere, nachvollziehbare Umsetzung in Ihrem Unternehmen aussehen kann."
+      },
+      {
+        "number": "Schritt - 03",
+        "title": "Ergebnisse sichern",
+        "text": "Die definierten Lösungen werden strukturiert implementiert, bis Prozesse stabil laufen und messbare Effizienzgewinne im Arbeitsalltag erreicht werden."
+      }
+    ]
+  },
+
+  "Applications": {
+    "intro_head": "Konkrete Lösungen für mehr Effizienz im Unternehmen",
+    "intro_text": "Mit KI-gestützten Automatisierungen werden Abläufe einfacher und überschaubarer. Sie ermöglichen eine schnelle Effizenzsteigerung und unterstützen Sie bei Ihren Aufgaben spürbar. Entdecken Sie konkrete Lösungen, die Ihnen Zeit sparen und Ihr Unternehmen deutlich entlasten.",
+    "cards": [
+      {
+        "id": 1,
+        "icon": "offer",
+        "title": "Lead- und Angebotsautomatisierung",
+        "text": "Neue Kundenanfragen werden automatisch erfasst und Angebote schnell erstellt.",
+        "before": "Anfragen werden manuell bearbeitet und Angebote dauern lange.",
+        "after": "Leads werden automatisch erfasst und Angebote in Minuten erstellt.",
+        "examples": [
+          "Leads automatisch ins CRM übernehmen",
+          "Angebote aus Vorlagen erstellen",
+          "automatische Follow-up Mails versenden"
+        ]
+      },
+      {
+        "id": 2,
+        "icon": "chat",
+        "title": "Künstliche Intelligenz für Kundenanfragen",
+        "text": "Beantworten Sie Kundenfragen automatisch und reagieren Sie schneller als Ihre Konkurrenz.",
+        "before": "Kunden warten lange auf eine Antwort.",
+        "after": "Kunden erhalten rund um die Uhr sofort eine Antwort.",
+        "examples": [
+          "häufige Fragen automatisch beantworten",
+          "Anfragen intelligent an Mitarbeiter weiterleiten",
+          "Antworten per Website, E-Mail oder Messenger"
+        ]
+      },
+      {
+        "id": 3,
+        "icon": "integration",
+        "title": "Interne Tools intelligent verbinden",
+        "text": "Bestehenden Systeme und Projekt-Workflows über Tool-Grenzen hinweg synchronisieren.",
+        "examples": [
+          "Projektstatus zentral zusammenführen",
+          "Aufgaben automatisch verteilen",
+          "Benachrichtigungen automatisch auslösen"
+        ]
+      },
+      {
+        "id": 4,
+        "icon": "crm",
+        "title": "Automatisierte Kundenpflege",
+        "text": "Bleiben Sie automatisch mit Ihren Kunden in Kontakt.",
+        "before": "Kunden werden nach dem Kauf oft nicht mehr kontaktiert.",
+        "after": "Kunden erhalten automatisch Updates, Angebote und Feedbackanfragen.",
+        "examples": [
+          "automatische Follow-up E-Mails",
+          "Feedback nach dem Kauf einholen",
+          "Kunden über neue Produkte informieren"
+        ]
+      },
+      {
+        "id": 5,
+        "icon": "document",
+        "title": "Automatische Dokumentenerstellung",
+        "text": "Erstellen Sie Dokumente automatisch aus Ihren vorhandenen Daten.",
+        "before": "Dokumente werden jedes Mal manuell erstellt.",
+        "after": "Dokumente entstehen automatisch aus Vorlagen und Daten.",
+        "examples": [
+          "Angebote automatisch generieren",
+          "Verträge und Bestätigungen erstellen",
+          "Dokumente aus Formulareingaben erzeugen"
+        ]
+      },
+      {
+        "id": 6,
+        "icon": "social",
+        "title": "Automatisiertes Social Media Marketing",
+        "text": "Bleiben Sie online sichtbar und präsent – ganz ohne täglichen Aufwand.",
+        "before": "Posts erscheinen unregelmäßig oder gar nicht.",
+        "after": "Ihr Unternehmen ist regelmäßig online sichtbar und bleibt im Gedächtnis Ihrer Kunden.",
+        "examples": [
+          "Beiträge automatisch planen und veröffentlichen",
+          "Kommentare automatisch beantworten",
+          "KI unterstützt bei der Content-Erstellung"
+        ]
+      }
+    ]
+  },
+
   "FAQ": {
-    "intro_head": "FAQ",
-    "intro_text": "Häufige Fragen rund um Automatisierung und KI direkt beantwortet.",
+    "intro_head": "FAQ - Wichtige Fragen einfach erklärt",
+    "intro_text": "Von Kosten über Umsetzung bis zum konkreten Nutzen: Häufige Fragen rund um Automatisierung und KI direkt beantwortet.",
     "questions": [
       {
         "id": 1,
         "question": "Für welche Unternehmen lohnen sich Automatisierungen und KI?",
-        "answer": "Automatisierungen und KI lohnen sich besonders für Unternehmen mit wiederkehrenden Prozessen, hohem administrativem Aufwand oder wachsendem Datenvolumen. Bereits ab wenigen Stunden manueller Arbeit pro Woche kann sich eine Automatisierungen oder KI-Lösungen wirtschaftlich rechnen."
+        "answer": "Automatisierungen und KI lohnen sich besonders für Unternehmen mit wiederkehrenden internen Abläufen, hohem administrativem Aufwand oder wachsendem Datenvolumen. Bereits ab wenigen Stunden manueller Arbeit pro Woche kann sich eine Automatisierungen oder KI-Lösungen wirtschaftlich rechnen."
       },
       {
         "id": 2,
@@ -66,14 +196,19 @@
         "answer": "Nein. Sie werden Ihrer Arbeitsweise nicht zwingend verändern müssen. Die Automatisierungen und KI-Lösungen bauen auf Ihren bestehenden Systemen auf und ergänzen diese sinnvoll, anstatt bestehende Systeme zu verändern."
       },
       {
+        "id": 3,
+        "question": "Sind die Automatisierungs- und KI-Lösungen DSGVO-konform?",
+        "answer": "Ja. Datenschutz und Datensicherheit werden bei jeder Umsetzung von Anfang an berücksichtigt. Lösungen werden so konzipiert, dass möglichst bestehende Systeme genutzt, Daten nur im notwendigen Umfang verarbeitet und europäische Anbieter bevorzugt werden. Die Datenverarbeitung erfolgt innerhalb der EU und jede Lösung wird individuell auf datenschutzrechtliche Anforderungen geprüft. Ziel ist eine effiziente Automatisierung, die sich sicher und nahtlos in Ihre bestehenden Arbeitsabläufe integriert."
+      },
+      {
         "id": 4,
         "question": "Ersetzt KI meine Mitarbeitenden?",
         "answer": "Nein. Ziel ist es nicht, Menschen zu ersetzen, sondern sie zu entlasten. KI übernimmt repetitive und zeitintensive Aufgaben, sodass sich Ihr Team stärker auf strategische, kreative und wertschöpfende Tätigkeiten konzentrieren können. Sie unterstützt, statt zu ersetzen."
       },
       {
-        "id": 3,
+        "id": 5,
         "question": "Wie läuft das Erstgespräch ab?",
-        "answer": "Das 30-minütige Erstgespräch dient als unverbindliche erste Analyse Ihrer aktuellen Situation. Gemeinsam identifizieren wir Ihre größten Problemfelder, prüfen, welche Prozesse sich automatisieren lassen und wie KI konkret eingesetzt werden kann. Am Ende erhalten Sie kostenlos ein Dokument mit einer Übersicht, wo in Ihrem Unternehmen die größten Automatisierungs- und KI-Potenziale liegen. "
+        "answer": "Das 30-minütige Erstgespräch dient als unverbindliche erste Analyse Ihrer aktuellen Situation. Gemeinsam identifizieren wir Ihre größten Engpässe, prüfen, welche Prozesse sich automatisieren lassen und wie KI konkret eingesetzt werden kann. Am Ende erhalten Sie kostenlos ein Dokument mit einer Übersicht, wo in Ihrem Unternehmen die größten Automatisierungs- und KI-Potenziale liegen. "
       }
     ]
   },
@@ -83,14 +218,14 @@
     "intro_text": "Hier erfahren Sie, wer ich bin, was mich antreibt und wie ich Unternehmen mit KI und Automatisierung unterstütze.",
     "head": "Hi, Ich bin Lukas!",
     "body": "Ich bin AI & Software Automation Engineer und entwickle maßgeschneiderte Automatisierungs- und KI-Lösungen. Damit automatisiere ich manuelle, fehleranfällige und repetitive Geschäftsprozesse.",
-    "sub_body": "Durch meine langjährige Ausbildung und praktische Erfahrung als Softwareentwickler in Großunternehmen verstehe ich nicht nur Software sondern auch wie man in Systemen und Prozessen denkt.",
-    "end_body": "Dieses Wissen nutze ich, um Lösungen für meine Kunden zu entwickeln. So gewinnen sie jede Woche mehrere Stunden Zeit zurück, steigern ihre Effizienz und setzen ihre Ressourcen gezielter ein.",
-    "cta": "Ich freu mich auf ein Kennenlernen!"
+    "sub_body": "Durch meine langjährige Ausbildung und praktische Erfahrung als Softwareentwickler in Großunternehmen verstehe ich nicht nur Software, sondern auch, wie Systeme aufgebaut und wie Prozesse effizient zusammenspielen.",
+    "end_body": "Dieses Know-how nutze ich, um für meine Kunden konkrete Lösungen zu entwickeln. So gewinnen sie Woche für Woche wertvolle Zeit zurück, steigern ihre Effizienz und setzen ihre Ressourcen gezielter dort ein, wo sie den größten Nutzen bringen.",
+    "cta": "Ich freue mich auf ein Kennenlernen!"
   },
 
   "Contact": {
-    "intro_head": "Lassen Sie uns sprechen",
-    "intro_text": "Ihr Weg zu mehr Effizienz und Innovation beginnt hier. Kontaktieren Sie mich noch heute und starten Sie Ihre Transformation.",
+    "intro_head": "Starten Sie jetzt den nächsten Schritt",
+    "intro_text": "Lassen Sie uns gemeinsam herausfinden, wie Automatisierungen und KI Ihr Unternehmen konkret voranbringen. Nehmen Sie über das Kontaktformular Kontakt auf oder sichern Sie sich direkt ein unverbindliches Erstgespräch. Ich freue mich von Ihnen zu höhren!",
     "meeting_planer": "Planen Sie Ihr unverbindliches Erstgespräch"
   },
 

@@ -59,7 +59,7 @@
     "pains": [
       {
         "icon": "hours",
-        "text": "Mitarbeiter verbringen Stunden mit manuellen Aufgaben, was wertvolle Zeit für strategische oder wertschöpfende Tätigkeiten blockiert."
+        "text": "Mitarbeiter verbringen Stunden mit manuellen Aufgaben, wodurch wertvolle Zeit für strategische oder wertschöpfende Tätigkeiten blockiert wird."
       },
       {
         "icon": "manual",
@@ -71,7 +71,7 @@
       },
       {
         "icon": "slow",
-        "text": "Langsame Prozesse resultieren in längeren Wartezeiten für Kunden, was die Kundenbindung gefährdet."
+        "text": "Langsame Prozesse resultieren in längeren Wartezeiten für Kunden, wodurch die Kundenbindung gefährdet wird."
       }
     ]
   },
@@ -218,8 +218,8 @@
     "intro_text": "Hier erfahren Sie, wer ich bin, was mich antreibt und wie ich Unternehmen mit KI und Automatisierung unterstütze.",
     "head": "Hi, Ich bin Lukas!",
     "body": "Ich bin AI & Software Automation Engineer und entwickle maßgeschneiderte Automatisierungs- und KI-Lösungen. Damit automatisiere ich manuelle, fehleranfällige und repetitive Geschäftsprozesse.",
-    "sub_body": "Durch meine langjährige Ausbildung und praktische Erfahrung als Softwareentwickler in Großunternehmen verstehe ich nicht nur Software, sondern auch, wie Systeme aufgebaut und wie Prozesse effizient zusammenspielen.",
-    "end_body": "Dieses Know-how nutze ich, um für meine Kunden konkrete Lösungen zu entwickeln. So gewinnen sie Woche für Woche wertvolle Zeit zurück, steigern ihre Effizienz und setzen ihre Ressourcen gezielter dort ein, wo sie den größten Nutzen bringen.",
+    "sub_body": "Durch meine langjährige Ausbildung und praktische Erfahrung als Softwareentwickler in Großunternehmen verstehe ich nicht nur Software sondern auch, wie Systeme aufgebaut und wie Prozesse effizient zusammenspielen.",
+    "end_body": "Dieses Know-how nutze ich, um für meine Kunden konkrete Lösungen zu entwickeln. So gewinnen Sie Woche für Woche wertvolle Zeit zurück, steigern Ihre Effizienz und setzen ihre Ressourcen gezielter dort ein, wo diese den größten Nutzen bringen.",
     "cta": "Ich freue mich auf ein Kennenlernen!"
   },
 

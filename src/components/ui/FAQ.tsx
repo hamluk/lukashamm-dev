@@ -18,12 +18,12 @@ export default function FAQ() {
   };
 
   return (
-    <section className="flex flex-col lg:flex-row md:gap-4 w-full text-dark-text py-24 lg:py-32 px-6 sm:px-7 lg:px-20 2xl:px-45 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
+    <section className="flex flex-col lg:flex-row md:gap-4 w-full text-dark-text lg:px-13 py-24 lg:py-32 2xl:px-45 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
       <SectionIntro
         head={texts.homepageTexts.FAQ.intro_head}
         text={texts.homepageTexts.FAQ.intro_text}
       />
-      <div className="space-y-4 lg:w-600 h-185 sm:h-158 md:h-138">
+      <div className="space-y-4 lg:w-600 h-198 sm:h-128 md:h-138 lg:h-138 xl:h-125 px-6 lg:px-0">
         {homepageTexts.FAQ.questions.map(
           (item: HomepageTexts["FAQ"]["questions"][number], index: number) => {
             const isOpen = openIndex === index;

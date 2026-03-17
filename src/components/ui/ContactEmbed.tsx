@@ -35,7 +35,7 @@ function FallbackMessage() {
   return (
     <div className="flex flex-col items-center justify-center h-full p-6 text-center rounded-2xl text-dark-text">
       <h3 className="text-lg font-semibold mb-2">
-        Formular konnte nicht geladen werden
+        Kontaktformular konnte nicht geladen werden
       </h3>
       <p className="mb-4 text-sm">
         Ihr Browser blockiert externe Inhalte (z. B. Tracking-Schutz).

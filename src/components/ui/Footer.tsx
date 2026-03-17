@@ -21,21 +21,13 @@ function Footer({}: Props) {
         className="relative mt-auto flex justify-around px-6 py-7 z-30
                   lg:px-16 xl:px-20 2xl:px-24"
       >
-        <div className="hidden md:flex flex-col items-baseline">
+        <div className="hidden md:flex flex-col items-baseline justify-around">
           <p className="font-semibold pb-2">Kontakt</p>
           <p>Lukas Hamm</p>
           <p>Tel: +43 699 19212901</p>
           <p>E-Mail: lukas@lukashamm.dev</p>
-          <a
-            href="/CV_LukasHamm.pdf"
-            download="Lukas_CV.pdf"
-            className="underline"
-            rel="noopener noreferrer"
-          >
-            Download CV
-          </a>
         </div>
-        <div className="flex flex-col items-baseline">
+        <div className="flex flex-col items-baseline justify-around">
           <a
             href="/impressum"
             className="font-semibold pb-2 hover:opacity-75 hover:cursor-pointer hover:underline"
@@ -56,7 +48,7 @@ function Footer({}: Props) {
           </a>
           <p>&copy; 2025 Lukas Hamm. All rights reserved.</p>
         </div>
-        <div className="flex flex-col items-baseline">
+        <div className="flex flex-col items-baseline justify-around">
           <p className=" pb-2 font-semibold">Links</p>
           <a
             href="/"

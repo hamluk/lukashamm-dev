@@ -7,7 +7,6 @@ type Props = {};
 
 function Packages({}: Props) {
   const { texts } = useLanguage();
-
   const homepageTexts: HomepageTexts = texts.homepageTexts;
 
   return (
@@ -19,7 +18,7 @@ function Packages({}: Props) {
         head={texts.homepageTexts.Packages.intro_head}
         text={texts.homepageTexts.Packages.intro_text}
       />
-      <div className="max-w-6xl mx-auto px-6 items-center flex flex-col text-dark-text gap-3 lg:gap-5">
+      <div className="md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto px-6 items-center flex flex-col text-dark-text gap-3 lg:gap-5">
         {homepageTexts.Packages.offers.map(
           (entry: HomepageTexts["Packages"]["offers"][number]) => {
             return (

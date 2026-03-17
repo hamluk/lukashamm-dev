@@ -50,15 +50,15 @@ function Process({}: Props) {
         head={texts.homepageTexts.Process.intro_head}
         text={texts.homepageTexts.Process.intro_text}
       />
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-12 relative">
+      <div className="max-w-6xl mx-auto px-6 h-210 md:h-80">
+        <div className="grid md:grid-cols-3 gap-12 h-full relative">
           <div className="hidden md:block absolute top-1/2 left-0 w-full border-2 border-highlight-accent border-dashed -translate-y-1/2 z-0" />
           {steps.map(
             (
               entry: HomepageTexts["Process"]["steps"][number],
               index: number,
             ) => (
-              <div className="relative">
+              <div className=" h-full">
                 <div
                   onMouseEnter={() => {
                     setFocusedIndex(index);
@@ -78,7 +78,9 @@ function Process({}: Props) {
                   <div className="text-sm font-medium text-muted-foreground text-black">
                     {entry.number}
                   </div>
-                  <h3 className="text-xl font-semibold">{entry.title}</h3>
+                  <h3 className="text-lg md:text-xl lg:text-2xl xl:text-2xl font-semibold">
+                    {entry.title}
+                  </h3>
                   {focusedIndex === index ? (
                     <div
                       className="h-1 bg-white transition-all"
@@ -87,7 +89,7 @@ function Process({}: Props) {
                   ) : (
                     <div className="bg-dark-text border-t mb-2 "></div>
                   )}
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-sm md:text-base xl:text-lg text-muted-foreground leading-relaxed">
                     {entry.text}
                   </p>
                 </div>

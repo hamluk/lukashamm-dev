@@ -55,12 +55,16 @@ function PackageEntry({
   return (
     <div
       ref={ref}
-      className="flex flex-col md:flex-row bg-white shadow-xl gap-4 justify-between items-center w-full px-6 py-3 rounded-2xl md:text-left"
+      className="flex flex-col md:flex-row bg-white shadow-xl gap-2 lg:gap-4 justify-between items-center w-full px-6 py-3 rounded-2xl md:text-left"
     >
       <div className="flex flex-col justify-between w-auto md:w-100 xl:w-200">
-        <div className="text-3xl md:text-2xl font-semibold">{title}</div>
-        <p className="text-lg pt-4 max-w-200 lg:max-w-250">{body}</p>
-        <p className="text-lg pt-4 max-w-200 lg:max-w-250">
+        <div className="text-lg md:text-xl lg:text-2xl xl:text-2xl font-semibold">
+          {title}
+        </div>
+        <p className="text-sm md:text-base xl:text-lg mt-3 max-w-200 lg:max-w-250">
+          {body}
+        </p>
+        <p className="text-sm md:text-base xl:text-lg max-w-200 ml-1 mt-1 lg:max-w-250">
           <ul>
             <li>
               <span className="flex felx-row items-center-safe gap-2">

@@ -13,16 +13,17 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? 0 : index);
+    if (openIndex === index) return;
+    setOpenIndex(index);
   };
 
   return (
-    <section className="flex flex-col lg:flex-row w-full text-dark-text py-24 lg:py-32 px-5 sm:px-7 lg:px-20 2xl:px-45 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
+    <section className="flex flex-col lg:flex-row md:gap-4 w-full text-dark-text py-24 lg:py-32 px-6 sm:px-7 lg:px-20 2xl:px-45 bg-gradient-to-br from-soft-blue/30 via-soft-blue/20 to-soft-blue/40">
       <SectionIntro
         head={texts.homepageTexts.FAQ.intro_head}
         text={texts.homepageTexts.FAQ.intro_text}
       />
-      <div className="space-y-4 lg:w-600">
+      <div className="space-y-4 lg:w-600 h-185 sm:h-158 md:h-138">
         {homepageTexts.FAQ.questions.map(
           (item: HomepageTexts["FAQ"]["questions"][number], index: number) => {
             const isOpen = openIndex === index;
@@ -38,7 +39,7 @@ export default function FAQ() {
                   onClick={() => toggleFAQ(index)}
                   className="w-full text-left px-6 lg:px-4 py-4 flex gap-3 justify-between items-center hover:cursor-pointer"
                 >
-                  <span className="font-semibold text-xl sm:text-2xl lg:text-xl xl:text-2xl font-serif text-dark-text">
+                  <span className="font-semibold text-base md:text-lg lg:text-xl text-dark-text tracking-tight">
                     {item.question}
                   </span>
 
@@ -58,7 +59,7 @@ export default function FAQ() {
                       className="overflow-hidden"
                     >
                       <div className="bg-dark-text border-t mx-5 mb-2"></div>
-                      <div className="px-6 pb-6 text-lg sm:text-lg md:text-lg leading-relaxed">
+                      <div className="px-6 pb-6 text-sm md:text-base text-muted-foreground leading-relaxed">
                         {item.answer}
                       </div>
                     </motion.div>

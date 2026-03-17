@@ -6,11 +6,11 @@ import { BiSolidOffer } from "react-icons/bi";
 import type { IconType } from "react-icons";
 import { HiChatBubbleLeftRight, HiDocumentText } from "react-icons/hi2";
 import { FaInstagram, FaUsers } from "react-icons/fa";
-import { MdPayment } from "react-icons/md";
+import { VscServerProcess } from "react-icons/vsc";
 
 type Props = {};
 
-type IconKey = "offer" | "chat" | "crm" | "payment" | "document" | "social";
+type IconKey = "offer" | "chat" | "crm" | "integration" | "document" | "social";
 
 function Applications({}: Props) {
   const { texts } = useLanguage();
@@ -20,7 +20,7 @@ function Applications({}: Props) {
     offer: BiSolidOffer,
     chat: HiChatBubbleLeftRight,
     crm: FaUsers,
-    payment: MdPayment,
+    integration: VscServerProcess,
     document: HiDocumentText,
     social: FaInstagram,
   };
@@ -31,7 +31,7 @@ function Applications({}: Props) {
         text={texts.homepageTexts.Applications.intro_text}
       />
       <div className="max-w-6xl mx-auto text-white w-full px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 md:gap-4">
           {homepageTexts.Applications.cards.map(
             (entry: HomepageTexts["Applications"]["cards"][number]) => {
               const Icon = iconMap[entry.icon as IconKey];
